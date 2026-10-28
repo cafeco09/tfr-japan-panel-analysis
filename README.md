@@ -2,7 +2,13 @@
 
 **What can food-import patterns tell us about fertility, and what might a shift towards organic food look like?** This project combines historical Japanese data with year-by-year what-if scenarios to explore those questions.
 
+```bash
+
+Reproducibility and better data: The scripts make the current results reproducible. Strengthening the findings will depend on better data, especially a longer history, regional food-consumption records, and measured organic import and production volumes. These would help test the relationships more directly and reduce reliance on assumptions.
+
 We measure food quantities in **kg per person per year**, examine differences across Japan's 47 prefectures, and explore organic imports alongside more organic food grown in Japan. The historical findings and the imagined futures are presented separately so readers can see where the evidence ends and the assumptions begin.
+
+```
 
 ## What we found
 
