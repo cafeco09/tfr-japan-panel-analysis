@@ -1,0 +1,1535 @@
+year,hs4,food_name,import_value_current_usd,returned_product_codes
+2016,0101,"Live horses, asses, mules and hinnies.",73699903.0,1
+2016,0102,Live bovine animals.,18124666.0,1
+2016,0103,Live swine.,2369808.0,2
+2016,0104,Live sheep and goats.,58687.0,1
+2016,0105,"Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls.",8542403.0,2
+2016,0106,Other live animals.,39441251.0,12
+2016,0201,"Meat of bovine animals, fresh or chilled.",1656324280.0,3
+2016,0202,"Meat of bovine animals, frozen.",993402335.0,2
+2016,0203,"Meat of swine, fresh, chilled or frozen.",4166178750.0,6
+2016,0204,"Meat of sheep or goats, fresh, chilled or frozen.",134157579.0,8
+2016,0205,"Meat of horses, asses, mules or hinnies, fresh, chilled or frozen.",37215785.0,1
+2016,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen.",838754303.0,9
+2016,0207,"Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen.",1168864766.0,15
+2016,0208,"Other meat and edible meat offal, fresh, chilled or frozen.",9509168.0,5
+2016,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked.",48048553.0,2
+2016,0210,"Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal.",63735698.0,5
+2016,0301,Live fish.,437339477.0,2
+2016,0302,"Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 03.04.",509618482.0,18
+2016,0303,"Fish, frozen, excluding fish fillets and other fish meat of heading03.04.",3011576114.0,32
+2016,0304,"Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen.",2843494365.0,29
+2016,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption.",178019627.0,16
+2016,0306,"Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans, whether in shell or not, whether or not cooked before or during the smoking process; crustaceans, in shell, cooked by steaming or by boiling in water, whether or not chilled, frozen, dried, salted or in brine; flours, meals and pellets of crustaceans, fit for human consumption.",2442087231.0,12
+2016,0307,"Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption.",1143023072.0,14
+2016,0308,"Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process; flours, meals and pellets of aquatic invertebrates other than crustaceans and molluscs, fit for human consumption.",214619583.0,5
+2016,0401,"Milk and cream, not concentrated nor containing added sugar or other sweetening matter.",149529.0,2
+2016,0402,"Milk and cream, concentrated or containing added sugar or other sweetening matter.",74001740.0,5
+2016,0403,"Buttermilk, curdled milk and cream, yogurt, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa.",170745.0,2
+2016,0404,"Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included.",105857289.0,2
+2016,0405,Butter and other fats and oils derived from milk; dairy spreads.,46236703.0,3
+2016,0406,Cheese and curd.,978447012.0,5
+2016,0407,"Birds' eggs, in shell, fresh, preserved or cooked.",6911796.0,2
+2016,0408,"Birds' eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter.",60407176.0,4
+2016,0409,Natural honey.,157705833.0,1
+2016,0410,"Edible products of animal origin, not elsewhere specified or included.",4921198.0,1
+2016,0701,"Potatoes, fresh or chilled.",15489224.0,1
+2016,0702,"Tomatoes, fresh or chilled.",26488643.0,1
+2016,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled.",280237291.0,3
+2016,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled.",65781828.0,3
+2016,0705,"Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled.",33638133.0,4
+2016,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled.",71648640.0,2
+2016,0707,"Cucumbers and gherkins, fresh or chilled.",63251.0,1
+2016,0708,"Leguminous vegetables, shelled or unshelled, fresh or chilled.",11259588.0,3
+2016,0709,"Other vegetables, fresh or chilled.",420719339.0,10
+2016,0710,"Vegetables (uncooked or cooked by steaming or boiling in water), frozen.",842334945.0,8
+2016,0711,"Vegetables provisionally preserved (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption.",76000205.0,4
+2016,0712,"Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared.",334521138.0,6
+2016,0713,"Dried leguminous vegetables, shelled, whether or not skinned or split.",201047090.0,11
+2016,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith.",89365448.0,5
+2016,0801,"Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled.",80536635.0,6
+2016,0802,"Other nuts, fresh or dried, whether or not shelled or peeled.",473723656.0,12
+2016,0803,"Bananas, including plantains, fresh or dried.",923521568.0,2
+2016,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried.",379016482.0,5
+2016,0805,"Citrus fruit, fresh or dried.",368542160.0,5
+2016,0806,"Grapes, fresh or dried.",188430532.0,2
+2016,0807,"Melons (including watermelons) and papaws (papayas), fresh.",31898798.0,3
+2016,0808,"Apples, pears and quinces, fresh.",4336900.0,1
+2016,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh.",46052784.0,2
+2016,0810,"Other fruit, fresh.",358906795.0,8
+2016,0811,"Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter.",200567802.0,3
+2016,0812,"Fruit and nuts, provisionally preserved (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption.",34563967.0,2
+2016,0813,"Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter.",61634607.0,5
+2016,0814,"Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions.",8662879.0,1
+2016,0901,"Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion.",1415348978.0,5
+2016,0902,"Tea, whether or not flavoured.",165139348.0,4
+2016,0903,Maté.,460612.0,1
+2016,0904,Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta.,158499093.0,4
+2016,0905,Vanilla.,12669292.0,2
+2016,0906,Cinnamon and cinnamon-tree flowers.,8408183.0,3
+2016,0907,"Cloves (whole fruit, cloves and stems).",2429176.0,2
+2016,0908,"Nutmeg, mace and cardamoms.",11351635.0,5
+2016,0909,"Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries.",15441384.0,6
+2016,0910,"Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices.",129241532.0,6
+2016,1001,Wheat and meslin.,1361700627.0,3
+2016,1002,Rye.,7401867.0,2
+2016,1003,Barley.,261218255.0,2
+2016,1006,Rice.,439634213.0,3
+2016,1007,Grain sorghum.,123827458.0,1
+2016,1008,"Buckwheat, millet and canary seeds; other cereals.",44926434.0,6
+2016,1101,Wheat or meslin flour.,2958081.0,1
+2016,1102,Cereal flours other than of wheat or meslin.,1632300.0,2
+2016,1103,"Cereal groats, meal and pellets.",826482.0,3
+2016,1104,"Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground.",47888829.0,6
+2016,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes.",31619658.0,2
+2016,1106,"Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8.",14026132.0,3
+2016,1107,"Malt, whether or not roasted.",293937702.0,2
+2016,1109,"Wheat gluten, whether or not dried.",39466525.0,1
+2016,1201,Soyabeans,1527665859.0,2
+2016,1202,"Ground-nuts, not roasted or otherwise cooked, whether or not shelled or broken.",59252352.0,1
+2016,1205,"Rape or colza seeds, whether or not broken.",1043541242.0,2
+2016,1206,"Sunflower seeds, whether or not broken.",4814228.0,1
+2016,1207,"Other oil seeds and oleaginous fruits, whether or not broken.",245442954.0,4
+2016,1208,"Flours and meals of oil seeds or oleaginous fruits, other than those of mustard.",824310.0,2
+2016,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin.",32759403.0,2
+2016,1212,"Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products (including unroasted chicory roots of the variety Cichorium intybus sativum) of a kind used primarily for human consumption, not elsewhere specified or included.",261636198.0,4
+2016,1504,"Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified.",36589332.0,2
+2016,1507,"Soya-bean oil and its fractions, whether or not refined, but not chemically modified.",10769085.0,2
+2016,1508,"Ground-nut oil and its fractions, whether or not refined, but not chemically modified.",1838732.0,2
+2016,1509,"Olive oil and its fractions, whether or not refined, but not chemically modified.",283994391.0,2
+2016,1510,"Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 15.09.",6702356.0,1
+2016,1511,"Palm oil and its fractions, whether or not refined, but not chemically modified.",450861701.0,2
+2016,1512,"Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified.",47289830.0,4
+2016,1513,"Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified.",164603442.0,3
+2016,1514,"Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified.",13491588.0,4
+2016,1515,"Other fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified.",7994050.0,2
+2016,1516,"Animal or vegetable fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared.",57922533.0,2
+2016,1517,"Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats or oils or their fractions of heading 15.16.",40861821.0,2
+2016,1601,"Sausages and similar products, of meat, meat offal or blood; food preparations based on these products.",169213676.0,1
+2016,1602,"Other prepared or preserved meat, meat offal or blood.",2620800627.0,9
+2016,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates.",30834586.0,1
+2016,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs.,1444284111.0,11
+2016,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved.",1353249886.0,17
+2016,1701,"Cane or beet sugar and chemically pure sucrose, in solid form.",594693544.0,5
+2016,1702,"Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel.",140846485.0,8
+2016,1703,Molasses resulting from the extraction or refining of sugar.,25765009.0,1
+2016,1704,"Sugar confectionery (including white chocolate), not containing cocoa.",99604450.0,2
+2016,1801,"Cocoa beans, whole or broken, raw or roasted.",218958718.0,1
+2016,1803,"Cocoa paste, whether or not defatted.",56595271.0,2
+2016,1804,"Cocoa butter, fat and oil.",153255054.0,1
+2016,1805,"Cocoa powder, not containing added sugar or other sweetening matter.",62514643.0,1
+2016,1806,Chocolate and other food preparations containing cocoa.,544627677.0,5
+2016,1901,"Malt extract; food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included; food preparations of goods of headings 04.01 to 04.04, not containing cocoa or containing less than 5 % by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included.",437070457.0,3
+2016,1902,"Pasta, whether or not cooked or stuffed (with meat or other substances) or otherwise prepared, such as spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared.",313136048.0,5
+2016,1903,"Tapioca and substitutes therefor prepared from starch, in the form of flakes, grains, pearls, siftings or in similar forms.",3284086.0,1
+2016,1904,"Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked, or otherwise prepared, not elsewhere specified or included.",28246359.0,4
+2016,1905,"Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products.",334711847.0,6
+2016,2001,"Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid.",76329669.0,2
+2016,2002,Tomatoes prepared or preserved otherwise than by vinegar or acetic acid.,230683436.0,2
+2016,2003,"Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid.",60872793.0,2
+2016,2004,"Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading 20.06.",646553450.0,2
+2016,2005,"Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading 20.06.",673672915.0,9
+2016,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glacé or crystallised).",26856592.0,1
+2016,2007,"Jams, fruit jellies, marmalades, fruit or nut purée and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter.",39138853.0,3
+2016,2008,"Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included.",776335526.0,13
+2016,2009,"Fruit juices (including grape must) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter.",616590334.0,17
+2016,2101,"Extracts, essences and concentrates, of coffee, tea or maté and preparations with a basis of these products or with a basis of coffee, tea or maté; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof.",184967642.0,4
+2016,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading 30.02); prepared baking powders.",60746475.0,3
+2016,2103,Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard.,283458705.0,4
+2016,2104,Soups and broths and preparations therefor; homogenised composite food preparations.,59944861.0,2
+2016,2105,"Ice cream and other edible ice, whether or not containing cocoa.",26061059.0,1
+2016,2106,Food preparations not elsewhere specified or included.,992793390.0,2
+2016,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow.",211070590.0,2
+2016,2202,"Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading 20.09.",203807901.0,2
+2016,2203,Beer made from malt.,59703331.0,1
+2016,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading 20.09.",1499953595.0,4
+2016,2205,Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances.,8815996.0,2
+2016,2206,"Other fermented beverages (for example, cider, perry, mead); mixtures of fermented beverages and mixtures of fermented beverages and non-alcoholic beverages, not elsewhere specified or included.",178857387.0,1
+2016,2208,"Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 % vol.; spirits, liqueurs and other spirituous beverages.",705803162.0,7
+2016,2209,Vinegar and substitutes for vinegar obtained from acetic acid.,8556507.0,1
+2016,2302,"Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or of leguminous plants.",23723645.0,4
+2016,2307,Wine lees; argol.,973757.0,1
+2016,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80 % whey proteins, calculated on the dry matter), albuminates and other albumin derivatives.",70319640.0,1
+2016,3507,Enzymes; prepared enzymes not elsewhere specified or included.,1789134.0,1
+2017,0101,"Horses, asses, mules and hinnies; live",80619518.336,1
+2017,0102,Bovine animals; live,37207251.059,1
+2017,0103,Swine; live,2249896.444,2
+2017,0104,Sheep and goats; live,444436.644,1
+2017,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",7115247.139,3
+2017,0106,"Animals; live, n.e.c. in chapter 01",41718845.91,11
+2017,0201,Meat of bovine animals; fresh or chilled,1926697665.92,3
+2017,0202,Meat of bovine animals; frozen,1191102106.8209999,2
+2017,0203,"Meat of swine; fresh, chilled or frozen",4377075736.722,6
+2017,0204,"Meat of sheep or goats; fresh, chilled or frozen",168640000.085,8
+2017,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",39050113.457,1
+2017,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",856401860.851,9
+2017,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1397719641.128,14
+2017,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",8814337.727,5
+2017,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",50484513.907000005,2
+2017,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",67641886.315,5
+2017,0301,Fish; live,272081245.175,2
+2017,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",440174308.026,16
+2017,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",3472963304.825,36
+2017,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3176493105.183,30
+2017,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption",190605050.45000002,16
+2017,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine; edible flours, meals, pellets",2511832795.382,15
+2017,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, cooked or not before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption",1405116664.612,22
+2017,0308,"Aquatic invertebrates, other than crustaceans and molluscs; live, fresh, chilled, frozen, dried, salted or in brine, smoked, whether or not cooked before or during the smoking process; flours, meals, and pellets, fit for human consumption",234231580.42000002,6
+2017,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",217516.256,2
+2017,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,141496873.72599998,5
+2017,0403,"Buttermilk, curdled milk and cream, yoghurt, kephir, fermented or acidified milk or cream, whether or not concentrated, containing added sugar, sweetening matter, flavoured or added fruit or cocoa",142898.25,2
+2017,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",133017439.008,2
+2017,0405,Butter and other fats and oils derived from milk; dairy spreads,47824098.095,3
+2017,0406,Cheese and curd,1161957014.3969998,5
+2017,0407,"Birds' eggs, in shell; fresh, preserved or cooked",5845323.736,3
+2017,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",50949942.715,4
+2017,0409,Honey; natural,142964988.115,1
+2017,0410,Edible products of animal origin; not elsewhere specified or included,4854484.688,1
+2017,0701,Potatoes; fresh or chilled,23575956.036,1
+2017,0702,Tomatoes; fresh or chilled,26744631.802,1
+2017,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",270303578.823,3
+2017,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",45368665.636,3
+2017,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,30233636.4,4
+2017,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",61060571.073,2
+2017,0707,Cucumbers and gherkins; fresh or chilled,24468.573,1
+2017,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",10053704.385,3
+2017,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",394581583.354,9
+2017,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,902592608.15,8
+2017,0711,"Vegetables provisionally preserved; (e.g. by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",74324828.587,4
+2017,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",355078288.746,6
+2017,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",210006008.279,11
+2017,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",91550008.801,5
+2017,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",118347651.388,5
+2017,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",486817407.484,12
+2017,0803,"Bananas, including plantains; fresh or dried",849079892.153,2
+2017,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",376591842.68,5
+2017,0805,Citrus fruit; fresh or dried,362052928.499,7
+2017,0806,Grapes; fresh or dried,180184415.51999998,2
+2017,0807,Melons (including watermelons) and papaws (papayas); fresh,27935783.336,3
+2017,0808,"Apples, pears and quinces; fresh",9506392.767,1
+2017,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",47681110.706,2
+2017,0810,"Fruit, fresh; n.e.c. in chapter 08",384752499.578,8
+2017,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",201175224.461,3
+2017,0812,"Fruit and nuts provisionally preserved; e.g. by sulphur dioxide gas, brine, in sulphur water or in other preservative solutions, but unsuitable in that state for immediate consumption",46595740.067,2
+2017,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",52352165.778,5
+2017,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",9398276.437,1
+2017,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",1431601136.204,5
+2017,0902,Tea,177279937.94700003,4
+2017,0903,Mate,282774.698,1
+2017,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,126834386.567,4
+2017,0905,Vanilla,35692811.287,2
+2017,0906,Cinnamon and cinnamon-tree flowers,9800185.008,3
+2017,0907,"Cloves (whole fruit, cloves and stems)",3186022.1569999997,2
+2017,0908,"Nutmeg, mace and cardamoms",12599496.742999999,5
+2017,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",18933862.129,6
+2017,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",130804954.077,6
+2017,1001,Wheat and meslin,1528431721.5930002,3
+2017,1002,Rye,7057948.783,2
+2017,1003,Barley,270788279.41800004,2
+2017,1006,Rice,358914961.015,3
+2017,1007,Grain sorghum,103316932.258,2
+2017,1008,"Buckwheat, millet and canary seeds; other cereals",41907641.675000004,8
+2017,1101,Wheat or meslin flour,3297374.221,1
+2017,1102,Cereal flours; other than of wheat or meslin,1554373.909,2
+2017,1103,Cereal groats; meal and pellets,642485.0079999999,3
+2017,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",42910790.779,6
+2017,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",43063262.525,2
+2017,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",12759117.413,3
+2017,1107,Malt; whether or not roasted,274961860.319,2
+2017,1109,Wheat gluten; whether or not dried,43054179.291,1
+2017,1201,Soyabeans,1546798911.178,2
+2017,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",71564844.845,1
+2017,1205,Rape or colza seeds; whether or not broken,1152862273.061,2
+2017,1206,Sunflower seeds; whether or not broken,5317114.541,1
+2017,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",227603529.76,4
+2017,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,453653.586,2
+2017,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",48879954.910000004,2
+2017,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",269698246.825,2
+2017,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",61120543.592,3
+2017,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",40407847.394,2
+2017,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",9191626.189,2
+2017,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1233260.656,2
+2017,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",309375878.902,2
+2017,1510,"Oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",6718143.145,1
+2017,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",528955223.112,2
+2017,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",39956163.773,4
+2017,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",180342155.36400002,3
+2017,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",19097119.658,4
+2017,1515,"Fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined; but not chemically modified",9131573.447,2
+2017,1516,"Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",65583834.181,2
+2017,1517,"Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils of heading no. 1516",42546365.030999996,2
+2017,1601,"Sausages and similar products of meat, meat offal or blood; food preparations based on these products",160180470.04,1
+2017,1602,"Prepared or preserved meat, meat offal or blood",3000848737.589,9
+2017,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",29343827.155,1
+2017,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1540432856.986,12
+2017,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1443277824.555,17
+2017,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",546501561.1489999,5
+2017,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",163694816.76999998,8
+2017,1703,Molasses; resulting from the extraction or refining of sugar,26326179.088999998,2
+2017,1704,"Sugar confectionery (including white chocolate), not containing cocoa",102161177.70199999,2
+2017,1801,"Cocoa beans; whole or broken, raw or roasted",160950316.422,1
+2017,1803,Cocoa; paste; whether or not defatted,53920855.362,2
+2017,1804,"Cocoa; butter, fat and oil",131240583.818,1
+2017,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",68349816.955,1
+2017,1806,Chocolate and other food preparations containing cocoa,598825131.232,5
+2017,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",492525056.498,3
+2017,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",320299363.06700003,5
+2017,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",4301281.002,1
+2017,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",29434917.993,4
+2017,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",373826412.564,6
+2017,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",76610692.495,2
+2017,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,254414721.428,2
+2017,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",58890685.528,2
+2017,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",692120680.799,2
+2017,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",697576290.1389999,9
+2017,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",26212536.16,1
+2017,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",42859830.184,3
+2017,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",813329684.458,13
+2017,2009,"Fruit juices (including grape must) and vegetable juices, unfermented, not containing added spirit; whether or not containing added sugar or other sweetening matter",653094661.535,17
+2017,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",234663252.402,4
+2017,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",73135495.481,3
+2017,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",289086208.233,4
+2017,2104,Soups and broths and preparations therefor; homogenised composite food preparations,62413402.382,2
+2017,2105,Ice cream and other edible ice; whether or not containing cocoa,26356165.347,1
+2017,2106,Food preparations not elsewhere specified or included,1024557472.3280001,2
+2017,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",183550711.784,2
+2017,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit or vegetable juices of heading no. 2009",203170692.315,3
+2017,2203,Beer made from malt,60293559.302,1
+2017,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1615615734.697,5
+2017,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",9367363.136,2
+2017,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",172983853.731,1
+2017,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",697904160.105,7
+2017,2209,Vinegar and substitutes for vinegar obtained from acetic acid,8134271.844,1
+2017,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",25897519.994000003,4
+2017,2307,Wine lees; argol,1185767.557,1
+2017,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",62672145.287,2
+2017,3507,Enzymes; prepared enzymes not elsewhere specified or included,1463434.607,1
+2018,0101,"Horses, asses, mules and hinnies; live",100621002.036,1
+2018,0102,Bovine animals; live,34833227.776,2
+2018,0103,Swine; live,1570310.705,2
+2018,0104,Sheep and goats; live,283767.538,1
+2018,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",9168362.338000001,3
+2018,0106,"Animals; live, n.e.c. in chapter 01",40823896.912,11
+2018,0201,Meat of bovine animals; fresh or chilled,2104063134.921,3
+2018,0202,Meat of bovine animals; frozen,1370878711.898,2
+2018,0203,"Meat of swine; fresh, chilled or frozen",4406086633.077,5
+2018,0204,"Meat of sheep or goats; fresh, chilled or frozen",200227263.37399998,8
+2018,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",46648295.087,1
+2018,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",870084805.626,9
+2018,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1258754186.7779999,14
+2018,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",3891678.1390000004,5
+2018,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",67140994.156,2
+2018,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",70294150.829,5
+2018,0301,Fish; live,565089097.4959999,2
+2018,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",439437414.673,17
+2018,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",3417574627.382,36
+2018,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3354323048.6800003,27
+2018,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption",180901411.57,17
+2018,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine; edible flours, meals, pellets",2343686795.973,15
+2018,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, cooked or not before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption",1347724600.419,19
+2018,0308,"Aquatic invertebrates, other than crustaceans and molluscs; live, fresh, chilled, frozen, dried, salted or in brine, smoked, whether or not cooked before or during the smoking process; flours, meals, and pellets, fit for human consumption",216957700.694,6
+2018,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",327211.042,2
+2018,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,115022224.937,5
+2018,0403,"Buttermilk, curdled milk and cream, yoghurt, kephir, fermented or acidified milk or cream, whether or not concentrated, containing added sugar, sweetening matter, flavoured or added fruit or cocoa",848795.561,2
+2018,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",121790025.955,2
+2018,0405,Butter and other fats and oils derived from milk; dairy spreads,96224800.00400001,3
+2018,0406,Cheese and curd,1292287883.5900002,5
+2018,0407,"Birds' eggs, in shell; fresh, preserved or cooked",4289855.956,3
+2018,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",67726304.866,4
+2018,0409,Honey; natural,145405778.968,1
+2018,0410,Edible products of animal origin; not elsewhere specified or included,5829475.635,1
+2018,0701,Potatoes; fresh or chilled,15736802.925,1
+2018,0702,Tomatoes; fresh or chilled,34138412.284,1
+2018,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",258844071.852,3
+2018,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",86693249.972,3
+2018,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,33410670.237,4
+2018,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",94612032.323,2
+2018,0707,Cucumbers and gherkins; fresh or chilled,75021.501,1
+2018,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",11491811.439,3
+2018,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",391578131.913,9
+2018,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,951950332.8590001,8
+2018,0711,"Vegetables provisionally preserved; (e.g. by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",76125273.696,4
+2018,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",339812237.309,6
+2018,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",197109413.6,11
+2018,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",89027858.624,6
+2018,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",121893104.71800001,6
+2018,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",547440662.736,13
+2018,0803,"Bananas, including plantains; fresh or dried",912301075.892,2
+2018,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",398381511.349,5
+2018,0805,Citrus fruit; fresh or dried,367252448.68799996,7
+2018,0806,Grapes; fresh or dried,222631530.925,2
+2018,0807,Melons (including watermelons) and papaws (papayas); fresh,26127656.416,3
+2018,0808,"Apples, pears and quinces; fresh",8144353.695,1
+2018,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",36318380.162999995,2
+2018,0810,"Fruit, fresh; n.e.c. in chapter 08",449652783.56,8
+2018,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",222834728.865,3
+2018,0812,"Fruit and nuts provisionally preserved; e.g. by sulphur dioxide gas, brine, in sulphur water or in other preservative solutions, but unsuitable in that state for immediate consumption",48103417.152,2
+2018,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",57945561.086,5
+2018,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",11274204.738,1
+2018,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",1261194761.378,5
+2018,0902,Tea,182227053.89200002,4
+2018,0903,Mate,354544.246,1
+2018,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,117884282.981,4
+2018,0905,Vanilla,38357482.480000004,2
+2018,0906,Cinnamon and cinnamon-tree flowers,9529920.899,3
+2018,0907,"Cloves (whole fruit, cloves and stems)",2641156.877,2
+2018,0908,"Nutmeg, mace and cardamoms",10400610.178,6
+2018,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",19949809.132,6
+2018,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",132803433.90900001,6
+2018,1001,Wheat and meslin,1639118065.9899998,3
+2018,1002,Rye,8040677.5819999995,2
+2018,1003,Barley,348449548.063,2
+2018,1006,Rice,491578579.69699997,3
+2018,1007,Grain sorghum,116784619.286,2
+2018,1008,"Buckwheat, millet and canary seeds; other cereals",40693566.4,7
+2018,1101,Wheat or meslin flour,3477842.561,1
+2018,1102,Cereal flours; other than of wheat or meslin,1592765.5669999998,2
+2018,1103,Cereal groats; meal and pellets,634972.065,3
+2018,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",40403644.365,6
+2018,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",40418949.15,2
+2018,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",13241742.933,3
+2018,1107,Malt; whether or not roasted,276717616.368,2
+2018,1109,Wheat gluten; whether or not dried,48421459.804,1
+2018,1201,Soyabeans,1539438041.199,2
+2018,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",76946446.429,2
+2018,1205,Rape or colza seeds; whether or not broken,1124733158.164,2
+2018,1206,Sunflower seeds; whether or not broken,5685252.252,1
+2018,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",248794602.846,4
+2018,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,369360.29099999997,2
+2018,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",46655798.142000005,2
+2018,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",269453464.267,2
+2018,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",65056647.239,3
+2018,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",40095738.530999996,2
+2018,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",11984994.766999999,2
+2018,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1376706.54,2
+2018,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",318541284.06799996,2
+2018,1510,"Oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",5609398.084,1
+2018,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",536247652.097,2
+2018,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",40720157.444,4
+2018,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",151122337.69599998,3
+2018,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",20694675.16,4
+2018,1515,"Fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined; but not chemically modified",9257068.542000001,2
+2018,1516,"Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",59978201.18,2
+2018,1517,"Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils of heading no. 1516",45940871.929,2
+2018,1601,"Sausages and similar products of meat, meat offal or blood; food preparations based on these products",163750160.561,1
+2018,1602,"Prepared or preserved meat, meat offal or blood",3217475305.124,9
+2018,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",32226011.137,1
+2018,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1699037609.387,12
+2018,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1470110128.204,17
+2018,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",425706425.47999996,5
+2018,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",138329375.21,8
+2018,1703,Molasses; resulting from the extraction or refining of sugar,25791385.592,2
+2018,1704,"Sugar confectionery (including white chocolate), not containing cocoa",110877949.97500001,2
+2018,1801,"Cocoa beans; whole or broken, raw or roasted",145836077.824,1
+2018,1803,Cocoa; paste; whether or not defatted,57665603.905,2
+2018,1804,"Cocoa; butter, fat and oil",142523954.13,1
+2018,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",60118876.677,1
+2018,1806,Chocolate and other food preparations containing cocoa,610583152.9860001,5
+2018,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",487608314.068,3
+2018,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",322727174.287,5
+2018,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",7767680.414,1
+2018,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",27182573.301999997,4
+2018,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",389786748.07699996,6
+2018,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",74174877.58399999,2
+2018,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,259983712.62,2
+2018,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",62315018.21,2
+2018,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",743592246.631,2
+2018,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",723530362.311,9
+2018,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",25013629.211,1
+2018,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",46194591.043,2
+2018,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",819840003.856,13
+2018,2009,"Fruit juices (including grape must) and vegetable juices, unfermented, not containing added spirit; whether or not containing added sugar or other sweetening matter",779990137.456,17
+2018,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",229354865.70499998,4
+2018,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",65178026.58,3
+2018,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",296228564.652,4
+2018,2104,Soups and broths and preparations therefor; homogenised composite food preparations,58789152.475999996,2
+2018,2105,Ice cream and other edible ice; whether or not containing cocoa,27770110.489,1
+2018,2106,Food preparations not elsewhere specified or included,1063187976.947,2
+2018,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",182489353.098,2
+2018,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit or vegetable juices of heading no. 2009",198105627.45200002,3
+2018,2203,Beer made from malt,55222929.537,1
+2018,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1689399387.455,5
+2018,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",9080153.923999999,2
+2018,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",131314353.503,1
+2018,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",762787903.684,7
+2018,2209,Vinegar and substitutes for vinegar obtained from acetic acid,10063805.361,1
+2018,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",26520657.213,4
+2018,2307,Wine lees; argol,1459602.176,1
+2018,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",70184501.234,2
+2018,3507,Enzymes; prepared enzymes not elsewhere specified or included,2061620.533,1
+2019,0101,"Horses, asses, mules and hinnies; live",92884734.051,1
+2019,0102,Bovine animals; live,41916472.615,1
+2019,0103,Swine; live,1474062.0450000002,2
+2019,0104,Sheep and goats; live,149005.245,2
+2019,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",8494849.379999999,3
+2019,0106,"Animals; live, n.e.c. in chapter 01",42998260.6,12
+2019,0201,Meat of bovine animals; fresh or chilled,2124803903.223,3
+2019,0202,Meat of bovine animals; frozen,1402328670.994,2
+2019,0203,"Meat of swine; fresh, chilled or frozen",4633608028.718,6
+2019,0204,"Meat of sheep or goats; fresh, chilled or frozen",193495924.903,8
+2019,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",47711338.149,1
+2019,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",979368320.165,9
+2019,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1304381767.6820002,15
+2019,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",11372599.18,5
+2019,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",77490176.714,1
+2019,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",67065671.798,6
+2019,0301,Fish; live,536430477.80799997,2
+2019,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",413382493.312,17
+2019,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",3062128222.025,36
+2019,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3503183003.948,30
+2019,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption",176063430.479,18
+2019,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine; edible flours, meals, pellets",2297952658.27,15
+2019,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, cooked or not before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption",1287631374.542,19
+2019,0308,"Aquatic invertebrates, other than crustaceans and molluscs; live, fresh, chilled, frozen, dried, salted or in brine, smoked, whether or not cooked before or during the smoking process; flours, meals, and pellets, fit for human consumption",249328626.865,7
+2019,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",350431.12600000005,2
+2019,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,123379168.42400001,4
+2019,0403,"Buttermilk, curdled milk and cream, yoghurt, kephir, fermented or acidified milk or cream, whether or not concentrated, containing added sugar, sweetening matter, flavoured or added fruit or cocoa",333110.48199999996,2
+2019,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",125140672.42999999,2
+2019,0405,Butter and other fats and oils derived from milk; dairy spreads,132437755.23099999,3
+2019,0406,Cheese and curd,1324764000.8309999,5
+2019,0407,"Birds' eggs, in shell; fresh, preserved or cooked",5059141.817,3
+2019,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",58546841.4,4
+2019,0409,Honey; natural,144505969.094,1
+2019,0410,Edible products of animal origin; not elsewhere specified or included,5438663.918,1
+2019,0701,Potatoes; fresh or chilled,17936141.69,1
+2019,0702,Tomatoes; fresh or chilled,34832540.157,1
+2019,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",254454821.959,3
+2019,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",35025590.112,3
+2019,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,22031951.112999998,4
+2019,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",62969330.28,2
+2019,0707,Cucumbers and gherkins; fresh or chilled,137959.665,1
+2019,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",10909785.695,3
+2019,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",374472244.17399997,10
+2019,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,971744310.207,8
+2019,0711,"Vegetables provisionally preserved; (e.g. by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",70713529.73,5
+2019,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",326844426.756,6
+2019,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",196008922.851,11
+2019,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",92466185.455,5
+2019,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",101337245.098,5
+2019,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",500081702.40500003,13
+2019,0803,"Bananas, including plantains; fresh or dried",959124156.771,2
+2019,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",416837769.166,5
+2019,0805,Citrus fruit; fresh or dried,348225734.477,7
+2019,0806,Grapes; fresh or dried,237458022.47100002,2
+2019,0807,Melons (including watermelons) and papaws (papayas); fresh,26315957.406000003,3
+2019,0808,"Apples, pears and quinces; fresh",10894575.088,1
+2019,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",40533123.774000004,2
+2019,0810,"Fruit, fresh; n.e.c. in chapter 08",490139349.91300005,8
+2019,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",232164767.561,3
+2019,0812,"Fruit and nuts provisionally preserved; e.g. by sulphur dioxide gas, brine, in sulphur water or in other preservative solutions, but unsuitable in that state for immediate consumption",42393093.074,2
+2019,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",52902623.269,5
+2019,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",9902399.417,1
+2019,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",1248015382.545,5
+2019,0902,Tea,179778626.086,4
+2019,0903,Mate,468464.71,1
+2019,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,105495951.943,4
+2019,0905,Vanilla,27690178.048,2
+2019,0906,Cinnamon and cinnamon-tree flowers,10294269.817,3
+2019,0907,"Cloves (whole fruit, cloves and stems)",2724900.62,2
+2019,0908,"Nutmeg, mace and cardamoms",15519058.643000001,6
+2019,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",21940439.765,6
+2019,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",142406657.481,6
+2019,1001,Wheat and meslin,1473282579.706,3
+2019,1002,Rye,7884406.762,2
+2019,1003,Barley,322807780.912,2
+2019,1006,Rice,489667857.76000005,3
+2019,1007,Grain sorghum,99809890.879,2
+2019,1008,"Buckwheat, millet and canary seeds; other cereals",38040006.033,8
+2019,1101,Wheat or meslin flour,3650224.842,1
+2019,1102,Cereal flours; other than of wheat or meslin,1367587.7889999999,2
+2019,1103,Cereal groats; meal and pellets,616781.9010000001,3
+2019,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",43554878.951000005,6
+2019,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",44831395.746,2
+2019,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",12520678.995,3
+2019,1107,Malt; whether or not roasted,280869850.14699996,2
+2019,1109,Wheat gluten; whether or not dried,40022201.467,1
+2019,1201,Soyabeans,1534966641.128,2
+2019,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",71576295.97,1
+2019,1205,Rape or colza seeds; whether or not broken,1032371252.716,2
+2019,1206,Sunflower seeds; whether or not broken,8318569.624,1
+2019,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",335190858.031,4
+2019,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,215306.249,2
+2019,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",37124901.724,2
+2019,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",258029901.99400002,2
+2019,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",50917978.358,3
+2019,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",53981503.076,2
+2019,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",12327509.778,2
+2019,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1422870.735,2
+2019,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",319595911.48300004,2
+2019,1510,"Oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",4536274.871,1
+2019,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",497893429.837,2
+2019,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",47235662.618999995,4
+2019,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",101415582.482,3
+2019,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",35584079.971,4
+2019,1515,"Fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined; but not chemically modified",9380477.401,2
+2019,1516,"Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",60936438.935,2
+2019,1517,"Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils of heading no. 1516",45000987.605,2
+2019,1601,"Sausages and similar products of meat, meat offal or blood; food preparations based on these products",189639980.713,1
+2019,1602,"Prepared or preserved meat, meat offal or blood",3166222348.552,9
+2019,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",28497257.682,1
+2019,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1779530090.9029999,12
+2019,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1441860114.7619998,17
+2019,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",424234766.763,5
+2019,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",151894425.632,8
+2019,1703,Molasses; resulting from the extraction or refining of sugar,26341222.794999998,2
+2019,1704,"Sugar confectionery (including white chocolate), not containing cocoa",106410533.33,2
+2019,1801,"Cocoa beans; whole or broken, raw or roasted",140653446.834,1
+2019,1803,Cocoa; paste; whether or not defatted,57771788.444000006,2
+2019,1804,"Cocoa; butter, fat and oil",146368562.178,1
+2019,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",63284000.882,1
+2019,1806,Chocolate and other food preparations containing cocoa,594050664.7459999,5
+2019,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",469664605.444,3
+2019,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",333078005.491,5
+2019,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",57242371.213,1
+2019,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",29456214.044,4
+2019,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",417392965.534,6
+2019,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",72377742.725,2
+2019,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,252815856.00599998,2
+2019,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",64973956.317,2
+2019,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",796903691.518,2
+2019,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",710683543.182,9
+2019,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",24739173.299,1
+2019,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",37672951.492,3
+2019,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",880505752.9259999,13
+2019,2009,"Fruit juices (including grape must) and vegetable juices, unfermented, not containing added spirit; whether or not containing added sugar or other sweetening matter",692968386.494,17
+2019,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",192938994.63300002,4
+2019,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",66877970.32699999,3
+2019,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",318787208.039,4
+2019,2104,Soups and broths and preparations therefor; homogenised composite food preparations,63363567.591,2
+2019,2105,Ice cream and other edible ice; whether or not containing cocoa,23569387.633,1
+2019,2106,Food preparations not elsewhere specified or included,1007814927.807,2
+2019,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",184773164.101,2
+2019,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit or vegetable juices of heading no. 2009",214211773.105,3
+2019,2203,Beer made from malt,66020066.344,1
+2019,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1810463541.221,5
+2019,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",9468025.550999999,2
+2019,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",100731141.815,1
+2019,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",816881302.309,7
+2019,2209,Vinegar and substitutes for vinegar obtained from acetic acid,10040423.3,1
+2019,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",29429104.668000005,4
+2019,2307,Wine lees; argol,1435916.262,1
+2019,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",63729163.455,2
+2019,3507,Enzymes; prepared enzymes not elsewhere specified or included,697770.59,1
+2020,0101,"Horses, asses, mules and hinnies; live",60254177.579,1
+2020,0102,Bovine animals; live,33172958.675,1
+2020,0103,Swine; live,3717749.437,2
+2020,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",6497678.416,2
+2020,0106,"Animals; live, n.e.c. in chapter 01",43445766.259,11
+2020,0201,Meat of bovine animals; fresh or chilled,1961067802.525,3
+2020,0202,Meat of bovine animals; frozen,1381927533.923,3
+2020,0203,"Meat of swine; fresh, chilled or frozen",4450060661.483999,5
+2020,0204,"Meat of sheep or goats; fresh, chilled or frozen",189911415.08499998,8
+2020,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",34958305.662,1
+2020,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",965066799.678,9
+2020,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1139473398.606,15
+2020,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",3352452.427,5
+2020,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",95244760.51,1
+2020,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",60004548.587,6
+2020,0301,Fish; live,294644465.7,2
+2020,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",315460672.283,18
+2020,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",2699995109.047,34
+2020,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3094682801.851,27
+2020,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption",149949121.114,18
+2020,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine; edible flours, meals, pellets",1970022309.397,15
+2020,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, cooked or not before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption",1173042180.006,20
+2020,0308,"Aquatic invertebrates, other than crustaceans and molluscs; live, fresh, chilled, frozen, dried, salted or in brine, smoked, whether or not cooked before or during the smoking process; flours, meals, and pellets, fit for human consumption",233897474.354,6
+2020,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",436005.39800000004,2
+2020,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,120029881.641,4
+2020,0403,"Buttermilk, curdled milk and cream, yoghurt, kephir, fermented or acidified milk or cream, whether or not concentrated, containing added sugar, sweetening matter, flavoured or added fruit or cocoa",247465.30800000002,2
+2020,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",137380281.326,2
+2020,0405,Butter and other fats and oils derived from milk; dairy spreads,90529459.872,3
+2020,0406,Cheese and curd,1276900634.649,5
+2020,0407,"Birds' eggs, in shell; fresh, preserved or cooked",4915174.302,3
+2020,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",50601569.387,4
+2020,0409,Honey; natural,173685830.461,1
+2020,0410,Edible products of animal origin; not elsewhere specified or included,4668870.451,1
+2020,0701,Potatoes; fresh or chilled,13336300.707,1
+2020,0702,Tomatoes; fresh or chilled,34982490.197,1
+2020,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",218946242.398,3
+2020,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",30893673.932,2
+2020,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,18817160.846,4
+2020,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",58553701.265,2
+2020,0707,Cucumbers and gherkins; fresh or chilled,132490.416,1
+2020,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",8995008.008,3
+2020,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",354931735.44,10
+2020,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,944997737.88,8
+2020,0711,"Vegetables provisionally preserved; (e.g. by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",63080489.91199999,4
+2020,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",318799187.224,6
+2020,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",178780253.19700003,11
+2020,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",71773519.059,5
+2020,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",102423633.551,5
+2020,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",510520293.062,13
+2020,0803,"Bananas, including plantains; fresh or dried",988075790.548,2
+2020,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",398983557.539,5
+2020,0805,Citrus fruit; fresh or dried,341673889.292,7
+2020,0806,Grapes; fresh or dried,216894940.455,2
+2020,0807,Melons (including watermelons) and papaws (papayas); fresh,26293057.821,3
+2020,0808,"Apples, pears and quinces; fresh",16829364.383,1
+2020,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",46649533.434,2
+2020,0810,"Fruit, fresh; n.e.c. in chapter 08",544016511.493,8
+2020,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",240621983.48,3
+2020,0812,"Fruit and nuts provisionally preserved; e.g. by sulphur dioxide gas, brine, in sulphur water or in other preservative solutions, but unsuitable in that state for immediate consumption",28378173.155,2
+2020,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",56852447.523,5
+2020,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",8900583.414,1
+2020,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",1178119827.18,5
+2020,0902,Tea,156430707.73,4
+2020,0903,Mate,202168.479,1
+2020,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,104407037.083,4
+2020,0905,Vanilla,16065565.802,2
+2020,0906,Cinnamon and cinnamon-tree flowers,10055971.023,3
+2020,0907,"Cloves (whole fruit, cloves and stems)",2111707.082,2
+2020,0908,"Nutmeg, mace and cardamoms",19474545.598,6
+2020,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",21143671.937,6
+2020,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",140093829.282,6
+2020,1001,Wheat and meslin,1524539411.6950002,3
+2020,1002,Rye,7681737.157,2
+2020,1003,Barley,303109924.17499995,2
+2020,1006,Rice,503442419.963,3
+2020,1007,Grain sorghum,85358174.899,2
+2020,1008,"Buckwheat, millet and canary seeds; other cereals",33057243.824,8
+2020,1101,Wheat or meslin flour,3461320.302,1
+2020,1102,Cereal flours; other than of wheat or meslin,1359766.604,2
+2020,1103,Cereal groats; meal and pellets,625660.112,4
+2020,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",49982006.924,6
+2020,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",50797218.719,2
+2020,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",16835602.531999998,3
+2020,1107,Malt; whether or not roasted,244649504.78100002,2
+2020,1109,Wheat gluten; whether or not dried,41112913.986,1
+2020,1201,Soyabeans,1490783954.154,2
+2020,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",65764542.476,2
+2020,1205,Rape or colza seeds; whether or not broken,965144991.972,2
+2020,1206,Sunflower seeds; whether or not broken,9408430.558,1
+2020,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",355166499.653,4
+2020,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,174143.641,2
+2020,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",50474342.995000005,2
+2020,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",255681774.21400002,2
+2020,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",45684334.435,3
+2020,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",44739357.903000005,2
+2020,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",5932161.177999999,2
+2020,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1402740.519,2
+2020,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",275568075.108,2
+2020,1510,"Oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",4362423.726,1
+2020,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",547942021.262,2
+2020,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",44729944.481,4
+2020,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",106924804.574,3
+2020,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",35297010.923,4
+2020,1515,"Fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined; but not chemically modified",10035074.161,2
+2020,1516,"Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",55452685.578999996,2
+2020,1517,"Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils of heading no. 1516",39812166.266,2
+2020,1601,"Sausages and similar products of meat, meat offal or blood; food preparations based on these products",160193220.099,1
+2020,1602,"Prepared or preserved meat, meat offal or blood",3051379576.357,9
+2020,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",27196381.128,1
+2020,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1567408373.974,12
+2020,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1294543459.272,18
+2020,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",401221573.0870001,5
+2020,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",161553970.195,8
+2020,1703,Molasses; resulting from the extraction or refining of sugar,33562711.852,2
+2020,1704,"Sugar confectionery (including white chocolate), not containing cocoa",104203763.346,2
+2020,1801,"Cocoa beans; whole or broken, raw or roasted",137167818.965,1
+2020,1803,Cocoa; paste; whether or not defatted,48525286.748,2
+2020,1804,"Cocoa; butter, fat and oil",123514431.086,1
+2020,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",59332992.186,1
+2020,1806,Chocolate and other food preparations containing cocoa,578545293.437,5
+2020,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",483174842.656,3
+2020,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",410923280.944,5
+2020,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",19383324.378,1
+2020,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",36151937.059,4
+2020,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",422859726.04200006,6
+2020,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",68442562.956,2
+2020,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,286414539.496,2
+2020,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",61555159.464,2
+2020,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",736037676.043,2
+2020,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",707887420.1229999,9
+2020,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",23032360.511,1
+2020,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",38865634.88,3
+2020,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",979225224.723,13
+2020,2009,"Fruit juices (including grape must) and vegetable juices, unfermented, not containing added spirit; whether or not containing added sugar or other sweetening matter",651228954.681,17
+2020,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",189624666.29999998,4
+2020,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",65084359.442999996,3
+2020,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",339129586.25,4
+2020,2104,Soups and broths and preparations therefor; homogenised composite food preparations,60588770.907000005,2
+2020,2105,Ice cream and other edible ice; whether or not containing cocoa,24990034.02,1
+2020,2106,Food preparations not elsewhere specified or included,960994946.307,2
+2020,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",175743520.419,2
+2020,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit or vegetable juices of heading no. 2009",224468390.466,3
+2020,2203,Beer made from malt,58692813.859,1
+2020,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1565352201.404,5
+2020,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",8429678.103,2
+2020,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",92511233.618,1
+2020,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",674949403.625,7
+2020,2209,Vinegar and substitutes for vinegar obtained from acetic acid,10036806.981,1
+2020,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",34098012.471,4
+2020,2307,Wine lees; argol,1141403.291,1
+2020,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",59583173.805,1
+2020,3507,Enzymes; prepared enzymes not elsewhere specified or included,538869.289,1
+2021,0101,"Horses, asses, mules and hinnies; live",86999745.529,1
+2021,0102,Bovine animals; live,35164869.375,1
+2021,0103,Swine; live,3248579.742,2
+2021,0104,Sheep and goats; live,222751.84000000003,2
+2021,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",10896344.322,2
+2021,0106,"Animals; live, n.e.c. in chapter 01",58272921.849,12
+2021,0201,Meat of bovine animals; fresh or chilled,2201121031.385,3
+2021,0202,Meat of bovine animals; frozen,1511662876.401,2
+2021,0203,"Meat of swine; fresh, chilled or frozen",4447939282.031,5
+2021,0204,"Meat of sheep or goats; fresh, chilled or frozen",193274732.21600002,8
+2021,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",34136683.035,1
+2021,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",1235254156.25,9
+2021,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1244520689.2840002,15
+2021,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",4359414.232,4
+2021,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",48494263.673999995,2
+2021,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",61420439.605000004,6
+2021,0301,Fish; live,265908250.529,2
+2021,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",314533242.417,16
+2021,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",3111202939.039,34
+2021,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3402281637.26,29
+2021,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption",176397526.499,20
+2021,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine; edible flours, meals, pellets",2267863406.782,15
+2021,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, cooked or not before or during the smoking process; flours, meals and pellets of molluscs, fit for human consumption",1083347815.5300002,20
+2021,0308,"Aquatic invertebrates, other than crustaceans and molluscs; live, fresh, chilled, frozen, dried, salted or in brine, smoked, whether or not cooked before or during the smoking process; flours, meals, and pellets, fit for human consumption",222295247.928,6
+2021,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",804486.9299999999,2
+2021,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,78983121.103,4
+2021,0403,"Buttermilk, curdled milk and cream, yoghurt, kephir, fermented or acidified milk or cream, whether or not concentrated, containing added sugar, sweetening matter, flavoured or added fruit or cocoa",241657.68300000002,2
+2021,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",139554164.429,2
+2021,0405,Butter and other fats and oils derived from milk; dairy spreads,62767373.916,2
+2021,0406,Cheese and curd,1284209266.9520001,5
+2021,0407,"Birds' eggs, in shell; fresh, preserved or cooked",6705643.108000001,3
+2021,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",72443740.086,4
+2021,0409,Honey; natural,169762923.81,1
+2021,0410,Edible products of animal origin; not elsewhere specified or included,3551173.466,1
+2021,0701,Potatoes; fresh or chilled,29147107.42,1
+2021,0702,Tomatoes; fresh or chilled,33814427.234,1
+2021,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",259864093.28300002,3
+2021,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",19413486.154999997,2
+2021,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,17422814.698,4
+2021,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",65412952.911,2
+2021,0707,Cucumbers and gherkins; fresh or chilled,102009.555,1
+2021,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",8216789.476000001,3
+2021,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",346410991.462,10
+2021,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,998665926.4449999,8
+2021,0711,"Vegetables provisionally preserved; (e.g. by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",62645128.276,5
+2021,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",323983740.70000005,6
+2021,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",167320097.46,11
+2021,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",88062017.056,5
+2021,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",118745144.55600001,5
+2021,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",492615958.38600004,13
+2021,0803,"Bananas, including plantains; fresh or dried",981368391.433,2
+2021,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",435393964.558,5
+2021,0805,Citrus fruit; fresh or dried,309555092.31,7
+2021,0806,Grapes; fresh or dried,202867484.445,2
+2021,0807,Melons (including watermelons) and papaws (papayas); fresh,27364755.583,3
+2021,0808,"Apples, pears and quinces; fresh",19449885.599,2
+2021,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",60488768.737,4
+2021,0810,"Fruit, fresh; n.e.c. in chapter 08",556318192.109,8
+2021,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",269342918.441,3
+2021,0812,"Fruit and nuts provisionally preserved; e.g. by sulphur dioxide gas, brine, in sulphur water or in other preservative solutions, but unsuitable in that state for immediate consumption",26221621.713,2
+2021,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",56882563.320999995,5
+2021,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",9009158.444,1
+2021,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",1318671522.282,5
+2021,0902,Tea,173975501.137,4
+2021,0903,Mate,216638.191,1
+2021,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,123111966.232,4
+2021,0905,Vanilla,9609936.046,2
+2021,0906,Cinnamon and cinnamon-tree flowers,10648645.879999999,3
+2021,0907,"Cloves (whole fruit, cloves and stems)",2458616.145,2
+2021,0908,"Nutmeg, mace and cardamoms",20360992.375,6
+2021,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",20555918.458,6
+2021,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",157111096.727,6
+2021,1001,Wheat and meslin,1784275649.353,3
+2021,1002,Rye,8695895.446,2
+2021,1003,Barley,324386057.056,2
+2021,1006,Rice,520159549.584,3
+2021,1007,Grain sorghum,96827640.898,2
+2021,1008,"Buckwheat, millet and canary seeds; other cereals",32397400.077,8
+2021,1101,Wheat or meslin flour,3653656.806,1
+2021,1102,Cereal flours; other than of wheat or meslin,1801357.904,2
+2021,1103,Cereal groats; meal and pellets,695561.9369999999,3
+2021,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",74017380.51900001,6
+2021,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",44025386.886,2
+2021,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",15600109.137,3
+2021,1107,Malt; whether or not roasted,217266876.611,2
+2021,1109,Wheat gluten; whether or not dried,46016650.574,1
+2021,1201,Soyabeans,2074642230.4950001,2
+2021,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",56266834.157,2
+2021,1205,Rape or colza seeds; whether or not broken,1602571639.741,2
+2021,1206,Sunflower seeds; whether or not broken,7989500.234,1
+2021,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",251869089.854,4
+2021,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,268244.311,2
+2021,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",47592951.491000004,2
+2021,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",258173783.293,2
+2021,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",47738294.152,3
+2021,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",47682496.856,2
+2021,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",6632297.545,2
+2021,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1118159.9340000001,2
+2021,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",277614767.201,2
+2021,1510,"Oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",4545985.297,1
+2021,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",675131989.934,2
+2021,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",44507089.562,4
+2021,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",185957988.45999998,3
+2021,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",27024477.731,4
+2021,1515,"Fixed vegetable fats and oils (including jojoba oil) and their fractions, whether or not refined; but not chemically modified",9645743.259,2
+2021,1516,"Animal or vegetable fats and oils and their fractions; partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",68031908.834,2
+2021,1517,"Margarine; edible mixtures or preparations of animal or vegetable fats or oils or of fractions of different fats or oils of this chapter, other than edible fats or oils of heading no. 1516",43738428.068,2
+2021,1601,"Sausages and similar products of meat, meat offal or blood; food preparations based on these products",149400355.187,1
+2021,1602,"Prepared or preserved meat, meat offal or blood",3094267311.9890003,9
+2021,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",27696295.749,1
+2021,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1637871036.723,12
+2021,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1296325871.875,18
+2021,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",516066028.963,5
+2021,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",185068593.792,8
+2021,1703,Molasses; resulting from the extraction or refining of sugar,36049735.752,1
+2021,1704,"Sugar confectionery (including white chocolate), not containing cocoa",131861572.498,2
+2021,1801,"Cocoa beans; whole or broken, raw or roasted",118018595.259,1
+2021,1803,Cocoa; paste; whether or not defatted,58585328.388,2
+2021,1804,"Cocoa; butter, fat and oil",116487686.589,1
+2021,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",73102993.691,1
+2021,1806,Chocolate and other food preparations containing cocoa,670144664.797,5
+2021,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",484631259.781,3
+2021,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",400759160.37299997,5
+2021,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",7938395.232,1
+2021,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",36131272.328999996,4
+2021,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",492237385.948,6
+2021,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",72975518.192,2
+2021,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,285399637.871,2
+2021,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",60855496.55,2
+2021,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",784242625.402,2
+2021,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",739201598.3659999,9
+2021,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",24538136.051,1
+2021,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",48815735.908999994,2
+2021,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",1023456799.459,13
+2021,2009,"Fruit juices (including grape must) and vegetable juices, unfermented, not containing added spirit; whether or not containing added sugar or other sweetening matter",588087052.605,17
+2021,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",213604181.444,4
+2021,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",67073368.888,3
+2021,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",369499901.2,4
+2021,2104,Soups and broths and preparations therefor; homogenised composite food preparations,63271380.933000006,2
+2021,2105,Ice cream and other edible ice; whether or not containing cocoa,26590208.221,1
+2021,2106,Food preparations not elsewhere specified or included,990732487.732,2
+2021,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",139691571.19,2
+2021,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit or vegetable juices of heading no. 2009",227607279.792,3
+2021,2203,Beer made from malt,63132006.141,1
+2021,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1706817979.282,5
+2021,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",7628530.731000001,2
+2021,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",84610821.335,1
+2021,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",672676881.6209999,7
+2021,2209,Vinegar and substitutes for vinegar obtained from acetic acid,10702721.149,1
+2021,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",39801110.714,4
+2021,2307,Wine lees; argol,944217.06,1
+2021,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",68341618.444,2
+2021,3507,Enzymes; prepared enzymes not elsewhere specified or included,756306.64,1
+2022,0101,"Horses, asses, mules and hinnies; live",97355920.714,1
+2022,0102,Bovine animals; live,24196037.098,1
+2022,0103,Swine; live,3669709.556,2
+2022,0104,Sheep and goats; live,62327.875,1
+2022,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",9250092.448,1
+2022,0106,"Animals; live, n.e.c. in chapter 01",78396398.542,12
+2022,0201,Meat of bovine animals; fresh or chilled,1847187179.6829998,2
+2022,0202,Meat of bovine animals; frozen,1893229547.732,2
+2022,0203,"Meat of swine; fresh, chilled or frozen",4209627855.0509996,5
+2022,0204,"Meat of sheep or goats; fresh, chilled or frozen",237603275.30200002,8
+2022,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",44659390.368,1
+2022,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",1299224089.556,9
+2022,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1580102058.89,17
+2022,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",4200629.592,4
+2022,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",75565560.13399999,2
+2022,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",50264511.253000006,7
+2022,0301,Fish; live,407874657.93399996,2
+2022,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",250673581.329,17
+2022,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",3218155231.742,34
+2022,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3694654735.943,30
+2022,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before, or during the smoking process",211357133.23999998,19
+2022,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine",2275626325.395,15
+2022,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process",1234525838.599,21
+2022,0308,"Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process",274480989.371,6
+2022,0309,"Flours, meals and pellets of fish, crustaceans, molluscs and other aquatic invertebrates, fit for human consumption",2238944.127,2
+2022,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",587840.9909999999,2
+2022,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,95710977.36,4
+2022,0403,"Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa.",399313.61699999997,2
+2022,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",185016358.669,2
+2022,0405,Butter and other fats and oils derived from milk; dairy spreads,68241076.595,2
+2022,0406,Cheese and curd,1367206584.558,5
+2022,0407,"Birds' eggs, in shell; fresh, preserved or cooked",5048907.716,3
+2022,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",80170895.05399999,4
+2022,0409,Honey; natural,167669193.838,1
+2022,0410,"Animal products; insects and other edible products of animal origin, not elsewhere specified or included",1861691.658,2
+2022,0701,Potatoes; fresh or chilled,30675596.171,1
+2022,0702,Tomatoes; fresh or chilled,22748640.257,1
+2022,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",308308766.885,3
+2022,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",9609876.99,3
+2022,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,14797607.958,4
+2022,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",60280812.227,2
+2022,0707,Cucumbers and gherkins; fresh or chilled,148017.297,1
+2022,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",5292447.272,3
+2022,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",283748884.34999996,15
+2022,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,1100246560.5839999,8
+2022,0711,"Vegetables provisionally preserved, but unsuitable in that state for immediate consumption",67808256.802,5
+2022,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",358623088.725,7
+2022,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",225034907.913,11
+2022,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",96007833.26,5
+2022,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",95184300.731,6
+2022,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",507919772.47,13
+2022,0803,"Bananas, including plantains; fresh or dried",891284434.508,2
+2022,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",355021395.339,5
+2022,0805,Citrus fruit; fresh or dried,277377486.498,7
+2022,0806,Grapes; fresh or dried,193442006.027,2
+2022,0807,Melons (including watermelons) and papaws (papayas); fresh,22820679.296,3
+2022,0808,"Apples, pears and quinces; fresh",10754045.219999999,2
+2022,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",36692418.68,3
+2022,0810,"Fruit, fresh; n.e.c. in chapter 08",469661924.869,8
+2022,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",289223030.004,3
+2022,0812,"Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption",30192365.020999998,2
+2022,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",60762324.722,5
+2022,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",9971326.955,1
+2022,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",1774390487.5,5
+2022,0902,Tea,165266810.14200002,4
+2022,0903,Mate,189272.632,1
+2022,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,149334121.537,4
+2022,0905,Vanilla,12563454.772,2
+2022,0906,Cinnamon and cinnamon-tree flowers,11965514.779,3
+2022,0907,"Cloves (whole fruit, cloves and stems)",3387462.228,2
+2022,0908,"Nutmeg, mace and cardamoms",18451788.775,6
+2022,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",26403627.169999998,6
+2022,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",154234631.723,6
+2022,1001,Wheat and meslin,2507635940.048,3
+2022,1002,Rye,6108626.084,2
+2022,1003,Barley,439927726.00600004,2
+2022,1006,Rice,665536520.3410001,3
+2022,1007,Grain sorghum,102561362.958,2
+2022,1008,"Buckwheat, millet and canary seeds; other cereals",37049511.171000004,8
+2022,1101,Wheat or meslin flour,4659723.519,1
+2022,1102,Cereal flours; other than of wheat or meslin,2095132.213,2
+2022,1103,Cereal groats; meal and pellets,570160.1329999999,3
+2022,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",95804993.896,6
+2022,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",49367791.379999995,2
+2022,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",17814509.825,3
+2022,1107,Malt; whether or not roasted,282918728.15500003,2
+2022,1109,Wheat gluten; whether or not dried,53214263.885,1
+2022,1201,Soyabeans,2578712516.7139997,2
+2022,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",74300827.466,2
+2022,1205,Rape or colza seeds; whether or not broken,1952758182.049,2
+2022,1206,Sunflower seeds; whether or not broken,7127811.563,1
+2022,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",335493925.991,4
+2022,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,174002.45500000002,2
+2022,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",48012304.581,2
+2022,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",271673755.858,2
+2022,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",47626580.508,3
+2022,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",49332399.245,2
+2022,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",22202039.391,2
+2022,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1282322.27,2
+2022,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",295390615.095,4
+2022,1510,"Vegetable oils; oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",5330942.112,2
+2022,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",871601107.449,2
+2022,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",42975830.5,4
+2022,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",224931271.47,3
+2022,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",50485350.870000005,4
+2022,1515,"Fixed vegetable or microbial fats and oils n.e.c. in chapter 15 (including jojoba oil) and their fractions, whether or not refined, but not chemically modified",3963949.4469999997,2
+2022,1516,"Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",96965040.676,3
+2022,1517,"Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16",48395891.74,2
+2022,1601,"Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products",143004579.789,1
+2022,1602,"Prepared or preserved meat, meat offal, blood or insects",3325017081.2139997,9
+2022,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",28936704.724,1
+2022,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1698539752.243,12
+2022,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1462946725.828,18
+2022,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",597405460.506,5
+2022,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",211058573.898,8
+2022,1703,Molasses; resulting from the extraction or refining of sugar,36363706.819,1
+2022,1704,"Sugar confectionery (including white chocolate), not containing cocoa",171157562.433,2
+2022,1801,"Cocoa beans; whole or broken, raw or roasted",122364379.918,1
+2022,1803,Cocoa; paste; whether or not defatted,59677708.662999995,2
+2022,1804,"Cocoa; butter, fat and oil",99237186.793,1
+2022,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",88491187.314,1
+2022,1806,Chocolate and other food preparations containing cocoa,720812760.076,5
+2022,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",487894858.847,3
+2022,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",450307971.277,5
+2022,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",6037712.537,1
+2022,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",33423361.164,4
+2022,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",532120167.046,6
+2022,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",76716078.263,2
+2022,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,306890032.04499996,2
+2022,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",64909835.692,2
+2022,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",963129843.31,2
+2022,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",758532949.907,9
+2022,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",24859354.439,1
+2022,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",45259467.273,3
+2022,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",1022195900.7590001,13
+2022,2009,"Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",668519269.635,17
+2022,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",277644790.649,4
+2022,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",72984778.486,3
+2022,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",376640346.65699995,4
+2022,2104,Soups and broths and preparations therefor; homogenised composite food preparations,73026969.194,2
+2022,2105,Ice cream and other edible ice; whether or not containing cocoa,28023330.625,1
+2022,2106,Food preparations not elsewhere specified or included,1028350489.47,2
+2022,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",132751918.067,2
+2022,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading no. 2009",235664297.382,3
+2022,2203,Beer made from malt,73547417.6,1
+2022,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1868444893.966,5
+2022,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",8707141.822999999,2
+2022,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",79768250.591,1
+2022,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",743837533.506,7
+2022,2209,Vinegar and substitutes for vinegar obtained from acetic acid,11635076.658,1
+2022,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",55673796.67400001,4
+2022,2307,Wine lees; argol,1239226.605,1
+2022,2404,"Products containing tobacco, reconstituted tobacco, nicotine, or tobacco or nicotine substitutes, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",10151618.472,1
+2022,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",134074469.03999999,2
+2022,3507,Enzymes; prepared enzymes not elsewhere specified or included,888932.69,1
+2023,0101,"Horses, asses, mules and hinnies; live",80832907.959,1
+2023,0103,Swine; live,2644671.396,2
+2023,0104,Sheep and goats; live,377956.77,2
+2023,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",7599516.152,1
+2023,0106,"Animals; live, n.e.c. in chapter 01",129786692.63599999,11
+2023,0201,Meat of bovine animals; fresh or chilled,1568393576.743,2
+2023,0202,Meat of bovine animals; frozen,1360664344.051,2
+2023,0203,"Meat of swine; fresh, chilled or frozen",3939112214.0959997,5
+2023,0204,"Meat of sheep or goats; fresh, chilled or frozen",155697956.204,8
+2023,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",37150236.132,1
+2023,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",1208785832.713,9
+2023,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1428525395.6499999,16
+2023,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",29519031.517,5
+2023,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",120050256.471,2
+2023,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",53055100.234,6
+2023,0301,Fish; live,447570493.7,2
+2023,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",243890107.542,18
+2023,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",2729307806.164,35
+2023,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3282084829.274,30
+2023,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before, or during the smoking process",178990158.202,20
+2023,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine",1800159690.972,15
+2023,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process",1133502088.284,20
+2023,0308,"Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process",219836043.48,5
+2023,0309,"Flours, meals and pellets of fish, crustaceans, molluscs and other aquatic invertebrates, fit for human consumption",4425440.626999999,2
+2023,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",598424.9770000001,2
+2023,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,53192251.082,4
+2023,0403,"Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa.",362322.154,2
+2023,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",164625261.163,2
+2023,0405,Butter and other fats and oils derived from milk; dairy spreads,96804087.395,2
+2023,0406,Cheese and curd,1404928378.768,5
+2023,0407,"Birds' eggs, in shell; fresh, preserved or cooked",20723565.438,3
+2023,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",138507916.867,4
+2023,0409,Honey; natural,144701278.005,1
+2023,0410,"Animal products; insects and other edible products of animal origin, not elsewhere specified or included",5357893.886,2
+2023,0701,Potatoes; fresh or chilled,30222063.353,1
+2023,0702,Tomatoes; fresh or chilled,20551970.71,1
+2023,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",251749166.967,3
+2023,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",8995439.417,3
+2023,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,14827914.302,4
+2023,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",55539671.622,2
+2023,0707,Cucumbers and gherkins; fresh or chilled,89114.83,1
+2023,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",5763237.146,3
+2023,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",281435731.714,14
+2023,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,1057925608.9430001,8
+2023,0711,"Vegetables provisionally preserved, but unsuitable in that state for immediate consumption",64960835.374,5
+2023,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",352669731.701,7
+2023,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",218545149.475,11
+2023,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",94449184.018,5
+2023,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",99106954.367,5
+2023,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",400121144.06,14
+2023,0803,"Bananas, including plantains; fresh or dried",956421709.675,2
+2023,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",348078490.24799997,5
+2023,0805,Citrus fruit; fresh or dried,271728499.672,7
+2023,0806,Grapes; fresh or dried,178008213.972,2
+2023,0807,Melons (including watermelons) and papaws (papayas); fresh,23165079.195,3
+2023,0808,"Apples, pears and quinces; fresh",10103919.94,1
+2023,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",37079072.019,3
+2023,0810,"Fruit, fresh; n.e.c. in chapter 08",420870489.333,8
+2023,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",288400730.777,3
+2023,0812,"Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption",27651263.364,2
+2023,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",53821950.916,5
+2023,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",9487647.953,1
+2023,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",1555546745.421,5
+2023,0902,Tea,158854856.99199998,4
+2023,0903,Mate,312771.008,1
+2023,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,142545891.38300002,4
+2023,0905,Vanilla,10501812.135,2
+2023,0906,Cinnamon and cinnamon-tree flowers,11274089.952,3
+2023,0907,"Cloves (whole fruit, cloves and stems)",3304039.6520000002,2
+2023,0908,"Nutmeg, mace and cardamoms",11438034.249,6
+2023,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",26730205.554,6
+2023,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",157862457.479,6
+2023,1001,Wheat and meslin,1939063191.668,2
+2023,1002,Rye,6557561.28,2
+2023,1003,Barley,393544426.997,2
+2023,1006,Rice,743917255.948,3
+2023,1007,Grain sorghum,71606605.42999999,2
+2023,1008,"Buckwheat, millet and canary seeds; other cereals",57955861.295,8
+2023,1101,Wheat or meslin flour,4928107.97,1
+2023,1102,Cereal flours; other than of wheat or meslin,910934.674,2
+2023,1103,Cereal groats; meal and pellets,1661833.0769999998,3
+2023,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",74292006.793,6
+2023,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",72160896.187,2
+2023,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",17519693.237,3
+2023,1107,Malt; whether or not roasted,379969537.966,2
+2023,1109,Wheat gluten; whether or not dried,72030172.238,1
+2023,1201,Soyabeans,2216966315.809,2
+2023,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",56166131.383,2
+2023,1203,Copra,1698.796,1
+2023,1205,Rape or colza seeds; whether or not broken,1376107235.631,2
+2023,1206,Sunflower seeds; whether or not broken,11108206.835,1
+2023,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",367038309.684,4
+2023,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,146055.935,2
+2023,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",41060623.747,2
+2023,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",311008857.727,2
+2023,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",48548992.17699999,3
+2023,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",58668018.544,2
+2023,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",5873693.868,2
+2023,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1413898.034,2
+2023,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",327875270.056,3
+2023,1510,"Vegetable oils; oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",7527832.712,2
+2023,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",704712486.277,2
+2023,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",40894861.730000004,3
+2023,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",134555507.837,3
+2023,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",24793302.532,4
+2023,1515,"Fixed vegetable or microbial fats and oils n.e.c. in chapter 15 (including jojoba oil) and their fractions, whether or not refined, but not chemically modified",4495591.489,2
+2023,1516,"Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",72265954.601,3
+2023,1517,"Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16",54796298.077,2
+2023,1601,"Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products",132127763.64,1
+2023,1602,"Prepared or preserved meat, meat offal, blood or insects",3068517395.916,10
+2023,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",31328543.703,1
+2023,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1680468804.769,12
+2023,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1303307476.177,18
+2023,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",765249914.133,5
+2023,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",193798070.051,8
+2023,1703,Molasses; resulting from the extraction or refining of sugar,38031057.083000004,2
+2023,1704,"Sugar confectionery (including white chocolate), not containing cocoa",176494565.908,2
+2023,1801,"Cocoa beans; whole or broken, raw or roasted",130477641.882,1
+2023,1803,Cocoa; paste; whether or not defatted,68002987.795,2
+2023,1804,"Cocoa; butter, fat and oil",122254927.49,1
+2023,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",79760088.185,1
+2023,1806,Chocolate and other food preparations containing cocoa,643493477.385,5
+2023,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",438016376.964,2
+2023,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",452412591.823,5
+2023,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",5868351.501,1
+2023,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",30949682.277000003,4
+2023,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",490563132.955,6
+2023,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",66712304.345,2
+2023,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,403184880.75299996,2
+2023,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",64963074.624,2
+2023,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",1027290430.57,2
+2023,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",705079002.277,10
+2023,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",22235902.336,1
+2023,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",43298582.283,3
+2023,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",972803803.391,13
+2023,2009,"Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",733666821.225,17
+2023,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",262728052.218,4
+2023,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",71794528.825,3
+2023,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",355844116.36,4
+2023,2104,Soups and broths and preparations therefor; homogenised composite food preparations,74245853.529,2
+2023,2105,Ice cream and other edible ice; whether or not containing cocoa,28620076.53,1
+2023,2106,Food preparations not elsewhere specified or included,891139115.639,2
+2023,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",100966542.789,2
+2023,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading no. 2009",249893533.039,3
+2023,2203,Beer made from malt,69186830.167,1
+2023,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1779051857.492,5
+2023,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",8055054.359,2
+2023,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",76533037.087,1
+2023,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",797687361.359,7
+2023,2209,Vinegar and substitutes for vinegar obtained from acetic acid,11230522.702,1
+2023,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",58454081.54099999,4
+2023,2307,Wine lees; argol,1149753.392,1
+2023,2404,"Products containing tobacco, reconstituted tobacco, nicotine, or tobacco or nicotine substitutes, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",16350380.442,1
+2023,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",132446877.65799999,2
+2023,3507,Enzymes; prepared enzymes not elsewhere specified or included,795248.579,1
+2024,0101,"Horses, asses, mules and hinnies; live",86754656.141,1
+2024,0103,Swine; live,3710984.3499999996,2
+2024,0104,Sheep and goats; live,187386.482,1
+2024,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",9424620.440000001,3
+2024,0106,"Animals; live, n.e.c. in chapter 01",101141331.941,10
+2024,0201,Meat of bovine animals; fresh or chilled,1594039480.9229999,2
+2024,0202,Meat of bovine animals; frozen,1541859672.1829998,2
+2024,0203,"Meat of swine; fresh, chilled or frozen",4265333525.143,5
+2024,0204,"Meat of sheep or goats; fresh, chilled or frozen",172705375.12,8
+2024,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",35395333.82,1
+2024,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",1199453916.953,9
+2024,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1485096108.9120002,16
+2024,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",7072809.097,5
+2024,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",63780303.086,2
+2024,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",58797338.185,6
+2024,0301,Fish; live,413994275.454,3
+2024,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",206395824.919,16
+2024,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",2419776784.481,37
+2024,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3081717247.572,33
+2024,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before, or during the smoking process",130313074.709,20
+2024,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine",1882325022.023,15
+2024,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process",1092436620.856,20
+2024,0308,"Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process",173833538.99199998,7
+2024,0309,"Flours, meals and pellets of fish, crustaceans, molluscs and other aquatic invertebrates, fit for human consumption",2625571.075,2
+2024,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",646094.9029999999,2
+2024,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,92839094.695,4
+2024,0403,"Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa.",230071.01400000002,2
+2024,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",134967023.195,2
+2024,0405,Butter and other fats and oils derived from milk; dairy spreads,116466142.535,2
+2024,0406,Cheese and curd,1292874693.2719998,5
+2024,0407,"Birds' eggs, in shell; fresh, preserved or cooked",6916796.835000001,3
+2024,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",81264141.038,4
+2024,0409,Honey; natural,136822667.32,1
+2024,0410,"Animal products; insects and other edible products of animal origin, not elsewhere specified or included",4198140.316,2
+2024,0701,Potatoes; fresh or chilled,28763303.13,1
+2024,0702,Tomatoes; fresh or chilled,16824549.888,1
+2024,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",273673861.462,3
+2024,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",13536618.731999999,3
+2024,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,12869733.205,4
+2024,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",70667674.616,2
+2024,0707,Cucumbers and gherkins; fresh or chilled,27390.508,1
+2024,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",4168087.393,3
+2024,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",244902914.624,14
+2024,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,1076573843.7810001,8
+2024,0711,"Vegetables provisionally preserved, but unsuitable in that state for immediate consumption",58910328.983,5
+2024,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",353898213.646,7
+2024,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",200010493.778,11
+2024,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",92274292.651,5
+2024,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",91053869.14600001,5
+2024,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",385727278.279,15
+2024,0803,"Bananas, including plantains; fresh or dried",974175389.2850001,2
+2024,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",331758795.404,5
+2024,0805,Citrus fruit; fresh or dried,270123005.217,7
+2024,0806,Grapes; fresh or dried,185088355.35500002,2
+2024,0807,Melons (including watermelons) and papaws (papayas); fresh,22172463.905,3
+2024,0808,"Apples, pears and quinces; fresh",17468742.122,1
+2024,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",43301274.158,3
+2024,0810,"Fruit, fresh; n.e.c. in chapter 08",476681719.753,7
+2024,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",276163649.349,3
+2024,0812,"Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption",28563939.081,2
+2024,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",53821343.129999995,5
+2024,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",9040386.981,1
+2024,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",1714414412.725,5
+2024,0902,Tea,161157739.299,4
+2024,0903,Mate,157478.902,1
+2024,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,151710200.946,4
+2024,0905,Vanilla,7086233.484999999,2
+2024,0906,Cinnamon and cinnamon-tree flowers,10947938.297,3
+2024,0907,"Cloves (whole fruit, cloves and stems)",2724952.505,2
+2024,0908,"Nutmeg, mace and cardamoms",13676630.075,6
+2024,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",28299170.781,6
+2024,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",151503364.958,6
+2024,1001,Wheat and meslin,1695514889.85,3
+2024,1002,Rye,5059025.421,2
+2024,1003,Barley,343608803.66599995,2
+2024,1006,Rice,626734973.3679999,3
+2024,1007,Grain sorghum,40117765.182000004,2
+2024,1008,"Buckwheat, millet and canary seeds; other cereals",44865420.124000005,8
+2024,1101,Wheat or meslin flour,4587117.234,1
+2024,1102,Cereal flours; other than of wheat or meslin,1056536.307,2
+2024,1103,Cereal groats; meal and pellets,534775.546,3
+2024,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",61023262.861,6
+2024,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",52575108.069000006,2
+2024,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",14643450.247000001,3
+2024,1107,Malt; whether or not roasted,346018197.176,2
+2024,1109,Wheat gluten; whether or not dried,46379878.678,1
+2024,1201,Soyabeans,1900054687.4659998,2
+2024,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",62800712.569,2
+2024,1205,Rape or colza seeds; whether or not broken,1127542134.567,2
+2024,1206,Sunflower seeds; whether or not broken,10612956.222,1
+2024,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",413458304.134,4
+2024,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,176360.251,2
+2024,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",49666290.341,2
+2024,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",333107133.768,2
+2024,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",34494281.254999995,3
+2024,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",43738815.383999996,2
+2024,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",3452115.646,2
+2024,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1257974.793,2
+2024,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",460135831.612,4
+2024,1510,"Vegetable oils; oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",12717328.087000001,2
+2024,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",652884352.665,2
+2024,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",26336250.472,4
+2024,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",153540872.539,3
+2024,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",14661168.853,4
+2024,1515,"Fixed vegetable or microbial fats and oils n.e.c. in chapter 15 (including jojoba oil) and their fractions, whether or not refined, but not chemically modified",5319043.655,2
+2024,1516,"Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",64334772.580000006,3
+2024,1517,"Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16",73832606.141,2
+2024,1601,"Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products",131592996.262,1
+2024,1602,"Prepared or preserved meat, meat offal, blood or insects",3075885837.585,10
+2024,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",29263269.08,1
+2024,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1649649293.388,12
+2024,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1205610313.395,17
+2024,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",740140963.309,5
+2024,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",168422354.621,8
+2024,1703,Molasses; resulting from the extraction or refining of sugar,37057031.217,1
+2024,1704,"Sugar confectionery (including white chocolate), not containing cocoa",159014693.04099998,2
+2024,1801,"Cocoa beans; whole or broken, raw or roasted",214963795.011,1
+2024,1803,Cocoa; paste; whether or not defatted,179224983.17,2
+2024,1804,"Cocoa; butter, fat and oil",320877529.805,1
+2024,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",113703103.615,1
+2024,1806,Chocolate and other food preparations containing cocoa,681729510.205,5
+2024,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",452911938.695,3
+2024,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",464525091.07900006,5
+2024,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",5315713.984,1
+2024,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",32001124.06,4
+2024,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",549307306.957,6
+2024,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",66112017.486,2
+2024,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,450763105.15199995,2
+2024,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",59738175.032000005,2
+2024,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",1035982664.133,2
+2024,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",691202701.559,9
+2024,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",21618166.18,1
+2024,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",34971263.227,3
+2024,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",1012379809.26,13
+2024,2009,"Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",824839157.848,17
+2024,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",280590380.826,4
+2024,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",75873905.847,3
+2024,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",375751134.843,4
+2024,2104,Soups and broths and preparations therefor; homogenised composite food preparations,68752591.90100001,2
+2024,2105,Ice cream and other edible ice; whether or not containing cocoa,31208232.949,1
+2024,2106,Food preparations not elsewhere specified or included,856656132.605,2
+2024,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",85459559.48,2
+2024,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading no. 2009",218316179.084,3
+2024,2203,Beer made from malt,67495508.984,1
+2024,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1644449477.0570002,5
+2024,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",7628514.0030000005,2
+2024,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",70375284.581,1
+2024,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",791196433.334,7
+2024,2209,Vinegar and substitutes for vinegar obtained from acetic acid,12868768.658,1
+2024,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",34724134.255,4
+2024,2307,Wine lees; argol,1154953.188,1
+2024,2404,"Products containing tobacco, reconstituted tobacco, nicotine, or tobacco or nicotine substitutes, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",11942023.454,1
+2024,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",69211709.92300001,2
+2024,3507,Enzymes; prepared enzymes not elsewhere specified or included,801089.764,1
+2025,0101,"Horses, asses, mules and hinnies; live",110314243.899,1
+2025,0103,Swine; live,2556047.167,2
+2025,0104,Sheep and goats; live,67783.0,1
+2025,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",10965154.149,2
+2025,0106,"Animals; live, n.e.c. in chapter 01",85098853.44,11
+2025,0201,Meat of bovine animals; fresh or chilled,1444249311.12,2
+2025,0202,Meat of bovine animals; frozen,1672863112.756,3
+2025,0203,"Meat of swine; fresh, chilled or frozen",4150363272.5,5
+2025,0204,"Meat of sheep or goats; fresh, chilled or frozen",200491834.984,8
+2025,0205,"Meat; of horses, asses, mules or hinnies, fresh, chilled or frozen",36411910.7,1
+2025,0206,"Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies; fresh, chilled or frozen",1138304474.315,9
+2025,0207,"Meat and edible offal of poultry; of the poultry of heading no. 0105, (i.e. fowls of the species Gallus domesticus), fresh, chilled or frozen",1442553510.554,14
+2025,0208,"Meat and edible meat offal, n.e.c. in chapter 2; fresh, chilled or frozen",4159728.159,5
+2025,0209,"Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",73361780.548,2
+2025,0210,"Meat and edible meat offal; salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",58322616.241,6
+2025,0301,Fish; live,285844094.61300004,2
+2025,0302,"Fish; fresh or chilled, excluding fish fillets and other fish meat of heading 0304",214229902.645,19
+2025,0303,"Fish; frozen, excluding fish fillets and other fish meat of heading 0304",2903047833.486,35
+2025,0304,"Fish fillets and other fish meat (whether or not minced); fresh, chilled or frozen",3335556209.656,30
+2025,0305,"Fish, dried, salted or in brine; smoked fish, whether or not cooked before, or during the smoking process",145850176.136,19
+2025,0306,"Crustaceans; in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked, cooked or not before or during smoking; in shell, steamed or boiled, whether or not chilled, frozen, dried, salted or in brine",1887408400.6369998,15
+2025,0307,"Molluscs; whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs, whether in shell or not, whether or not cooked before or during the smoking process",1078127209.368,20
+2025,0308,"Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs, whether or not cooked before or during the smoking process",205345308.126,5
+2025,0309,"Flours, meals and pellets of fish, crustaceans, molluscs and other aquatic invertebrates, fit for human consumption",3972952.831,2
+2025,0401,"Milk and cream; not concentrated, not containing added sugar or other sweetening matter",1210128.8420000002,2
+2025,0402,Milk and cream; concentrated or containing added sugar or other sweetening matter,109287950.146,5
+2025,0403,"Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa.",411576.716,2
+2025,0404,"Whey and products consisting of natural milk constituents; whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",167748035.94099998,2
+2025,0405,Butter and other fats and oils derived from milk; dairy spreads,119611415.235,2
+2025,0406,Cheese and curd,1347443117.2059999,5
+2025,0407,"Birds' eggs, in shell; fresh, preserved or cooked",18955966.506,3
+2025,0408,"Birds' eggs, not in shell; egg yolks, fresh, dried, cooked by steaming or boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",97889083.818,4
+2025,0409,Honey; natural,150561309.307,1
+2025,0410,"Animal products; insects and other edible products of animal origin, not elsewhere specified or included",6537518.618,2
+2025,0701,Potatoes; fresh or chilled,39004611.491,1
+2025,0702,Tomatoes; fresh or chilled,16585201.98,1
+2025,0703,"Onions, shallots, garlic, leeks and other alliaceous vegetables; fresh or chilled",272886987.819,3
+2025,0704,"Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas; fresh or chilled",42664486.084,3
+2025,0705,Lettuce (lactuca sativa) and chicory (cichorium spp.) fresh or chilled,14282202.778,4
+2025,0706,"Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots; fresh or chilled",79787977.101,2
+2025,0707,Cucumbers and gherkins; fresh or chilled,12785.618,1
+2025,0708,"Leguminous vegetables; shelled or unshelled, fresh or chilled",3452317.689,3
+2025,0709,"Vegetables; n.e.c. in chapter 07, fresh or chilled",237656993.556,14
+2025,0710,Vegetables (uncooked or cooked by steaming or boiling in water); frozen,1103970405.204,8
+2025,0711,"Vegetables provisionally preserved, but unsuitable in that state for immediate consumption",58026551.91499999,5
+2025,0712,"Vegetables, dried; whole, cut, sliced, broken or in powder, but not further prepared",343412518.43799996,7
+2025,0713,"Vegetables, leguminous; shelled, whether or not skinned or split, dried",192423207.683,11
+2025,0714,"Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content; fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",84735765.848,6
+2025,0801,"Nuts, edible; coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",118891031.958,5
+2025,0802,"Nuts (excluding coconuts, Brazils and cashew nuts); fresh or dried, whether or not shelled or peeled",514492158.139,14
+2025,0803,"Bananas, including plantains; fresh or dried",1023109123.561,2
+2025,0804,"Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens; fresh or dried",350712430.913,5
+2025,0805,Citrus fruit; fresh or dried,294168939.788,7
+2025,0806,Grapes; fresh or dried,208898367.93800002,2
+2025,0807,Melons (including watermelons) and papaws (papayas); fresh,23018037.86,3
+2025,0808,"Apples, pears and quinces; fresh",31305847.309,1
+2025,0809,"Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",46539376.213,3
+2025,0810,"Fruit, fresh; n.e.c. in chapter 08",504362085.509,8
+2025,0811,"Fruit and nuts; uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",340994273.565,3
+2025,0812,"Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption",31693711.474,2
+2025,0813,"Fruit, dried, other than that of heading no. 0801 to 0806; mixtures of nuts or dried fruits of this chapter",57335706.516,5
+2025,0814,"Peel of citrus fruit or melons (including watermelons); fresh, frozen dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",10671684.382,1
+2025,0901,"Coffee, whether or not roasted or decaffeinated; husks and skins; coffee substitutes containing coffee in any proportion",2554507507.348,5
+2025,0902,Tea,175670965.13599998,4
+2025,0903,Mate,174839.175,1
+2025,0904,Pepper of the genus piper; dried or crushed or ground fruits of the genus capsicum or of the genus pimenta,172431925.371,4
+2025,0905,Vanilla,5642181.248,2
+2025,0906,Cinnamon and cinnamon-tree flowers,11689003.415000001,3
+2025,0907,"Cloves (whole fruit, cloves and stems)",3607051.843,2
+2025,0908,"Nutmeg, mace and cardamoms",19045380.979,6
+2025,0909,"Seeds of anise, badian, fennel, coriander, cumin, caraway or juniper",21140529.609,6
+2025,0910,"Ginger, saffron, tumeric (curcuma), thyme, bay leaves, curry and other spices",168519285.819,6
+2025,1001,Wheat and meslin,1606916610.563,3
+2025,1002,Rye,4818259.2639999995,2
+2025,1003,Barley,319336583.01100004,2
+2025,1006,Rice,669168662.4509999,3
+2025,1007,Grain sorghum,18890909.847,2
+2025,1008,"Buckwheat, millet and canary seeds; other cereals",30731068.942,8
+2025,1101,Wheat or meslin flour,5051316.96,1
+2025,1102,Cereal flours; other than of wheat or meslin,1433301.521,2
+2025,1103,Cereal groats; meal and pellets,1215873.486,3
+2025,1104,"Cereal grains otherwise worked (e.g. hulled, rolled, flaked, pearled, sliced or kibbled) except rice of heading no. 1006; germ of cereals whole, rolled, flaked or ground",56206912.227000006,6
+2025,1105,"Flour, meal, powder, flakes, granules and pellets of potatoes",55875983.294,2
+2025,1106,"Flour, meal and powder; of the dried leguminous vegetables of heading no. 0713, of sago or of roots or tubers of heading no. 0714 or of the products of chapter 8",20278266.647,3
+2025,1107,Malt; whether or not roasted,327773074.245,2
+2025,1109,Wheat gluten; whether or not dried,47784633.062,1
+2025,1201,Soyabeans,1785791956.853,2
+2025,1202,"Ground-nuts; not roasted or otherwise cooked, whether or not shelled or broken",53798898.189,1
+2025,1205,Rape or colza seeds; whether or not broken,1177681637.2480001,2
+2025,1206,Sunflower seeds; whether or not broken,14583314.544,1
+2025,1207,"Oil seeds and oleaginous fruits, n.e.c. in chapter 12; whether or not broken",345018724.237,4
+2025,1208,Flours and meals of oil seeds or oleaginous fruits; other than those of mustard,279026.898,2
+2025,1210,"Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",59197655.738,2
+2025,1211,"Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",339333621.953,2
+2025,1212,"Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",22652384.912,3
+2025,1504,"Fats and oils and their fractions of fish or marine mammals; whether or not refined, but not chemically modified",36989497.711,2
+2025,1507,"Soya-bean oil and its fractions; whether or not refined, but not chemically modified",2614940.109,2
+2025,1508,"Ground nut oil and its fractions; whether or not refined, but not chemically modified",1315990.391,2
+2025,1509,"Olive oil and its fractions; whether or not refined, but not chemically modified",293628437.107,4
+2025,1510,"Vegetable oils; oils and their fractions n.e.c. in chapter 15, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading no. 1509",7136097.308999999,2
+2025,1511,"Palm oil and its fractions; whether or not refined, but not chemically modified",746564827.861,1
+2025,1512,"Sun-flower seed, safflower or cotton-seed oil and their fractions; whether or not refined, but not chemically modified",34318021.676,4
+2025,1513,"Coconut (copra), palm kernel or babassu oil and their fractions; whether or not refined but not chemically modified",252477050.806,4
+2025,1514,"Rape, colza or mustard oil and their fractions; whether or not refined, but not chemically modified",29316323.968,4
+2025,1515,"Fixed vegetable or microbial fats and oils n.e.c. in chapter 15 (including jojoba oil) and their fractions, whether or not refined, but not chemically modified",6524282.307,3
+2025,1516,"Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",78945655.318,3
+2025,1517,"Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16",59152364.088,2
+2025,1601,"Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products",141488760.937,1
+2025,1602,"Prepared or preserved meat, meat offal, blood or insects",3179765827.558,10
+2025,1603,"Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",28437868.064,1
+2025,1604,Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs,1696215403.752,12
+2025,1605,"Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",1303279361.943,17
+2025,1701,"Cane or beet sugar and chemically pure sucrose, in solid form",617867529.5709999,5
+2025,1702,"Sugars, including lactose, maltose, glucose or fructose in solid form; sugar syrups without added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",191469400.615,8
+2025,1703,Molasses; resulting from the extraction or refining of sugar,26704047.21,1
+2025,1704,"Sugar confectionery (including white chocolate), not containing cocoa",182936664.42,2
+2025,1801,"Cocoa beans; whole or broken, raw or roasted",557502026.202,1
+2025,1803,Cocoa; paste; whether or not defatted,235632597.698,2
+2025,1804,"Cocoa; butter, fat and oil",392917619.467,1
+2025,1805,"Cocoa; powder, not containing added sugar or other sweetening matter",202360266.063,1
+2025,1806,Chocolate and other food preparations containing cocoa,780284854.2,5
+2025,1901,"Malt extract; flour/groats/meal/starch/malt extract products, no cocoa (or less than 40% by weight) and food preparations of goods of headings 04.01 to 04.04, no cocoa (or less than 5% by weight), weights calculated on a totally defatted basis, n.e.c.",486344550.854,3
+2025,1902,"Pasta; whether or not cooked or stuffed with meat or other substance, or otherwise prepared, egg spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",501920664.843,5
+2025,1903,"Tapioca and substitutes therefor prepared from starch; in the form of flakes, grains, pearls, siftings or similar forms",5511463.514,1
+2025,1904,"Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",35269815.525,4
+2025,1905,"Bread, pastry, cakes, biscuits, other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets suitable for pharmaceutical use, sealing wafers, rice paper and similar products",592809810.1869999,6
+2025,2001,"Vegetables, fruit, nuts and other edible parts of plants; prepared or preserved by vinegar or acetic acid",64290801.656,2
+2025,2002,Tomatoes; prepared or preserved otherwise than by vinegar or acetic acid,378810941.599,2
+2025,2003,"Mushrooms and truffles, prepared or preserved other than by vinegar or acetic acid",59839669.792,2
+2025,2004,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading no. 2006",1064740945.914,2
+2025,2005,"Vegetables preparations n.e.c.; prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading no. 2006",680256074.275,9
+2025,2006,"Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",21130676.468,1
+2025,2007,"Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, being cooked preparations; whether or not containing added sugar or other sweetening matter",35728815.297,3
+2025,2008,"Fruit, nuts and other edible parts of plants; prepared or preserved in ways n.e.c., whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",1094253375.96,13
+2025,2009,"Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented, not containing added spirit, whether or not containing added sugar or other sweetening matter",770353700.4629999,17
+2025,2101,"Extracts, essences, concentrates of coffee, tea or mate; preparations with a basis of these products or with a basis of coffee, tea or mate; roasted chicory and other roasted coffee substitutes and extracts, essences and concentrates thereof",404939007.338,4
+2025,2102,"Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading no. 3002); prepared baking powders",69189669.868,3
+2025,2103,"Sauces and preparations therefor; mixed condiments and mixed seasonings, mustard flour and meal and prepared mustard",382820557.242,4
+2025,2104,Soups and broths and preparations therefor; homogenised composite food preparations,77878030.345,2
+2025,2105,Ice cream and other edible ice; whether or not containing cocoa,44236981.289,1
+2025,2106,Food preparations not elsewhere specified or included,896106516.2800001,2
+2025,2201,"Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",80079552.61299999,2
+2025,2202,"Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading no. 2009",210519401.789,3
+2025,2203,Beer made from malt,66571581.68,1
+2025,2204,"Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009",1689794753.922,5
+2025,2205,"Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances",6926943.226,2
+2025,2206,"Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake)",68922032.057,1
+2025,2208,"Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages",781066444.648,7
+2025,2209,Vinegar and substitutes for vinegar obtained from acetic acid,13917329.141,1
+2025,2302,"Bran, sharps and other residues; whether or not in the form of pellets derived from the sifting, milling or other working of cereals or of leguminous plants",26881912.913000003,4
+2025,2307,Wine lees; argol,2048005.328,1
+2025,2404,"Products containing tobacco, reconstituted tobacco, nicotine, or tobacco or nicotine substitutes, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",14534337.744,1
+2025,3502,"Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives",59753993.466,2
+2025,3507,Enzymes; prepared enzymes not elsewhere specified or included,753257.545,1

@@ -1,0 +1,29 @@
+{
+  "importer": "Japan",
+  "origin": "World",
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "units": "Current USD",
+  "definition": "HS6 products selected by official version-specific BEC4 conversion tables, categories starting with 1",
+  "revisions": {
+    "2016": "HS2012 H4",
+    "2017–2021": "HS2017 H5",
+    "2022–2025": "HS2022 H6"
+  },
+  "supplemental": "HS230400 soy oilcake/residues outside BEC food, shown separately and excluded from food totals",
+  "flags": "Sowing seeds, possible feed/industrial residues, oral nicotine products and live animals are identified, not silently called consumed food",
+  "missing": "Codes not returned are listed, not replaced by invented zero values",
+  "coverage": "HS conversion and reported BEC aggregate may differ; actual reconciliation is exported without rescaling",
+  "products_returned": 6801,
+  "latest_heading_count": 154
+}

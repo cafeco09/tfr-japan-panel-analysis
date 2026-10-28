@@ -1,0 +1,205 @@
+year,hs2,food_group,import_value_current_usd
+2016,01,Live animals,142236718.0
+2016,02,Meat and edible offal,9116191217.0
+2016,03,Fish and seafood,10779777951.0
+2016,04,"Dairy, eggs and honey",1434809021.0
+2016,07,Vegetables and roots,2468594763.0
+2016,08,Fruit and nuts,3160395565.0
+2016,09,"Coffee, tea and spices",1918989233.0
+2016,10,Cereals,2238708854.0
+2016,11,Milling products and starches,432355709.0
+2016,12,Oilseeds and related products,3175936546.0
+2016,15,Fats and oils,1122918861.0
+2016,16,Prepared meat and seafood,5618382886.0
+2016,17,Sugar and confectionery,860909488.0
+2016,18,Cocoa and cocoa products,1035951363.0
+2016,19,"Cereal, flour and bakery preparations",1116448797.0
+2016,20,Prepared vegetables and fruit,3147033568.0
+2016,21,Miscellaneous food preparations,1607972132.0
+2016,22,Beverages and vinegar,2876568469.0
+2016,23,Food-industry residues,24697402.0
+2016,35,Albumins and enzymes,72108774.0
+2017,01,Live animals,169355195.532
+2017,02,Meat and edible offal,10083627862.933
+2017,03,Fish and seafood,11703498054.073
+2017,04,"Dairy, eggs and honey",1689270578.986
+2017,07,Vegetables and roots,2495498538.645
+2017,08,Fruit and nuts,3152471330.854
+2017,09,"Coffee, tea and spices",1947015566.817
+2017,10,Cereals,2310417484.742
+2017,11,Milling products and starches,422243443.46500003
+2017,12,Oilseeds and related products,3384299072.298
+2017,15,Fats and oils,1252539190.852
+2017,16,Prepared meat and seafood,6174083716.325
+2017,17,Sugar and confectionery,838683734.7099999
+2017,18,Cocoa and cocoa products,1013286703.789
+2017,19,"Cereal, flour and bakery preparations",1220387031.124
+2017,20,Prepared vegetables and fruit,3315109782.726
+2017,21,Miscellaneous food preparations,1710211996.1729999
+2017,22,Beverages and vinegar,2951020346.914
+2017,23,Food-industry residues,27083287.551
+2017,35,Albumins and enzymes,64135579.894
+2018,01,Live animals,187300567.305
+2018,02,Meat and edible offal,10398069853.885
+2018,03,Fish and seafood,11865694696.887001
+2018,04,"Dairy, eggs and honey",1849752356.5140002
+2018,07,Vegetables and roots,2580605320.534
+2018,08,Fruit and nuts,3430301419.983
+2018,09,"Coffee, tea and spices",1775343055.972
+2018,10,Cereals,2644665057.0179996
+2018,11,Milling products and starches,424908992.813
+2018,12,Oilseeds and related products,3377132770.829
+2018,15,Fats and oils,1241569086.038
+2018,16,Prepared meat and seafood,6582599214.413
+2018,17,Sugar and confectionery,700705136.257
+2018,18,Cocoa and cocoa products,1016727665.5220001
+2018,19,"Cereal, flour and bakery preparations",1235072490.148
+2018,20,Prepared vegetables and fruit,3534634578.922
+2018,21,Miscellaneous food preparations,1740508696.849
+2018,22,Beverages and vinegar,3038463514.014
+2018,23,Food-industry residues,27980259.389
+2018,35,Albumins and enzymes,72246121.76699999
+2019,01,Live animals,187917383.936
+2019,02,Meat and edible offal,10841626401.526001
+2019,03,Fish and seafood,11526100287.249
+2019,04,"Dairy, eggs and honey",1919955754.753
+2019,07,Vegetables and roots,2470547739.844
+2019,08,Fruit and nuts,3468310519.8900003
+2019,09,"Coffee, tea and spices",1754333929.658
+2019,10,Cereals,2431492522.052
+2019,11,Milling products and starches,427433599.83799994
+2019,12,Oilseeds and related products,3328711705.794
+2019,15,Fats and oils,1189310728.793
+2019,16,Prepared meat and seafood,6605749792.6119995
+2019,17,Sugar and confectionery,708880948.52
+2019,18,Cocoa and cocoa products,1002128463.0839999
+2019,19,"Cereal, flour and bakery preparations",1306834161.726
+2019,20,Prepared vegetables and fruit,3533641053.959
+2019,21,Miscellaneous food preparations,1673352056.0300002
+2019,22,Beverages and vinegar,3212589437.746
+2019,23,Food-industry residues,30865020.930000003
+2019,35,Albumins and enzymes,64426934.045
+2020,01,Live animals,147088330.366
+2020,02,Meat and edible offal,10281067678.487
+2020,03,Fish and seafood,9931694133.752
+2020,04,"Dairy, eggs and honey",1859395172.795
+2020,07,Vegetables and roots,2317019990.481
+2020,08,Fruit and nuts,3527113759.15
+2020,09,"Coffee, tea and spices",1648105031.196
+2020,10,Cereals,2457188911.7130003
+2020,11,Milling products and starches,408823993.96000004
+2020,12,Oilseeds and related products,3238283014.098
+2020,15,Fats and oils,1172198465.68
+2020,16,Prepared meat and seafood,6100721010.83
+2020,17,Sugar and confectionery,700542018.48
+2020,18,Cocoa and cocoa products,947085822.4219999
+2020,19,"Cereal, flour and bakery preparations",1372493111.079
+2020,20,Prepared vegetables and fruit,3552689532.877
+2020,21,Miscellaneous food preparations,1640412363.227
+2020,22,Beverages and vinegar,2810184048.475
+2020,23,Food-industry residues,35239415.762
+2020,35,Albumins and enzymes,60122043.094
+2021,01,Live animals,194805212.657
+2021,02,Meat and edible offal,10982183568.113
+2021,03,Fish and seafood,10843830065.984001
+2021,04,"Dairy, eggs and honey",1819023551.483
+2021,07,Vegetables and roots,2420481582.131
+2021,08,Fruit and nuts,3565623899.6349998
+2021,09,"Coffee, tea and spices",1836720833.473
+2021,10,Cereals,2766742192.414
+2021,11,Milling products and starches,403076980.374
+2021,12,Oilseeds and related products,4347112567.728001
+2021,15,Fats and oils,1391631332.681
+2021,16,Prepared meat and seafood,6205560871.523001
+2021,17,Sugar and confectionery,869045931.005
+2021,18,Cocoa and cocoa products,1036339268.7240001
+2021,19,"Cereal, flour and bakery preparations",1421697473.6629999
+2021,20,Prepared vegetables and fruit,3627572600.4049997
+2021,21,Miscellaneous food preparations,1730771528.418
+2021,22,Beverages and vinegar,2912867791.241
+2021,23,Food-industry residues,40745327.774000004
+2021,35,Albumins and enzymes,69097925.084
+2022,01,Live animals,212930486.233
+2022,02,Meat and edible offal,11241664097.561
+2022,03,Fish and seafood,11569587437.68
+2022,04,"Dairy, eggs and honey",1971912840.056
+2022,07,Vegetables and roots,2583331296.691
+2022,08,Fruit and nuts,3250307510.34
+2022,09,"Coffee, tea and spices",2316187171.258
+2022,10,Cereals,3758819686.608
+2022,11,Milling products and starches,506445303.006
+2022,12,Oilseeds and related products,5315879907.184999
+2022,15,Fats and oils,1712856760.265
+2022,16,Prepared meat and seafood,6658444843.797999
+2022,17,Sugar and confectionery,1015985303.656
+2022,18,Cocoa and cocoa products,1090583222.764
+2022,19,"Cereal, flour and bakery preparations",1509784070.871
+2022,20,Prepared vegetables and fruit,3931012731.323
+2022,21,Miscellaneous food preparations,1856670705.0809999
+2022,22,Beverages and vinegar,3154356529.593
+2022,23,Food-industry residues,56913023.27900001
+2022,24,Oral nicotine products (classification flag),10151618.472
+2022,35,Albumins and enzymes,134963401.73
+2023,01,Live animals,221241744.91300002
+2023,02,Meat and edible offal,9900953943.810999
+2023,03,Fish and seafood,10039766658.245
+2023,04,"Dairy, eggs and honey",2029801379.735
+2023,07,Vegetables and roots,2457724819.572
+2023,08,Fruit and nuts,3124045165.491
+2023,09,"Coffee, tea and spices",2078370903.825
+2023,10,Cereals,3212644902.618
+2023,11,Milling products and starches,623473182.142
+2023,12,Oilseeds and related products,4428152427.724
+2023,15,Fats and oils,1437872715.757
+2023,16,Prepared meat and seafood,6215749984.205
+2023,17,Sugar and confectionery,1173573607.175
+2023,18,Cocoa and cocoa products,1043989122.737
+2023,19,"Cereal, flour and bakery preparations",1417810135.52
+2023,20,Prepared vegetables and fruit,4039234801.804
+2023,21,Miscellaneous food preparations,1684371743.101
+2023,22,Beverages and vinegar,3092604738.994
+2023,23,Food-industry residues,59603834.933
+2023,24,Oral nicotine products (classification flag),16350380.442
+2023,35,Albumins and enzymes,133242126.237
+2024,01,Live animals,201218979.354
+2024,02,Meat and edible offal,10423533863.422
+2024,03,Fish and seafood,9403417960.081
+2024,04,"Dairy, eggs and honey",1867224865.123
+2024,07,Vegetables and roots,2447101306.397
+2024,08,Fruit and nuts,3165140211.165
+2024,09,"Coffee, tea and spices",2241678121.973
+2024,10,Cereals,2755900877.611
+2024,11,Milling products and starches,526818326.118
+2024,12,Oilseeds and related products,3931912860.573
+2024,15,Fats and oils,1512211132.427
+2024,16,Prepared meat and seafood,6092001709.71
+2024,17,Sugar and confectionery,1104635042.188
+2024,18,Cocoa and cocoa products,1510498921.806
+2024,19,"Cereal, flour and bakery preparations",1504061174.775
+2024,20,Prepared vegetables and fruit,4197607059.877
+2024,21,Miscellaneous food preparations,1688832378.9710002
+2024,22,Beverages and vinegar,2897789725.181
+2024,23,Food-industry residues,35879087.443
+2024,24,Oral nicotine products (classification flag),11942023.454
+2024,35,Albumins and enzymes,70012799.687
+2025,01,Live animals,209002081.655
+2025,02,Meat and edible offal,10221081551.877
+2025,03,Fish and seafood,10059382087.498
+2025,04,"Dairy, eggs and honey",2019656102.335
+2025,07,Vegetables and roots,2488902013.204
+2025,08,Fruit and nuts,3556192775.125
+2025,09,"Coffee, tea and spices",3132428669.943
+2025,10,Cereals,2649862094.078
+2025,11,Milling products and starches,515619361.442
+2025,12,Oilseeds and related products,3798337220.572
+2025,15,Fats and oils,1548983488.651
+2025,16,Prepared meat and seafood,6349187222.254001
+2025,17,Sugar and confectionery,1018977641.8159999
+2025,18,Cocoa and cocoa products,2168697363.63
+2025,19,"Cereal, flour and bakery preparations",1621856304.9229999
+2025,20,Prepared vegetables and fruit,4169405001.424
+2025,21,Miscellaneous food preparations,1875170762.362
+2025,22,Beverages and vinegar,2917798039.076
+2025,23,Food-industry residues,28929918.241
+2025,24,Oral nicotine products (classification flag),14534337.744
+2025,35,Albumins and enzymes,60507251.011

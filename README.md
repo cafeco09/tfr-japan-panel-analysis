@@ -76,6 +76,8 @@ The default runner validates cached World import snapshots and runs the aggregat
 
 ## Files and provenance
 
+The optional [named-food breakdown](output/food_names/README.md) separates the aggregate into 154 HS4 food headings for 2025 and retains HS6 product-year details for 2016–2025. Soyabeans, soyabean oil, soy flour/meal and soy sauce are explicit entries. Soyabean oilcake/residues are a separately flagged non-food reference, excluded from food totals. Scope flags identify broad-classification items such as seed for sowing and possible industrial/feed use. Run `python scripts/_16_named_food_imports.py` to reproduce the named data.
+
 - [External import series](data/external_food_imports_world_2016_2025.csv): ten annual World totals, source URLs, retrieval times and aggregation checks.
 - `data/external_food_sources/`: raw Comtrade responses.
 - [National TFR](data/national_tfr_2016_2025.csv): source workbook, sheet and cell references.

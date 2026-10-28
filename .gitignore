@@ -2,3 +2,4 @@
 __pycache__/
 output/*.log
 .DS_Store
+output/food_names/workbook_data.json
