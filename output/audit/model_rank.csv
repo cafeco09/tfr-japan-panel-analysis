@@ -1,0 +1,10 @@
+spec,n,columns,rank
+legacy_base,324,53,51
+legacy_China_interaction,324,55,53
+period_FE_identified_China_interaction,324,53,53
+annual_FE_base,324,55,55
+annual_FE_China_interaction,324,56,56
+annual_FE_USA_interaction,324,56,56
+annual_FE_both_interactions,324,57,57
+annual_FE_China_gardening_interaction,324,56,56
+annual_FE_China_interaction_context_trend,324,57,57

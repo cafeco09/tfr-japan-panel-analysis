@@ -1,0 +1,39 @@
+{
+  "core_n": 371,
+  "prefectures": 47,
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "period_rows": 423,
+  "eligible_period_rows": 324,
+  "recovered_period_years": {
+    "1": [
+      2017,
+      2018,
+      2019
+    ],
+    "2": [
+      2020,
+      2021
+    ],
+    "3": [
+      2022,
+      2023
+    ],
+    "4": [
+      2024,
+      2025
+    ]
+  },
+  "duplicate_prefecture_years": 0,
+  "tfr_2025_status": [
+    "Provisional; final prefectural rates scheduled November 2026"
+  ]
+}

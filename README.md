@@ -68,6 +68,8 @@ Generated tables and figures are tracked in Git. Temporary logs and Python envir
 
 ## Data and caveats
 
+An optional [model audit](output/audit/MODEL_AUDIT.md) reports annual-effect interaction models, rank checks, trends, first differences, lagged covariates and leave-one-out sensitivity. Run it with `python scripts/_07_diagnostics.py`. The original tables remain unchanged for comparison. The audit refines the rank-deficiency caveat: absorbed context main effects are unidentified, while some other coefficients in the same model can remain identifiable.
+
 The `data/` directory contains 11 CSV files. Included files provide prefecture-year data labelled 2016–2025, period-coded inputs, snapshot context measures, coverage information and source references. Source-file labels and provenance have not been independently audited in this execution exercise.
 
 - Core income models use the observed-income sample for 2016–2023. Five prefecture incomes are missing in 2023; income is unavailable for 2024–2025.
