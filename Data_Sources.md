@@ -106,3 +106,10 @@ Cite the original providers and the exact dataset/table/version used:
 - World Bank: WDI `SP.POP.TOTL`, JPN, and retained source vintage, only when using the historical population-based proxy.
 
 Also cite the repository URL and commit. Derived regressions, ANOVA, graphs and synthetic simulations are project outputs, not additional official datasets. Original provider terms continue to apply.
+
+
+## Physical crop volumes and matched values
+
+`data/crop_mass_components_2016_2025.csv` contains 90 UN Comtrade records: ten annual observations for maize (HS1005), rice (HS1006) and soybeans (HS1201), separately for World (partner 0), China (156) and USA (842), with Japan as importer (392). Source URLs, retrieval dates, HS revisions, net kilograms, current USD and estimated-mass flags are retained; raw responses are in `data/crop_mass_sources/`. The API request uses annual goods imports, partner2 0, customs C00 and transport mode 0. No price-based mass conversion or missing-weight zero-fill is applied.
+
+`data/crop_mass_annual_2016_2025.csv` derives product and combined-basket totals, retaining World separately from its country components. Population denominators preserve the existing dated-source-panel vintage and are verified by both countries’ total/per-resident identities. `data/crop_mass_legacy_reconciliation.csv` checks the refreshed country-basket masses against retained inputs; all 20 totals match. Some masses are source estimates, including components in five combined China/USA years and all World years. These are crop-trade volumes, potentially including feed uses, not all food, measured consumption or organic certification. The [historical volume report](output/historical_mass_analysis/HISTORICAL_MASS_RESULTS.md) describes the regressions and their limits.

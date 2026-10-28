@@ -1,0 +1,5 @@
+metric,model,MAE
+matched_value,basket,0.03615976216922018
+matched_value,trend_only,0.023696428571428563
+physical_mass,basket,0.026323916317815554
+physical_mass,trend_only,0.023696428571428563

@@ -1,0 +1,1 @@
+PASS: positive mass/values; full-rank designs; matched physical/value samples; 9 national observations, 7 primary year clusters; bootstrap covariance checks; separate primary multiple-testing families.

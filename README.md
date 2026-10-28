@@ -146,3 +146,14 @@ Code: [MIT](LICENSE). Data retain their original source terms. Cite the source r
 ## What-if scenarios
 
 [Organic food imports and domestic production, 2026–2050](what-if/organic-food/README.md) explores annual TFR under explicit organic-food assumptions, with general crop-import volume as a control and no fixed fertility target. Graphs, annual tables, source inputs and reproducible scripts are in [`what-if/`](what-if/README.md). Organic benefits are assumed, not estimated; the physical basket covers China/USA maize, rice and soybeans.
+
+
+## Historical analysis using physical food volumes
+
+The [physical-volume analysis](output/historical_mass_analysis/HISTORICAL_MASS_RESULTS.md) reruns historical regressions using **kg per resident per year**, with maize, rice and soybeans separately and as a combined China/USA basket. Matched dollar-value models use the same crops and population denominator; the broader all-origin food-dollar analysis below remains separate.
+
+National models use 2016–2024 (nine years) and give no clear negative volume association. The fully controlled balanced prefectural models use 329 rows over 2016–2022, with only seven annual import exposures. Basket and maize coefficients are positive, but their wild-cluster p-values are 0.219 and 0.203. A secondary 371-row extension through 2023 gives stronger **positive** basket/maize associations (unadjusted wild p = 0.0078/0.0156); the soybean coefficient changes sign. The sample and inference sensitivity prevents a stable negative-import conclusion or a causal interpretation.
+
+Actual Comtrade net weights, estimated-weight flags and source snapshots are retained. Historical organic status is unknown. These results are separate from the organic what-if assumptions. Run `python scripts/_32_crop_mass_data.py`, then `python scripts/_33_historical_mass_regressions.py`.
+
+![Historical physical-volume coefficients](output/historical_mass_analysis/physical_volume_coefficients.png)

@@ -1,0 +1,12 @@
+{
+  "primary": "China+USA maize HS1005, rice HS1006, soybeans HS1201; kg per resident per year",
+  "matched_values": "Same crop basket and population denominator, current USD per resident; not the previous broader food universe",
+  "national": "2016\u20132024, n=9; national published TFR; linear time trend; HC3 with t(df), HAC1 sensitivity",
+  "controls": "Prefecture indicators, common linear time trend, observed log income per resident, log capital-city eating-out spending proxy",
+  "panel": "329 balanced rows 2016\u20132022 with 7 year clusters; 371 complete cases through 2023 with 8 year clusters; no synthetic income",
+  "inference": "CR1 year-cluster t; restricted Rademacher wild-cluster bootstrap 128/256 signs; approximate diagnostic, not exact test; temporal dependence unresolved",
+  "multiple_testing": "Holm over four prespecified single-basket/crop primary tests, separately per metric; national HC3 and controlled wild p families",
+  "secondary": "Joint crop models, World/country models, level-per-10kg models, provisional 2025 sensitivity, leave-year-out and 4 heldout years",
+  "limitations": "National exposures repeated across prefectures; year FE absorb their main effects. Mass may include feed/processing. Organic status, pesticide exposure and local consumption unknown. Covariates do not establish causality.",
+  "organic_what_if": "Separate assumption-only exercise; no organic effect inferred or recalibrated from this analysis"
+}
