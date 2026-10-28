@@ -1,0 +1,24 @@
+{
+  "method": "Sum seven projected age-band contributions, each already a sum of single-age ASFRs; never multiply by five",
+  "historical_age_years": [
+    2006,
+    2025
+  ],
+  "primary_estimation_years": [
+    2016,
+    2024
+  ],
+  "future_years": [
+    2026,
+    2050
+  ],
+  "formula": "log(age_band_contribution)=intercept+year_trend*(year-2016)+beta*log(crop_kg_per_person)",
+  "future_rule": "2025 observed age contribution * exp(estimated trend*elapsed + estimated beta*log(future_mass/2025_mass))",
+  "target_tfr": null,
+  "target_used_in_estimation": false,
+  "physical_scope": "National China+USA maize/rice/soybean imports; not world food, organic certification or consumption; potential feed uses",
+  "organic_domestic_effect": "NOT_ESTIMABLE from available annual data",
+  "uncertainty": "1000 joint HC3 multivariate-t parameter draws, seed 20261028; preserves cross-age covariance; not predictive intervals; no future shock, origin or scenario uncertainty",
+  "caution": "Only nine national annual training observations per age model; same years reused, not independent prefectural exposures; 25-year extrapolation",
+  "reconstruction": "Published age contributions rounded to four decimals; sum 2025=1.1351 versus reported rounded TFR=1.14; no rescaling"
+}

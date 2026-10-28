@@ -141,3 +141,8 @@ Earlier country-specific, organic-interaction, prefectural and synthetic analyse
 ## Licence
 
 Code: [MIT](LICENSE). Data retain their original source terms. Cite the source references and repository commit used for any reported result.
+
+
+## What-if scenarios
+
+[Organic food imports and domestic production, 2026–2050](what-if/organic-food/README.md) explores annual TFR under explicit organic-food assumptions, with general crop-import volume as a control and no fixed fertility target. Graphs, annual tables, source inputs and reproducible scripts are in [`what-if/`](what-if/README.md). Organic benefits are assumed, not estimated; the physical basket covers China/USA maize, rice and soybeans.

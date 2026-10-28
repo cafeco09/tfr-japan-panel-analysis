@@ -1,0 +1,1 @@
+PASS: 300 annual scenario rows, 2100 supporting age rows, full 2026–2050 coverage; every organic import mass equals controlled import mass; zero-effect reproduces estimated background; all TFR totals reconcile; no fixed fertility target.

@@ -1,0 +1,1 @@
+PASS: 140 historical age records; historical sums match published TFR within rounding; all age fits full rank; joint covariance blocks reproduce HC3; 2100 future age rows sum exactly to 300 TFR rows; no fertility target used.
