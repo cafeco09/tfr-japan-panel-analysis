@@ -23,7 +23,7 @@ The source CSVs and existing exploratory model formulae were not changed.
 
 ## Interpretation limits
 
-The executed results do not reproduce the README's headline estimates. For example, the core two-way fixed-effects specification gives log-income about +0.206 (SE 0.085) and log-eating-out about -0.002 (SE 0.023), with 371 observations. The README claims consistently negative coefficients.
+The executed results do not reproduce the earlier README's headline estimates. For example, the core two-way fixed-effects specification gives log-income about +0.206 (SE 0.085) and log-eating-out about -0.002 (SE 0.023), with 371 observations. The updated README reports the executed coefficients and withdraws the earlier claim of consistently negative coefficients.
 
 The exploratory period models report rank-deficient design matrices. Their reported main-effect coefficients are not uniquely identified when absorbed by the fixed effects. Successful execution is not validation of those estimates or of the data provenance.
 

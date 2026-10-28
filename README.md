@@ -1,191 +1,95 @@
-# japan-tfr-determinants-2016-2025
+# Japan TFR panel analysis
 
-**Repository:** `https://github.com/<your-username>/japan-tfr-determinants-2016-2025`
+Panel analysis of prefecture-level total fertility rate (TFR), income per resident and eating-out expenditure, with exploratory import, organic-farming and gardening specifications.
 
-Panel analysis of prefecture-level total fertility rate (TFR) in Japan, 2016–2025. Estimates associations with income per resident and eating-out expenditure across pooled OLS, prefecture FE, and two-way FE specifications; includes exploratory import × organic-farming interactions and reproducibility scripts for tables, figures, and LaTeX/Word exports.
+**Repository:** https://github.com/cafeco09/tfr-japan-panel-analysis
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Reproducible](https://img.shields.io/badge/reproducible-run__all.py-success.svg)](run_all.py)
+## Reproduced results
 
----
+The repaired pipeline runs on the included CSV files. The earlier README claimed consistently negative income and eating-out associations; **the executed core models do not support that claim**. Coefficient signs and significance depend on the fixed effects used.
 
-## Abstract
+| Variable | OLS + year FE | Prefecture FE | Prefecture + year FE |
+|---|---:|---:|---:|
+| log(income) | −0.444 (0.113) | −1.128 (0.104) | +0.206 (0.085) |
+| log(eating out) | −0.026 (0.098) | +0.211 (0.025) | −0.002 (0.023) |
+| Observations | 371 | 371 | 371 |
+| R² | 0.404 | 0.838 | 0.978 |
 
-Using official prefecture-year data for Japan's 47 prefectures from 2016–2025, we estimate the association between the total fertility rate (TFR) and income per resident, eating-out expenditure, national crop imports, and prefecture-level organic-farming and gardening context. Across pooled OLS, prefecture fixed effects, two-way fixed effects, and specifications dropping five synthetic income values, both **log income** and **log eating-out** are robustly negatively associated with TFR (roughly **−0.12 to −0.15** and **−0.06 to −0.09** per log-point, respectively; cluster-robust *p* < 0.05), and the eating-out association survives into 2024–2025 where income is unavailable. National import exposure varies only by year and cannot be separated from national time shocks; in an exploratory period-panel interaction with prefecture organic intensity, the negative China-import association is concentrated in low-organic prefectures (interaction *p* ≈ 0.05), with effects vanishing at high organic intensity — a hypothesis-generating pattern rather than a causal claim. Organic farming and gardening measures are single snapshots (2020, 2021) identified in cross-section only. We interpret income and eating-out as the robust correlates, and treat import and organic context as exploratory.
+Values in parentheses are standard errors clustered by prefecture (47 clusters). In the two-way fixed-effects model, the income p-value is approximately 0.015 and the eating-out p-value is approximately 0.932. These are conditional associations, not causal effects. See [Table 1](output/tables/table1_core.csv) and the [robustness table](output/tables/robustness_table.csv).
 
----
+### Exploratory results and identification limits
 
-## Headline results
+The period-panel models use 324 eligible observations across three period codes, with prefecture and period fixed effects. They produce rank-deficiency warnings. Time-invariant organic and gardening main effects are absorbed by prefecture fixed effects. National import main effects also require an explicit identification check against the included time controls. The reported main-effect coefficients in [Table 2](output/tables/table2_imports_interactions.csv) must not be treated as uniquely identified estimates.
 
-| Question | Estimate | Confidence |
-|---|---|---|
-| Income → TFR | −0.12 to −0.15 per log-point | **High** (survives all FE, synthetic-drop, import-trend) |
-| Eating out → TFR | −0.06 to −0.09 per log-point | **Moderate** (capital-city proxy; survives 2024–25) |
-| China imports → TFR (main) | Small negative, **not credibly identified** (n≈8 national values) | **Low** |
-| China imports × organic z | Negative interaction, *p* ≈ 0.05; effect vanishes at high organic z | **Exploratory only** |
-| Organic z main effect | Weakly negative, *p* ≈ 0.06 | **Exploratory** (snapshot) |
-| Female gardening z | Null | — |
+For transparency, Table 2 retains the existing exporter’s numerical output. In specification `i3_cn_x_org`, the China-import × organic interaction is positive (+0.040, SE 0.017), contrary to the earlier README’s description of a negative interaction. This is an exploratory output from a rank-deficient specification, not a validated causal finding. Reported stars do not resolve identification problems.
 
----
+The `DropSynth` row removes no additional observations from the already observed-income-only core sample. It duplicates the OLS + year-FE result and is not an independent sensitivity test.
 
-## Repository structure
+## Run locally
 
-```
-japan-tfr-determinants-2016-2025/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── requirements.txt
-├── run_all.py
-├── .gitignore
-├── data/
-│   ├── dated_source_panel_2016_2025.csv
-│   ├── prefectural_tfr_2016_2025.csv
-│   ├── coverage_by_year.csv
-│   ├── input_2016_2023.csv
-│   ├── model_panel_periods_no_year.csv
-│   ├── input_original_panel.csv
-│   ├── input_organic_gardening_snapshots.csv
-│   ├── new_national_imports_2024_2025.csv
-│   ├── new_eating_out_2024_2025.csv
-│   └── synthetic_income_sensitivity_only.csv
-├── scripts/
-│   ├── _00_load.py
-│   ├── _01_core_models.py
-│   ├── _02_imports_no_yearFE.py
-│   ├── _03_eating_out_2024_25.py
-│   ├── _04_period_panel_interactions.py
-│   ├── _05_plots.py
-│   └── _06_export_tables.py
-└── output/
-    ├── tables/
-    │   ├── table1_core.{csv,tex,docx}
-    │   ├── table2_imports_interactions.{csv,tex,docx}
-    │   └── robustness_table.csv
-    └── figures/
-        ├── scatter_income_tfr.png
-        └── scatter_pref_means.png
-```
-
----
-
-## Quick start
+Use Python 3.10 or newer. A fresh Python 3.11 environment is a practical option.
 
 ```bash
-# 1. Clone
-git clone https://github.com/<your-username>/japan-tfr-determinants-2016-2025.git
-cd japan-tfr-determinants-2016-2025
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the full pipeline
+git clone https://github.com/cafeco09/tfr-japan-panel-analysis.git
+cd tfr-japan-panel-analysis
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 python run_all.py
 ```
 
-All outputs are written to `output/tables/` and `output/figures/`. Console logs show full `.summary()` output for every specification.
+On Windows, activate with `.venv\Scripts\activate` instead. If using Conda, create and activate a separate environment instead of nesting a virtual environment inside Conda:
 
----
+```bash
+conda create -n tfr-japan python=3.11 pip -y
+conda activate tfr-japan
+python -m pip install -r requirements.txt
+python run_all.py
+```
 
-## Data
-
-Ten CSV files in `data/`, all retained unchanged from their source releases:
-
-| File | Contents | Coverage |
-|---|---|---|
-| `dated_source_panel_2016_2025.csv` | Full dated panel with all measures | 2016–2025, 47 prefectures |
-| `prefectural_tfr_2016_2025.csv` | TFR by prefecture-year | 2016–2025 |
-| `coverage_by_year.csv` | Row counts per variable per year | 2016–2025 |
-| `input_2016_2023.csv` | Analysis-ready input, income observed | 2016–2023 |
-| `model_panel_periods_no_year.csv` | 4-period panel with prefecture z-scores | Periods 1–4 |
-| `input_original_panel.csv` | Original wide panel (for reference) | 2016–2023 |
-| `input_organic_gardening_snapshots.csv` | Organic (2020) & gardening (2021) snapshots | Cross-section |
-| `new_national_imports_2024_2025.csv` | National import totals, 2024–2025 | National only |
-| `new_eating_out_2024_2025.csv` | Eating-out expenditure, 2024–2025 | 47 prefectures |
-| `synthetic_income_sensitivity_only.csv` | 5 synthetic 2023 incomes (sensitivity) | 5 prefectures |
-
-**Sources:** e-Stat (TFR, eating out, organic census, gardening survey), ESRI (prefectural income), World Bank (population denominator), UN Comtrade (crop imports). All source URLs and cell references are retained in the CSVs.
-
----
-
-## Model specifications
-
-| # | Script | Specification | Purpose |
-|---|---|---|---|
-| 1 | `_01_core_models.py` | `tfr ~ log_income + log_eating_out + [FE]` | Table 1: core correlates |
-| 2 | `_02_imports_no_yearFE.py` | `tfr ~ log_income + log_eating_out + log_import + year_c + year_c²` | Imports without year FE (collinearity flagged) |
-| 3 | `_03_eating_out_2024_25.py` | `tfr ~ log_eating_out + [FE]` on 2024–2025 only | Robustness across income-missing years |
-| 4 | `_04_period_panel_interactions.py` | `tfr ~ ... + cn_import*organic_z + ...` | Table 2: exploratory interactions |
-| 5 | `_05_plots.py` | Raw scatter, partial-residual, prefecture means | Figures |
-| 6 | `_06_export_tables.py` | Aggregates specs → CSV/LaTeX/Word | Publication tables |
-
-All regressions use **cluster-robust standard errors by prefecture** (`cov_type="cluster"`, 47 clusters).
-
----
-
-## Key caveats (read before citing)
-
-1. **Income is missing 2024–2025** and for 5 prefectures in 2023 (Ishikawa, Nara, Tokushima, Kagawa, Miyazaki). Main income models end at 2023; the 2024–2025 panel uses eating out only.
-2. **Eating out is a capital-city indicator**, not prefecture-wide. It is a proxy at best, so its coefficient likely understates (attenuation from measurement error).
-3. **Imports vary only by year** — cannot be separated from national time shocks (COVID, policy, etc.). The interaction with organic z is the only identification lever, and it is marginal.
-4. **Organic (2020) and gardening (2021) are single snapshots** — constant within prefecture; identified in cross-section only, not from within-prefecture change.
-5. **TFR source methodology varies by year** (age-group and population denominator methods), introducing measurement noise.
-6. **Five synthetic 2023 incomes** are used in the period panel and reported in `synthetic_income_sensitivity_only.csv`; dropping them leaves headline results essentially unchanged.
-
----
+Run these commands from the repository root. The runner executes all six analysis/export stages and stops if a stage fails. The console includes coefficient summaries and any statistical warnings. The committed tables and figures are generated outputs; local successful execution must be checked separately.
 
 ## Outputs
 
-### `output/tables/`
+Generated tables and figures are tracked in Git. Temporary logs and Python environments are ignored.
 
-| File | Description |
+| Output | Contents |
 |---|---|
-| `table1_core.csv/.tex/.docx` | Core specs (1)–(3): income & eating-out coefficients |
-| `table2_imports_interactions.csv/.tex/.docx` | Six period-panel import/organic specs |
-| `robustness_table.csv` | Consolidated robustness across all specs |
+| [table1_core.csv](output/tables/table1_core.csv) | Three core income/eating-out models |
+| [table2_imports_interactions.csv](output/tables/table2_imports_interactions.csv) | Six exploratory period-panel models; identification caveats apply |
+| [robustness_table.csv](output/tables/robustness_table.csv) | Core estimates and the duplicate synthetic-exclusion row |
+| `output/tables/*.tex` | LaTeX versions of Tables 1 and 2 |
+| `output/tables/*.docx` | Word versions of Tables 1 and 2 |
+| [scatter_income_tfr.png](output/figures/scatter_income_tfr.png) | Raw income/TFR scatter and partial-residual plot |
+| [scatter_pref_means.png](output/figures/scatter_pref_means.png) | Prefecture-mean income/TFR scatter |
+| [environment.txt](output/environment.txt) | Python and package versions used for the committed run |
 
-LaTeX files are `booktabs`-ready; Word files use "Light Grid Accent 1" style. Stars: `*** p<0.01`, `** p<0.05`, `* p<0.1`.
+![Income and TFR](output/figures/scatter_income_tfr.png)
 
-### `output/figures/`
+## Data and caveats
 
-- **`scatter_income_tfr.png`** — left: raw scatter log income vs TFR (2016–2023) with pooled OLS line; right: partial-residual plot after prefecture + year FE.
-- **`scatter_pref_means.png`** — prefecture-mean log income vs prefecture-mean TFR, labeled by region code. Okinawa (JP-47) sits high-TFR/low-income; Tokyo (JP-13) low-TFR/high-income.
+The `data/` directory contains 11 CSV files. Included files provide prefecture-year data labelled 2016–2025, period-coded inputs, snapshot context measures, coverage information and source references. Source-file labels and provenance have not been independently audited in this execution exercise.
 
----
+- Core income models use the observed-income sample for 2016–2023. Five prefecture incomes are missing in 2023; income is unavailable for 2024–2025.
+- The loader joins eating-out expenditure from `dated_source_panel_2016_2025.csv` to `input_2016_2023.csv` by prefecture and year, validating a one-to-one match.
+- Eating-out expenditure is a capital-city proxy. Measurement error need not bias its coefficient towards zero in these multivariable panel models.
+- National imports do not provide prefecture-specific exposure. Shared national shocks remain a concern.
+- Organic-farming and gardening measures are snapshots, rather than repeated within-prefecture observations.
+- Differences in TFR methodology and release status require review before substantive use. The presence of rows labelled 2025 does not establish that they are final official annual observations.
 
-## Reproducibility
+The code repairs leave source CSVs and existing exploratory formulae unchanged. See [RUN_NOTES.md](RUN_NOTES.md) for repair details and interpretation limits.
 
-- Single entry point: `python run_all.py`
-- All scripts import shared logic from `scripts/_00_load.py`
-- Random state: none required (OLS only)
-- Software: Python 3.10+, `pandas`, `numpy`, `statsmodels`, `matplotlib`, `scipy`, `python-docx`
-- Runtime: < 1 minute on a laptop
+## Code layout
 
----
+- `run_all.py`: pipeline entry point.
+- `scripts/_00_load.py`: shared loading and feature construction.
+- `scripts/_01_core_models.py`: core models.
+- `scripts/_02_imports_no_yearFE.py`: import models with time trends.
+- `scripts/_03_eating_out_2024_25.py`: later-year and full-panel eating-out models.
+- `scripts/_04_period_panel_interactions.py`: exploratory period models.
+- `scripts/_05_plots.py`: figures.
+- `scripts/_06_export_tables.py`: CSV, LaTeX and Word exports.
 
-## Citation
+## Licence and attribution
 
-```bibtex
-@misc{japan_tfr_2025,
-  title  = {Japan TFR Determinants Panel, 2016--2025},
-  author = {<your name>},
-  year   = {2025},
-  url    = {https://github.com/<your-username>/japan-tfr-determinants-2016-2025}
-}
-```
-
-Or use the included `CITATION.cff` (GitHub will render a "Cite this repository" button automatically).
-
----
-
-## License
-
-Code: **MIT** (see [`LICENSE`](LICENSE)).
-Data: retained under their original source terms (e-Stat, ESRI, World Bank, UN Comtrade) — please cite the source URLs listed in the CSVs.
-
----
-
-## Contact
-
-Questions, corrections, or requests for additional specifications: open a [GitHub issue](https://github.com/<your-username>/japan-tfr-determinants-2016-2025/issues).
+Code is covered by the [MIT licence](LICENSE). Data retain their original source terms; consult the source references in the CSV files. Cite the repository URL and the commit used when reporting results. No `CITATION.cff` is currently included.
