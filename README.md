@@ -4,6 +4,12 @@ Panel analysis of prefecture-level total fertility rate (TFR), income per reside
 
 **Repository:** https://github.com/cafeco09/tfr-japan-panel-analysis
 
+## Revised import question
+
+The current import scope is **food imports into Japan from China and the USA, as two separate country series**, with no organic-context interaction. New data use UN Comtrade BEC Rev.4 category 1 (food and beverages), covering primary and processed goods. See [FOOD_IMPORT_SCOPE.md](FOOD_IMPORT_SCOPE.md) for the exact definition, units, source flags and identification limits, and [the country series](data/food_imports_china_usa_wide.csv).
+
+The previously published three-crop and organic-interaction analyses below are retained as historical exploratory results. They do not estimate this broader food-import question. The new broad series contain current-US-dollar values; they must not be substituted for the old crop-kilogram measures without an explicit model redesign. No new causal food-import effect is claimed by this data update.
+
 ## Reproduced results
 
 The repaired pipeline runs on the included CSV files. The earlier README claimed consistently negative income and eating-out associations; **the executed core models do not support that claim**. Coefficient signs and significance depend on the fixed effects used.
