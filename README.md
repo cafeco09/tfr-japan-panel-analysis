@@ -82,6 +82,8 @@ The optional [named-food breakdown](output/food_names/README.md) separates the a
 
 The [prefectural merge](output/tfr_merged/README.md) joins the named import series to 47 prefectures' TFR by year: 470 rows for 2016–2025, or 423 excluding provisional 2025. Imports remain national values shared within year, not measured prefectural exposure or 470 independent import observations. TFR provenance and release status are retained.
 
+[Prefecture-panel regressions](output/prefecture_food_regressions/REGRESSION_RESULTS.md) retain prefecture effects and report year-cluster, annual-mean HC3 and lag-one HAC inference. The total-import sign reverses with trend adjustment, the joint soyabean estimate is not significant, and none of 27 product/group screens survives BH adjustment. These use the unweighted mean of prefectural rates for annual checks, not the official national TFR. Unrestricted year effects absorb all national import terms. Reproduce with `python scripts/_19_prefecture_food_regressions.py`.
+
 - [External import series](data/external_food_imports_world_2016_2025.csv): ten annual World totals, source URLs, retrieval times and aggregation checks.
 - `data/external_food_sources/`: raw Comtrade responses.
 - [National TFR](data/national_tfr_2016_2025.csv): source workbook, sheet and cell references.

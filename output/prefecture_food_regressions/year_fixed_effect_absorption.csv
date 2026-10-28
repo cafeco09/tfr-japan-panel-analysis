@@ -1,0 +1,7 @@
+training_vintage,term,max_abs_residual_after_year_effects,identified_with_year_FE
+through_2024_final,log_total_food,1.4210854715202004e-14,False
+through_2024_final,log_soyabeans,1.0658141036401503e-14,False
+through_2024_final,log_other_food,7.105427357601002e-15,False
+through_2025_provisional,log_total_food,1.4210854715202004e-14,False
+through_2025_provisional,log_soyabeans,1.0658141036401503e-14,False
+through_2025_provisional,log_other_food,1.7763568394002505e-14,False

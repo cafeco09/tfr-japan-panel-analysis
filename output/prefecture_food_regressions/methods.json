@@ -1,0 +1,19 @@
+{
+  "run_utc": "2026-10-28T13:29:10.071013+00:00",
+  "primary_panel_rows": 423,
+  "primary_prefectures": 47,
+  "primary_annual_years": 9,
+  "provisional_2025_sensitivity_rows": 470,
+  "outcome": "Prefectural period TFR; annual comparison is the unweighted mean across 47 prefectures, not the official national TFR",
+  "controls": "Prefecture fixed effects; no trend, common linear trend, common quadratic trend; joint whole-soyabean/other-food model",
+  "inference": "Panel OLS with year clusters and finite-sample correction, t reference with 8 primary cluster degrees of freedom. Annual mean regressions HC3 and lag-one HAC with residual-df t references.",
+  "limits": "Nine clusters are few; neither clustered, HC3 nor HAC inference is exact. Common shocks, serial dependence, nominal prices and endogeneity remain. No causal effect is identified.",
+  "absorption": "All three import terms are absorbed by unrestricted year fixed effects; no such coefficients estimated",
+  "screening": "One-at-a-time annual-mean models with trend; 27 tests, BH FDR across all of them. Dependent, overlapping nominal import series; exploratory only.",
+  "software": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.15.0"
+  }
+}
