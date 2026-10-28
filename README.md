@@ -88,6 +88,8 @@ The separate [TFR-by-subregion models](output/tfr_by_subregion/TFR_SUBREGION_RES
 
 [Controlled food regressions](output/controlled_food_regressions/CONTROLLED_REGRESSION_RESULTS.md) put TFR on the left, food imports on the right, and prefecture indicators, a time trend, observed prefectural income and capital-city eating-out expenditure in the controls. The balanced sample is 2016–2022 (329 rows, seven annual clusters), with a 371-row complete-case 2023 sensitivity. The balanced total-food coefficient is non-significant. Soyabeans are negative, but inference differs between conventional clustering and the restricted wild-cluster diagnostic, and the extended sample gives stronger results. Controls are proxies and do not identify causation. Run `python scripts/_21_controlled_food_regressions.py`.
 
+[Controlled ANOVA and prefecture significance](output/subregion_anova/ANOVA_AND_SUBREGION_SIGNIFICANCE.md) report the classical Type II omnibus test and all 47 adjusted prefecture-versus-mean comparisons, retaining food imports and socioeconomic/time controls. Thirty comparisons pass Holm correction under the year-clustered t approximation; the seven-cluster Rademacher bootstrap has insufficient p-value resolution for any to pass a 47-test Holm correction. These are regional TFR level comparisons, not regional food-import slopes. Run `python scripts/_22_subregion_anova.py`.
+
 - [External import series](data/external_food_imports_world_2016_2025.csv): ten annual World totals, source URLs, retrieval times and aggregation checks.
 - `data/external_food_sources/`: raw Comtrade responses.
 - [National TFR](data/national_tfr_2016_2025.csv): source workbook, sheet and cell references.

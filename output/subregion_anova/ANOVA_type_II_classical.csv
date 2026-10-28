@@ -1,0 +1,7 @@
+term,sum_sq,df,F,p_classical,inference_assumption
+C(region_code),4.722755393886984,46.0,133.91968993089714,5.381120112891854e-164,Classical conditional iid homoskedastic errors; not cluster-robust
+log_food,0.00044873048781561467,1.0,0.585318689584305,0.44488406134523034,Classical conditional iid homoskedastic errors; not cluster-robust
+trend,0.1454241903129857,1.0,189.68957719412046,2.9603793474544373e-33,Classical conditional iid homoskedastic errors; not cluster-robust
+log_income,0.00966104263594871,1.0,12.601748642528555,0.00045237293654504295,Classical conditional iid homoskedastic errors; not cluster-robust
+log_eating_out,1.1594594743143158e-05,1.0,0.015123850920747424,0.9022125335949791,Classical conditional iid homoskedastic errors; not cluster-robust
+Residual,0.2131267595458751,278.0,,,Classical conditional iid homoskedastic errors; not cluster-robust

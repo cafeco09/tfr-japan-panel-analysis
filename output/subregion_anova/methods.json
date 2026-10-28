@@ -1,0 +1,15 @@
+{
+  "outcome": "Prefectural TFR",
+  "sample": "329 records; 47 prefectures; 2016\u20132022; seven year clusters",
+  "formula": "tfr_children_per_woman ~ C(region_code) + log_food + trend + log_income + log_eating_out",
+  "reference": "Equally weighted mean of all 47 adjusted prefectural predictions at common mean log-controls and time",
+  "comparison": "Each regional adjusted effect minus the average regional effect; these are not regional food-import slopes",
+  "multiplicity": "Holm correction over all 47 prefecture-versus-mean tests separately for each inference method",
+  "clustered_t_df": 6.0,
+  "regional_cluster_covariance_rank": 6,
+  "regional_parameters": 46,
+  "omnibus_limit": "Classical Type II ANOVA only. A 46-parameter year-clustered omnibus Wald test is rank-deficient with seven year clusters and is not reported as valid.",
+  "bootstrap": "Restricted Rademacher residual bootstrap, CR1 studentisation, all 128 year-sign patterns. Approximate diagnostic, not exact randomisation inference.",
+  "bootstrap_resolution": "Sign symmetry gives a minimum attainable two-sided p of 2/128 = 0.015625. With 47 Holm comparisons, none can pass 0.05; this is a conservative resolution limit, not proof of no regional differences.",
+  "limits": "Only seven years; potential dependence across years, heterogeneous regional trends, endogenous proxy controls and national common shocks remain. Pointwise intervals are not simultaneous family intervals. Descriptive in-sample associations, no causal interpretation."
+}
