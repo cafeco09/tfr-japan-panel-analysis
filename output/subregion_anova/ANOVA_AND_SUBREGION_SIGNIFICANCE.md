@@ -79,8 +79,17 @@ All 128 Rademacher year-sign patterns are evaluated after imposing each contrast
 
 Income and spending proxies may be endogenous, and adjustment does not make a location effect causal. National food imports are common within year. Unrestricted year effects would absorb food imports; the current time trend is a modelling restriction.
 
+## Graphs
+
+![Adjusted TFR differences with pointwise year-clustered intervals](figures/prefecture_adjusted_tfr_differences.png)
+
+![Holm-corrected significance under three inference methods](figures/prefecture_significance_inference_sensitivity.png)
+
+![Classical Type II ANOVA terms](figures/controlled_anova_classical_terms.png)
+
 ## Reproduce
 
 ```bash
 python scripts/_22_subregion_anova.py
+python scripts/_23_plot_subregion_anova.py
 ```

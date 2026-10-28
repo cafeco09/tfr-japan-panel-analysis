@@ -126,7 +126,11 @@ def main():
         "## Small-cluster bootstrap sensitivity", "",
         "All 128 Rademacher year-sign patterns are evaluated after imposing each contrast's null. This is an approximate restricted residual-bootstrap diagnostic under independent clusters and symmetry assumptions. The minimum attainable two-sided p-value is 2/128 = 0.015625. Consequently no comparison can pass a 47-test Holm adjustment at 5%. This is a resolution/conservatism limit, not evidence that the regional rates are equal. Nominal significance under the cluster-t approximation should therefore not be described as robustly established by this bootstrap.", "",
         "Income and spending proxies may be endogenous, and adjustment does not make a location effect causal. National food imports are common within year. Unrestricted year effects would absorb food imports; the current time trend is a modelling restriction.", "",
-        "## Reproduce", "", "```bash", "python scripts/_22_subregion_anova.py", "```", ""]
+        "## Graphs", "",
+        "![Adjusted TFR differences with pointwise year-clustered intervals](figures/prefecture_adjusted_tfr_differences.png)", "",
+        "![Holm-corrected significance under three inference methods](figures/prefecture_significance_inference_sensitivity.png)", "",
+        "![Classical Type II ANOVA terms](figures/controlled_anova_classical_terms.png)", "",
+        "## Reproduce", "", "```bash", "python scripts/_22_subregion_anova.py", "python scripts/_23_plot_subregion_anova.py", "```", ""]
     (DEST/"ANOVA_AND_SUBREGION_SIGNIFICANCE.md").write_text("\n".join(report))
     print(anova.to_string(index=False))
     print(f'Year-cluster Holm significant: {count}/47; regional covariance rank {rank}/46')

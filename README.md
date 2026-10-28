@@ -4,6 +4,16 @@ This analysis examines Japan's **total food imports from all origins as one exte
 
 Repository: https://github.com/cafeco09/tfr-japan-panel-analysis
 
+## Prefectural ANOVA graphs
+
+The [controlled prefectural ANOVA](output/subregion_anova/ANOVA_AND_SUBREGION_SIGNIFICANCE.md) uses TFR as the outcome, with prefecture categories, food imports, income, an eating-out expenditure proxy and a common time trend. Complete-control coverage is **2016–2022: 47 prefectures, 329 records and seven annual clusters**. These regional level comparisons are separate from the national aggregate analysis below.
+
+Thirty of 47 prefectures differ from the equally weighted adjusted prefectural mean under year-clustered t tests with Holm correction. This is conditional significance: the seven-cluster bootstrap has insufficient p-value resolution for any of the 47 comparisons to pass Holm correction. Regional differences do not establish regional food-import effects or causation.
+
+![Adjusted prefectural TFR differences with pointwise year-clustered intervals](output/subregion_anova/figures/prefecture_adjusted_tfr_differences.png)
+
+See the [significance sensitivity graph](output/subregion_anova/figures/prefecture_significance_inference_sensitivity.png), [classical ANOVA graph](output/subregion_anova/figures/controlled_anova_classical_terms.png), and [all 47 prefecture results](output/subregion_anova/significance_each_prefecture.csv). Figures are available in PNG and SVG, with [reproduction instructions](output/subregion_anova/figures/README.md).
+
 ## Hypothesis and measure
 
 The directional hypothesis is that higher external food imports reduce fertility. Estimates remain unconstrained, and all tested specifications are reported; a hypothesis does not determine the fitted sign.
