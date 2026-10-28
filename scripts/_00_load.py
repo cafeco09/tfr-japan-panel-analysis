@@ -7,7 +7,11 @@ os.makedirs(os.path.join(OUT, "tables"), exist_ok=True)
 os.makedirs(os.path.join(OUT, "figures"), exist_ok=True)
 
 def load_2016_2023():
-    df = pd.read_csv(os.path.join(DATA, "input_2016_2023.csv")).rename(columns={
+    df = pd.read_csv(os.path.join(DATA, "input_2016_2023.csv"))
+    eating = pd.read_csv(os.path.join(DATA, "dated_source_panel_2016_2025.csv"))[
+        ["region_code", "year", "eating_out_jpy_per_household"]]
+    df = df.merge(eating, on=["region_code", "year"], how="left", validate="one_to_one")
+    df = df.rename(columns={
         "tfr_children_per_woman":"tfr",
         "observed_income_jpy_per_resident":"income",
         "eating_out_jpy_per_household":"eating_out",

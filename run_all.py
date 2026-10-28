@@ -7,7 +7,7 @@ SCRIPTS = ["_01_core_models.py", "_02_imports_no_yearFE.py",
 for s in SCRIPTS:
     print("\n" + "="*72)
     print(f"RUNNING {s}")
-    print("="*72)
+    print("="*72, flush=True)
     r = subprocess.run([sys.executable, os.path.join(HERE, "scripts", s)])
     if r.returncode != 0:
         print(f"FAILED: {s}"); sys.exit(r.returncode)
