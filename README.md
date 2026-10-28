@@ -29,6 +29,8 @@ Run `python scripts/_10_food_import_results.py` to regenerate all country-only, 
 
 The optional [synthetic-data generator](scripts/_11_synthetic_food.py) creates labelled method-testing panels with separate China and USA imports and no organic interaction. The default [simulation dataset](synthetic/food_import_simulation/README_SYNTHETIC.md) contains four scenarios, 47 synthetic prefectures and 30 synthetic periods. Generated rows are not observed Japanese data and are never pooled with the empirical sample to claim greater certainty. Run `python scripts/_11_synthetic_food.py` to reproduce the simulation.
 
+The [synthetic analysis](synthetic/food_import_simulation/analysis/SYNTHETIC_ANALYSIS_RESULTS.md) compares fitted coefficients with known simulated effects and repeats the DGP across 500 random streams. In the zero-effect scenario with unrelated common shocks, prefecture-only inference rejects zero in 77.8% of China fits and 78.8% of USA fits; aggregate HAC reduces these to 13.8% and 15.4%. The privileged oracle control gives 5.6% and 3.0%. These are false-positive rates under the chosen simulation, not estimated probabilities of error in the Japanese study. Run `python scripts/_12_synthetic_analysis.py --replications 500` to reproduce all models and Monte Carlo diagnostics.
+
 The repaired pipeline runs on the included CSV files. The earlier README claimed consistently negative income and eating-out associations; **the executed core models do not support that claim**. Coefficient signs and significance depend on the fixed effects used.
 
 | Variable | OLS + year FE | Prefecture FE | Prefecture + year FE |

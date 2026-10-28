@@ -39,3 +39,5 @@ python scripts/_11_synthetic_food.py --years 30 --prefectures 47 --seed 20261028
 ```
 
 Change years, prefectures and seed to test other simulation sizes. Source data and the empirical analysis are not modified.
+
+For a separate repeated-simulation assessment, run `python scripts/_12_synthetic_analysis.py --replications 500`. Its results are saved under `analysis/` and describe performance under the chosen DGP; they do not estimate Japanese effects.

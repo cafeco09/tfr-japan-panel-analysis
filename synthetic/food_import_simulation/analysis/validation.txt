@@ -1,0 +1,1 @@
+Verified exact reconstruction of the original four synthetic panels; panel FE coefficients and CR1 SE against direct dummy regressions; equality of omitted-shock FE and period-mean point estimates in every replication; absorption of both imports by period effects.

@@ -1,0 +1,18 @@
+{
+  "data_status": "SYNTHETIC_NOT_OBSERVED",
+  "original_dataset_seed": 20261028,
+  "monte_carlo_seed": 20261029,
+  "replications": 500,
+  "scenarios_per_replication": 4,
+  "countries_per_model": 2,
+  "methods": [
+    "omit_shock_prefecture_cluster",
+    "omit_shock_aggregate_HAC3",
+    "oracle_shock_prefecture_cluster"
+  ],
+  "synthetic_prefectures": 47,
+  "synthetic_periods": 30,
+  "randomisation": "NumPy SeedSequence child streams; innovations and prefectures shared across scenarios within each replication",
+  "covariance": "Prefecture cluster CR1 with absorbed FE degrees counted; t(G-1). Aggregate HAC Bartlett lag 3 with finite-sample multiplier and t(T-4).",
+  "scope": "Monte Carlo results are conditional on the chosen DGP, parameter values and sample size; they are not estimates for Japan"
+}

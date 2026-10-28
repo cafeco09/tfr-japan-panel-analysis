@@ -170,6 +170,8 @@ python scripts/_11_synthetic_food.py --years {args.years} --prefectures {args.pr
 ```
 
 Change years, prefectures and seed to test other simulation sizes. Source data and the empirical analysis are not modified.
+
+For a separate repeated-simulation assessment, run `python scripts/_12_synthetic_analysis.py --replications 500`. Its results are saved under `analysis/` and describe performance under the chosen DGP; they do not estimate Japanese effects.
 '''
     (destination/"README_SYNTHETIC.md").write_text(readme)
     (destination/"validation.txt").write_text("Verified scenario/prefecture/period uniqueness, exact DGP outcome reconstruction, opposite-confounding scenario symmetry, finite numeric values, explicit synthetic labels, row counts, nationally shared import paths and full-rank demonstration models.\n")
