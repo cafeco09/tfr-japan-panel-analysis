@@ -12,6 +12,38 @@ We measure food quantities in **kg per person per year**, examine differences ac
 
 These findings give us more specific questions to investigate: which local conditions matter, which foods people actually consume, and whether changing food supply could make a measurable difference.
 
+## What the historical graphs show
+
+### Higher and lower fertility across Japan
+
+This graph shows which prefectures had higher or lower fertility after allowing for the factors in the model. It describes regional fertility differences; it does not measure a separate food-import effect in each place.
+
+![Higher and lower fertility across Japan](output/subregion_anova/figures/prefecture_adjusted_tfr_differences.png)
+
+### Food quantities and fertility
+
+The dots show the estimated fertility difference associated with importing 10% more of each crop, measured in kg per person. The lines show uncertainty. The right-hand graph includes regional and economic controls; its extra small-sample checks help show how much confidence to place in the patterns.
+
+![Physical food quantities and fertility](output/historical_mass_analysis/physical_volume_coefficients.png)
+
+The extended sample including available 2023 records gives stronger positive maize and combined-basket associations. [Compare both samples and the dollar-value results](output/historical_mass_analysis/HISTORICAL_MASS_RESULTS.md).
+
+### Income and eating-out spending
+
+These comparisons show how the income and spending patterns change as the model accounts for differences between places and years. Higher income is associated with higher fertility in the model that accounts for both; the relationship becomes less clear when each place also gets its own longer-term trend.
+
+![Income and eating-out spending across the model comparisons](output/income_organic_summary/income_eating_out_specification_sensitivity.png)
+
+### How the regional findings compare across checks
+
+The first graph compares the regional results under different testing methods. The second shows the contribution of the groups of variables in the conventional ANOVA comparison. They help explain the regional patterns and the checks behind the headline findings.
+
+![Regional findings under different testing methods](output/subregion_anova/figures/prefecture_significance_inference_sensitivity.png)
+
+![Regional and other factors in the conventional ANOVA comparison](output/subregion_anova/figures/controlled_anova_classical_terms.png)
+
+[All prefecture results](output/subregion_anova/significance_each_prefecture.csv) · [Graph methods and reproduction](output/subregion_anova/figures/README.md) · [Income results](output/income_organic_summary/INCOME_ORGANIC_RESULTS.md)
+
 ## A recovery path worth exploring
 
 **In the version where organic food had the bigger assumed benefit, the simulation showed fertility rising from about 1.14 to 1.58 by 2050 - roughly 39% higher.** It reached about 1.56 by 2030 and then stayed close to that level. We did not set a final fertility target; the result came from the quantities and benefit built into the model.
