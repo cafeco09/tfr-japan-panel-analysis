@@ -101,7 +101,7 @@ def main():
         "The annual-FE gardening interaction is non-significant (p = 0.7913), but that is not a standalone test of whether gardening affects fertility. When unrestricted organic-context × year effects are allowed, the import × organic interaction is absorbed; distinguishing an import mechanism requires additional identifying assumptions or exposure data.", "",
         "## Reproduce and inspect", "", "```bash", "python scripts/_07_diagnostics.py", "python scripts/_25_income_organic_summary.py", "```", "",
         "The summary reads the retained shared-shock/bootstrap audit; regenerate that audit separately with `python scripts/_08_import_identification.py` when deliberately rerunning those checks. `python run_all.py --legacy` reproduces the original six-stage pipeline, but its organic main-effect exports retain rank deficiencies and are historical outputs, not the audited headline evidence.", "",
-        "Full checks: [model audit](../audit/MODEL_AUDIT.md), [shared-shock identification audit](../import_identification/IMPORT_IDENTIFICATION_AUDIT.md), [all original core table entries](../tables/table1_core.csv), and [historical interaction table](../tables/table2_imports_interactions.csv). Sources and scope are in [DATA_SOURCES.md](../../DATA_SOURCES.md).", ""]
+        "Full checks: [model audit](../audit/MODEL_AUDIT.md), [shared-shock identification audit](../import_identification/IMPORT_IDENTIFICATION_AUDIT.md), [all original core table entries](../tables/table1_core.csv), and [historical interaction table](../tables/table2_imports_interactions.csv). Sources and scope are in [Data_Sources.md](../../Data_Sources.md).", ""]
     (DEST/"INCOME_ORGANIC_RESULTS.md").write_text("\n".join(report))
     print(core.to_string(index=False))
 

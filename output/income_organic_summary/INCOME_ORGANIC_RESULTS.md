@@ -68,4 +68,4 @@ python scripts/_25_income_organic_summary.py
 
 The summary reads the retained shared-shock/bootstrap audit; regenerate that audit separately with `python scripts/_08_import_identification.py` when deliberately rerunning those checks. `python run_all.py --legacy` reproduces the original six-stage pipeline, but its organic main-effect exports retain rank deficiencies and are historical outputs, not the audited headline evidence.
 
-Full checks: [model audit](../audit/MODEL_AUDIT.md), [shared-shock identification audit](../import_identification/IMPORT_IDENTIFICATION_AUDIT.md), [all original core table entries](../tables/table1_core.csv), and [historical interaction table](../tables/table2_imports_interactions.csv). Sources and scope are in [DATA_SOURCES.md](../../DATA_SOURCES.md).
+Full checks: [model audit](../audit/MODEL_AUDIT.md), [shared-shock identification audit](../import_identification/IMPORT_IDENTIFICATION_AUDIT.md), [all original core table entries](../tables/table1_core.csv), and [historical interaction table](../tables/table2_imports_interactions.csv). Sources and scope are in [Data_Sources.md](../../Data_Sources.md).
