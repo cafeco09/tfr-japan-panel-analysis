@@ -1,0 +1,17 @@
+data_status,scenario,spec,country,chosen_true_beta,estimated_beta,estimation_error,synthetic_n,synthetic_periods
+SYNTHETIC_NOT_OBSERVED,null_unrelated_common_shocks,omit_latent_common_shock,China,0.0,-0.003231542235907996,-0.003231542235907996,1410,30
+SYNTHETIC_NOT_OBSERVED,null_unrelated_common_shocks,omit_latent_common_shock,USA,0.0,-0.21873171014277729,-0.21873171014277729,1410,30
+SYNTHETIC_NOT_OBSERVED,null_unrelated_common_shocks,oracle_control_unavailable_in_real_data,China,0.0,0.006052365864572452,0.006052365864572452,1410,30
+SYNTHETIC_NOT_OBSERVED,null_unrelated_common_shocks,oracle_control_unavailable_in_real_data,USA,0.0,0.004576248831563738,0.004576248831563738,1410,30
+SYNTHETIC_NOT_OBSERVED,null_positive_shared_confounding,omit_latent_common_shock,China,0.0,0.9500739108805013,0.9500739108805013,1410,30
+SYNTHETIC_NOT_OBSERVED,null_positive_shared_confounding,omit_latent_common_shock,USA,0.0,-0.2187317101428146,-0.2187317101428146,1410,30
+SYNTHETIC_NOT_OBSERVED,null_positive_shared_confounding,oracle_control_unavailable_in_real_data,China,0.0,-0.021592603501695784,-0.021592603501695784,1410,30
+SYNTHETIC_NOT_OBSERVED,null_positive_shared_confounding,oracle_control_unavailable_in_real_data,USA,0.0,0.0013099363907935306,0.0013099363907935306,1410,30
+SYNTHETIC_NOT_OBSERVED,null_negative_shared_confounding,omit_latent_common_shock,China,0.0,-0.9565369953523155,-0.9565369953523155,1410,30
+SYNTHETIC_NOT_OBSERVED,null_negative_shared_confounding,omit_latent_common_shock,USA,0.0,-0.21873171014273604,-0.21873171014273604,1410,30
+SYNTHETIC_NOT_OBSERVED,null_negative_shared_confounding,oracle_control_unavailable_in_real_data,China,0.0,0.053421032441672234,0.053421032441672234,1410,30
+SYNTHETIC_NOT_OBSERVED,null_negative_shared_confounding,oracle_control_unavailable_in_real_data,USA,0.0,0.005754342044976464,0.005754342044976464,1410,30
+SYNTHETIC_NOT_OBSERVED,known_effect_benchmark,omit_latent_common_shock,China,-0.08,-0.0832315422359095,-0.003231542235909504,1410,30
+SYNTHETIC_NOT_OBSERVED,known_effect_benchmark,omit_latent_common_shock,USA,0.04,-0.1787317101427756,-0.21873171014277562,1410,30
+SYNTHETIC_NOT_OBSERVED,known_effect_benchmark,oracle_control_unavailable_in_real_data,China,-0.08,-0.07394763413543108,0.0060523658645689205,1410,30
+SYNTHETIC_NOT_OBSERVED,known_effect_benchmark,oracle_control_unavailable_in_real_data,USA,0.04,0.04457624883156322,0.004576248831563219,1410,30

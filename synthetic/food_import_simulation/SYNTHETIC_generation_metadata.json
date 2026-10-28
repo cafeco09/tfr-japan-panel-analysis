@@ -1,0 +1,72 @@
+{
+  "data_status": "SYNTHETIC_NOT_OBSERVED",
+  "purpose": "Method testing and sensitivity simulation, not empirical augmentation",
+  "seed": 20261028,
+  "synthetic_periods": 30,
+  "synthetic_prefectures": 47,
+  "scenarios": {
+    "null_unrelated_common_shocks": {
+      "china_beta": 0.0,
+      "usa_beta": 0.0,
+      "confounding_sign": 0.0
+    },
+    "null_positive_shared_confounding": {
+      "china_beta": 0.0,
+      "usa_beta": 0.0,
+      "confounding_sign": 1.0
+    },
+    "null_negative_shared_confounding": {
+      "china_beta": 0.0,
+      "usa_beta": 0.0,
+      "confounding_sign": -1.0
+    },
+    "known_effect_benchmark": {
+      "china_beta": -0.08,
+      "usa_beta": 0.04,
+      "confounding_sign": 0.0
+    }
+  },
+  "rows": 5640,
+  "organic_interaction": false,
+  "observed_input": "data/food_imports_china_usa_wide.csv",
+  "calibration": "Only country-specific mean log value levels use the observed 2016\u20132025 series; all other DGP parameters are chosen",
+  "log_import_centres": {
+    "China": 22.776646598012356,
+    "USA": 23.04330400358149
+  },
+  "import_innovation_covariance": [
+    [
+      0.0036,
+      0.00162
+    ],
+    [
+      0.00162,
+      0.0036
+    ]
+  ],
+  "import_ar1": 0.55,
+  "log_import_trends": {
+    "China": 0.018,
+    "USA": 0.012
+  },
+  "baseline_tfr": 1.5,
+  "tfr_annual_trend": -0.008,
+  "prefecture_intercept_sd": 0.12,
+  "common_loading_range": [
+    0.75,
+    1.25
+  ],
+  "independent_common_shock_innovation_sd": 0.025,
+  "common_shock_ar1": 0.35,
+  "confounded_common_shock_scale": 0.055,
+  "idiosyncratic_innovation_sd": 0.022,
+  "idiosyncratic_ar1": 0.4,
+  "warnings": [
+    "Synthetic sample size does not increase empirical Japanese information",
+    "Chosen true effects are assumptions, not estimated Japanese effects",
+    "Oracle controls expose the simulation truth and are unavailable in the real study",
+    "One realisation is not a Monte Carlo assessment of estimator bias or coverage",
+    "National imports remain identical across synthetic prefectures within a period",
+    "There is no mapping between synthetic_period and a real calendar year"
+  ]
+}

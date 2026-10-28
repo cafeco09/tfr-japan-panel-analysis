@@ -1,0 +1,1 @@
+Verified scenario/prefecture/period uniqueness, exact DGP outcome reconstruction, opposite-confounding scenario symmetry, finite numeric values, explicit synthetic labels, row counts, nationally shared import paths and full-rank demonstration models.

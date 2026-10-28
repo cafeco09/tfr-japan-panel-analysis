@@ -27,6 +27,8 @@ Run `python scripts/_10_food_import_results.py` to regenerate all country-only, 
 
 ## Reproduced results
 
+The optional [synthetic-data generator](scripts/_11_synthetic_food.py) creates labelled method-testing panels with separate China and USA imports and no organic interaction. The default [simulation dataset](synthetic/food_import_simulation/README_SYNTHETIC.md) contains four scenarios, 47 synthetic prefectures and 30 synthetic periods. Generated rows are not observed Japanese data and are never pooled with the empirical sample to claim greater certainty. Run `python scripts/_11_synthetic_food.py` to reproduce the simulation.
+
 The repaired pipeline runs on the included CSV files. The earlier README claimed consistently negative income and eating-out associations; **the executed core models do not support that claim**. Coefficient signs and significance depend on the fixed effects used.
 
 | Variable | OLS + year FE | Prefecture FE | Prefecture + year FE |
