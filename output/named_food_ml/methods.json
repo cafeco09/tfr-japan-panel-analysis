@@ -1,0 +1,75 @@
+{
+  "run_utc": "2026-10-28T12:50:23.594289+00:00",
+  "primary_n": 9,
+  "primary_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "held_out_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "feature_sets": {
+    "total_external_food": [
+      "log_external_food",
+      "trend"
+    ],
+    "soyabeans_and_other_food": [
+      "log_soyabeans_usd",
+      "log_other_mapped_food_usd",
+      "trend"
+    ],
+    "named_food_groups": [
+      "log_group_01",
+      "log_group_02",
+      "log_group_03",
+      "log_group_04",
+      "log_group_07",
+      "log_group_08",
+      "log_group_09",
+      "log_group_10",
+      "log_group_11",
+      "log_group_12",
+      "log_group_15",
+      "log_group_16",
+      "log_group_17",
+      "log_group_18",
+      "log_group_19",
+      "log_group_20",
+      "log_group_21",
+      "log_group_22",
+      "log_group_23",
+      "log_group_35",
+      "trend"
+    ]
+  },
+  "excluded_groups_initial_training_coverage": [
+    "24"
+  ],
+  "group_coverage_rule": "Positive, returned records in every initial training year 2016\u20132020; no zero imputation",
+  "selection": "Past-only nested expanding-window tuning and fold-specific scaling; four outer errors per model",
+  "soy_scope": "Whole soyabeans HS1201 including separately flagged sowing seeds; derivatives stay in other food",
+  "other_food_scope": "Mapped BEC food minus whole soyabeans, not published World total minus soyabeans",
+  "synthetic_observations": 0,
+  "projection_scope": "Conditional nominal-value scenarios, no calibrated prediction intervals",
+  "limitations": "Contemporaneous imports supplied; conditional hindcasts, not advance forecasts. Many features and only nine outcomes; comparisons exploratory, no causal identification or significance claim.",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0"
+  },
+  "input_sha256": {
+    "output/food_names/named_food_products_2016_2025.csv": "3cdaf61b6c89c07a782fcd316dd60de2c554028a7b62a1632a63a94580f66e1e",
+    "output/food_names/food_groups_2016_2025.csv": "7c75f422a495b335485a945c3483638673ec227ae6255038838b4fdf93df13e7",
+    "output/external_food_imports/analysis_data.csv": "13b863c9dd96bbe67da9436af35ccb1d9678c3aeb68e9e9f13fbc65c8c76b07f"
+  }
+}

@@ -43,6 +43,8 @@ Expanding-window validation holds out four outcomes in 2021–2024, with past-on
 
 Adding imports does not improve this small chronological comparison. Four errors cannot establish stable model rankings. [Predictive sensitivities](output/external_food_imports/predictive_sensitivity_summary.csv) evaluate ±1%, ±5% and ±10% changes in nominal import value, with support flags and leave-year-out stability checks. These responses are not causal derivatives or significance tests.
 
+The [named-food ML rerun](output/named_food_ml/ML_RERUN_RESULTS.md) uses the same held-out years to compare whole soyabeans plus other mapped food, and 20 food groups plus trend. Neither improves on the trend-only baseline. Food-group Elastic Net has MAE 0.0255; soyabean-plus-other-food Elastic Net has MAE 0.0835. Soyabean OLS and Ridge sensitivities change sign when individual years are omitted. The whole-soyabean series includes sowing seed; oil, flour and sauce remain in other food. Run `python scripts/_17_named_food_ml.py` after the aggregate and named-food stages. These are exploratory comparisons with nine outcomes, with no synthetic pooling or causal claim.
+
 ## 2026–2030 scenario projections
 
 The [projection export](output/external_food_imports/projections_2026_2030.csv) contains flat 2025 import values, ±5% annual changes and continuation of the 2016–2025 nominal-value CAGR. Separate fits exclude/include provisional 2025 TFR.

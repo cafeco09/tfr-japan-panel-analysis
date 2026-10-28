@@ -1,0 +1,11 @@
+model,feature,change_fraction,mean_tfr_change,supported_points
+OLS_imports_and_trend,log_soyabeans_usd,0.01,-0.0004867466062981052,8
+OLS_imports_and_trend,log_other_mapped_food_usd,0.01,0.0036690739434455666,8
+Ridge,log_soyabeans_usd,0.01,-0.0005368534123241786,8
+Ridge,log_other_mapped_food_usd,0.01,0.0035264627236022417,8
+ElasticNet,log_soyabeans_usd,0.01,-0.00033053825473747245,8
+ElasticNet,log_other_mapped_food_usd,0.01,0.002972732695026542,8
+SVR_RBF,log_soyabeans_usd,0.01,0.0008317992564935706,8
+SVR_RBF,log_other_mapped_food_usd,0.01,-0.00027251234067904306,8
+RandomForest_shallow,log_soyabeans_usd,0.01,0.00039166666666667904,8
+RandomForest_shallow,log_other_mapped_food_usd,0.01,-0.0026875000000001203,8

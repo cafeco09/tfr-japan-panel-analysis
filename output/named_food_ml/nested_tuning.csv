@@ -1,0 +1,57 @@
+dataset,test_year,model,inner_validation_mse,parameters,latest_training_year,training_n
+total_external_food,2021,OLS_imports_and_trend,,{},2020,5
+total_external_food,2021,Ridge,0.0020776404599891296,"{""alpha"": 0.1}",2020,5
+total_external_food,2021,ElasticNet,0.0015507259708973198,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2020,5
+total_external_food,2021,SVR_RBF,0.0045073260113993995,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2020,5
+total_external_food,2021,RandomForest_shallow,0.00596355388888902,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2020,5
+total_external_food,2022,OLS_imports_and_trend,,{},2021,6
+total_external_food,2022,Ridge,0.0014741535302767157,"{""alpha"": 0.1}",2021,6
+total_external_food,2022,ElasticNet,0.0011405484408411627,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2021,6
+total_external_food,2022,SVR_RBF,0.00434466069199138,"{""C"": 0.3, ""epsilon"": 0.005, ""gamma"": ""scale""}",2021,6
+total_external_food,2022,RandomForest_shallow,0.0061486851259260145,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2021,6
+total_external_food,2023,OLS_imports_and_trend,,{},2022,7
+total_external_food,2023,Ridge,0.0014308526612061526,"{""alpha"": 0.1}",2022,7
+total_external_food,2023,ElasticNet,0.0010851413867611329,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2022,7
+total_external_food,2023,SVR_RBF,0.006568134090993314,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2022,7
+total_external_food,2023,RandomForest_shallow,0.006677595111805634,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2022,7
+total_external_food,2024,OLS_imports_and_trend,,{},2023,8
+total_external_food,2024,Ridge,0.0013661387880061766,"{""alpha"": 0.1}",2023,8
+total_external_food,2024,ElasticNet,0.0011992745339182444,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2023,8
+total_external_food,2024,SVR_RBF,0.007829922742653941,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2023,8
+total_external_food,2024,RandomForest_shallow,0.00788899311438783,"{""max_depth"": 2, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2023,8
+soyabeans_and_other_food,2021,OLS_imports_and_trend,,{},2020,5
+soyabeans_and_other_food,2021,Ridge,0.0016966821337049858,"{""alpha"": 1.0}",2020,5
+soyabeans_and_other_food,2021,ElasticNet,0.0016689544455734879,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2020,5
+soyabeans_and_other_food,2021,SVR_RBF,0.005174763565593507,"{""C"": 0.1, ""epsilon"": 0.02, ""gamma"": ""scale""}",2020,5
+soyabeans_and_other_food,2021,RandomForest_shallow,0.005888538888889008,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2020,5
+soyabeans_and_other_food,2022,OLS_imports_and_trend,,{},2021,6
+soyabeans_and_other_food,2022,Ridge,0.003324938339246857,"{""alpha"": 0.1}",2021,6
+soyabeans_and_other_food,2022,ElasticNet,0.001401891608347366,"{""alpha"": 0.001, ""l1_ratio"": 0.8}",2021,6
+soyabeans_and_other_food,2022,SVR_RBF,0.005985721358626218,"{""C"": 0.1, ""epsilon"": 0.02, ""gamma"": ""scale""}",2021,6
+soyabeans_and_other_food,2022,RandomForest_shallow,0.006324025218518581,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2021,6
+soyabeans_and_other_food,2023,OLS_imports_and_trend,,{},2022,7
+soyabeans_and_other_food,2023,Ridge,0.0026093977263186123,"{""alpha"": 0.1}",2022,7
+soyabeans_and_other_food,2023,ElasticNet,0.0011873022874026708,"{""alpha"": 0.001, ""l1_ratio"": 0.8}",2022,7
+soyabeans_and_other_food,2023,SVR_RBF,0.007273843166812476,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2022,7
+soyabeans_and_other_food,2023,RandomForest_shallow,0.006938331847916743,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2022,7
+soyabeans_and_other_food,2024,OLS_imports_and_trend,,{},2023,8
+soyabeans_and_other_food,2024,Ridge,0.0022312770952660826,"{""alpha"": 0.1}",2023,8
+soyabeans_and_other_food,2024,ElasticNet,0.001123094090772888,"{""alpha"": 0.001, ""l1_ratio"": 0.8}",2023,8
+soyabeans_and_other_food,2024,SVR_RBF,0.008085336730177552,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2023,8
+soyabeans_and_other_food,2024,RandomForest_shallow,0.008499598811848138,"{""max_depth"": 2, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2023,8
+named_food_groups,2021,Ridge,0.0017674833919957699,"{""alpha"": 0.1}",2020,5
+named_food_groups,2021,ElasticNet,0.006896358456412746,"{""alpha"": 0.0001, ""l1_ratio"": 0.8}",2020,5
+named_food_groups,2021,SVR_RBF,0.005183472958374,"{""C"": 0.03, ""epsilon"": 0.02, ""gamma"": ""scale""}",2020,5
+named_food_groups,2021,RandomForest_shallow,0.005777535138889029,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2020,5
+named_food_groups,2022,Ridge,0.0043008119662226495,"{""alpha"": 10.0}",2021,6
+named_food_groups,2022,ElasticNet,0.005006740768429979,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2021,6
+named_food_groups,2022,SVR_RBF,0.006230744460260941,"{""C"": 0.1, ""epsilon"": 0.02, ""gamma"": ""scale""}",2021,6
+named_food_groups,2022,RandomForest_shallow,0.006805803292592678,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2021,6
+named_food_groups,2023,Ridge,0.005501331120545777,"{""alpha"": 0.01}",2022,7
+named_food_groups,2023,ElasticNet,0.003758658238220891,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2022,7
+named_food_groups,2023,SVR_RBF,0.007999915358052131,"{""C"": 0.1, ""epsilon"": 0.02, ""gamma"": ""scale""}",2022,7
+named_food_groups,2023,RandomForest_shallow,0.008550531653472325,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2022,7
+named_food_groups,2024,Ridge,0.004430134742500396,"{""alpha"": 0.01}",2023,8
+named_food_groups,2024,ElasticNet,0.003166276297335971,"{""alpha"": 0.001, ""l1_ratio"": 0.2}",2023,8
+named_food_groups,2024,SVR_RBF,0.010190760966797698,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2023,8
+named_food_groups,2024,RandomForest_shallow,0.010597109400340197,"{""max_depth"": 2, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2023,8
