@@ -1,0 +1,6 @@
+region_code,prefecture,year,synthetic_income_jpy_per_resident,income_value_status
+JP-17,Ishikawa,2023,3135883.573212731,Synthetic conditional-median estimate
+JP-29,Nara,2023,2887074.9315197663,Synthetic conditional-median estimate
+JP-36,Tokushima,2023,3444661.578389489,Synthetic conditional-median estimate
+JP-37,Kagawa,2023,3104114.0554453456,Synthetic conditional-median estimate
+JP-45,Miyazaki,2023,2600921.250376656,Synthetic conditional-median estimate
