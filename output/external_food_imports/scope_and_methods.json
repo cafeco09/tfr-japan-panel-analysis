@@ -1,0 +1,47 @@
+{
+  "scope": "Japan imports from World: all partner origins; food and beverages in primary and processed forms",
+  "product": "BEC Rev.4 category 1 = 11 + 12",
+  "reporter": 392,
+  "partner": 0,
+  "flow": "M",
+  "unit": "Current USD, not food volume, price-adjusted exposure, or local consumption",
+  "hypothesis": "Higher total external food imports are associated with lower fertility; signs remain unconstrained",
+  "origin_split": false,
+  "organic_interaction": false,
+  "primary_n": 9,
+  "primary_years": "2016\u20132024",
+  "provisional_rate_sensitivity_years": "2016\u20132025",
+  "chronological_validation_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "future_years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "future_value_scenarios": {
+    "flat_2025_nominal_value": 0.0,
+    "plus_5pct_per_year": 0.05,
+    "minus_5pct_per_year": -0.05,
+    "historical_2016_2025_CAGR": 0.016101647198227376
+  },
+  "synthetic_data": "Existing two-origin simulations are historical method tests; none are pooled or relabelled as observed World totals",
+  "unresolved": "National common shocks, endogeneity, nominal price/currency effects, nine observations, model/scenario uncertainty",
+  "source_aggregation_discrepancies": [
+    {
+      "year": 2024,
+      "aggregation_gap_usd": 2280071.46799469,
+      "aggregation_gap_fraction": 3.958729780344694e-05
+    },
+    {
+      "year": 2025,
+      "aggregation_gap_usd": 3339782.699005127,
+      "aggregation_gap_fraction": 5.525339084451999e-05
+    }
+  ]
+}

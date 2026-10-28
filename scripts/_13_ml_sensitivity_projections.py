@@ -65,9 +65,9 @@ def select(candidates,x,y):
     return clone(candidates[best]),scores[best]
 
 
-def temporal_comparison(frame,label,initial,models,tune=True):
+def temporal_comparison(frame,label,initial,models,tune=True,features=None):
     predictions=[];traces=[]
-    x=frame[FEATURES];y=frame.national_tfr
+    x=frame[FEATURES if features is None else features];y=frame.national_tfr
     for j in range(initial,len(frame)):
         train_x=x.iloc[:j];train_y=y.iloc[:j];test_x=x.iloc[[j]]
         assert frame.year.iloc[:j].max()<frame.year.iloc[j]

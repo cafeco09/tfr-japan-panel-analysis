@@ -1,0 +1,11 @@
+training_vintage,model,parameters,inner_MSE
+through_2024_final,OLS_imports_and_trend,{},
+through_2024_final,Ridge,"{""alpha"": 0.1}",0.0012633252618279732
+through_2024_final,ElasticNet,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",0.0012366772867653446
+through_2024_final,SVR_RBF,"{""C"": 0.3, ""epsilon"": 0.005, ""gamma"": ""scale""}",0.007167336633423693
+through_2024_final,RandomForest_shallow,"{""max_depth"": 2, ""min_samples_leaf"": 2, ""n_estimators"": 100}",0.01032295269266116
+through_2025_provisional_rate,OLS_imports_and_trend,{},
+through_2025_provisional_rate,Ridge,"{""alpha"": 0.1}",0.0010852225566655906
+through_2025_provisional_rate,ElasticNet,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",0.001060020481404773
+through_2025_provisional_rate,SVR_RBF,"{""C"": 0.3, ""epsilon"": 0.005, ""gamma"": ""scale""}",0.006775025857189871
+through_2025_provisional_rate,RandomForest_shallow,"{""max_depth"": 2, ""min_samples_leaf"": 2, ""n_estimators"": 100}",0.009759480366960283

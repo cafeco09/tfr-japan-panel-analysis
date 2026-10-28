@@ -1,0 +1,21 @@
+dataset,test_year,model,inner_validation_mse,parameters,latest_training_year,training_n
+OBSERVED_WORLD_FOOD,2021,OLS_imports_and_trend,,{},2020,5
+OBSERVED_WORLD_FOOD,2021,Ridge,0.0020776404599891296,"{""alpha"": 0.1}",2020,5
+OBSERVED_WORLD_FOOD,2021,ElasticNet,0.0015507259708973198,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2020,5
+OBSERVED_WORLD_FOOD,2021,SVR_RBF,0.0045073260113993995,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2020,5
+OBSERVED_WORLD_FOOD,2021,RandomForest_shallow,0.00596355388888902,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2020,5
+OBSERVED_WORLD_FOOD,2022,OLS_imports_and_trend,,{},2021,6
+OBSERVED_WORLD_FOOD,2022,Ridge,0.0014741535302767157,"{""alpha"": 0.1}",2021,6
+OBSERVED_WORLD_FOOD,2022,ElasticNet,0.0011405484408411627,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2021,6
+OBSERVED_WORLD_FOOD,2022,SVR_RBF,0.00434466069199138,"{""C"": 0.3, ""epsilon"": 0.005, ""gamma"": ""scale""}",2021,6
+OBSERVED_WORLD_FOOD,2022,RandomForest_shallow,0.0061486851259260145,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2021,6
+OBSERVED_WORLD_FOOD,2023,OLS_imports_and_trend,,{},2022,7
+OBSERVED_WORLD_FOOD,2023,Ridge,0.0014308526612061526,"{""alpha"": 0.1}",2022,7
+OBSERVED_WORLD_FOOD,2023,ElasticNet,0.0010851413867611329,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2022,7
+OBSERVED_WORLD_FOOD,2023,SVR_RBF,0.006568134090993314,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2022,7
+OBSERVED_WORLD_FOOD,2023,RandomForest_shallow,0.006677595111805634,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2022,7
+OBSERVED_WORLD_FOOD,2024,OLS_imports_and_trend,,{},2023,8
+OBSERVED_WORLD_FOOD,2024,Ridge,0.0013661387880061794,"{""alpha"": 0.1}",2023,8
+OBSERVED_WORLD_FOOD,2024,ElasticNet,0.0011992745339182444,"{""alpha"": 0.01, ""l1_ratio"": 0.2}",2023,8
+OBSERVED_WORLD_FOOD,2024,SVR_RBF,0.00782992274265386,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2023,8
+OBSERVED_WORLD_FOOD,2024,RandomForest_shallow,0.00788899311438783,"{""max_depth"": 2, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2023,8

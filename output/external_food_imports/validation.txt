@@ -1,0 +1,1 @@
+Verified ten unique World source years, correct partner code, explicit aggregation-gap flags, independent OLS/HC3/p-value calculation, component-sum robustness, 28 chronological predictions, MAE aggregation and 280 unique finite projections. Current runner completed successfully from cached sources.
