@@ -1,0 +1,13 @@
+{
+  "dependent_variable": "tfr_children_per_woman",
+  "independent_variables": "Prefecture indicators; year indicators in adjusted specification",
+  "prefectures_are_categorical": true,
+  "reference_prefecture": "JP-01 Hokkaido",
+  "reference_year": 2016,
+  "primary_years": "2016\u20132024",
+  "primary_rows": 423,
+  "provisional_sensitivity": "2016\u20132025, 470 rows",
+  "inference": "OLS with year-clustered SE and finite-sample corrections; additionally annual paired regional contrasts with HC3 and lag-one HAC, t references; 46 comparisons BH-adjusted separately within vintage and method",
+  "limitations": "Few years; temporal dependence and differential regional trends remain. Region labels measure descriptive differences, not manipulable causal effects. No omnibus cluster Wald test for 46 region coefficients is interpreted with only nine year clusters.",
+  "import_variables": "Not included in these region-predictor models. Existing import regressions also used TFR as outcome and prefecture indicators as covariates; unrestricted year effects absorb national import main effects."
+}

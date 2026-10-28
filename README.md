@@ -84,6 +84,8 @@ The [prefectural merge](output/tfr_merged/README.md) joins the named import seri
 
 [Prefecture-panel regressions](output/prefecture_food_regressions/REGRESSION_RESULTS.md) retain prefecture effects and report year-cluster, annual-mean HC3 and lag-one HAC inference. The total-import sign reverses with trend adjustment, the joint soyabean estimate is not significant, and none of 27 product/group screens survives BH adjustment. These use the unweighted mean of prefectural rates for annual checks, not the official national TFR. Unrestricted year effects absorb all national import terms. Reproduce with `python scripts/_19_prefecture_food_regressions.py`.
 
+The separate [TFR-by-subregion models](output/tfr_by_subregion/TFR_SUBREGION_RESULTS.md) use TFR as the dependent variable and prefectures as categorical independent variables, first alone and then with year indicators. Their primary in-sample R² values are 0.659 and 0.977, respectively. These describe regional and annual differences without food-import terms or a causal interpretation. All region coefficients and annual paired contrasts are exported. Run `python scripts/_20_tfr_by_subregion.py`.
+
 - [External import series](data/external_food_imports_world_2016_2025.csv): ten annual World totals, source URLs, retrieval times and aggregation checks.
 - `data/external_food_sources/`: raw Comtrade responses.
 - [National TFR](data/national_tfr_2016_2025.csv): source workbook, sheet and cell references.
