@@ -88,6 +88,8 @@ The default runner validates cached World import snapshots and runs the aggregat
 
 ## Files and provenance
 
+The [data source catalogue](DATA_SOURCES.md) lists current and historical providers, exact source files, classification references, corrected publication/accounting vintages, and coverage limits. [data/source_catalogue.csv](data/source_catalogue.csv) provides the retained URLs in machine-readable form.
+
 The optional [named-food breakdown](output/food_names/README.md) separates the aggregate into 154 HS4 food headings for 2025 and retains HS6 product-year details for 2016–2025. Soyabeans, soyabean oil, soy flour/meal and soy sauce are explicit entries. Soyabean oilcake/residues are a separately flagged non-food reference, excluded from food totals. Scope flags identify broad-classification items such as seed for sowing and possible industrial/feed use. Run `python scripts/_16_named_food_imports.py` to reproduce the named data.
 
 The [prefectural merge](output/tfr_merged/README.md) joins the named import series to 47 prefectures' TFR by year: 470 rows for 2016–2025, or 423 excluding provisional 2025. Imports remain national values shared within year, not measured prefectural exposure or 470 independent import observations. TFR provenance and release status are retained.
