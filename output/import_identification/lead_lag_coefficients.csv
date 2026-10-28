@@ -1,0 +1,3 @@
+spec,variable,coefficient,prefecture_cluster_se,p_prefecture_t,ci_low,ci_high,n,prefectures,years,rank,columns
+current_and_next_year_imports,china_lead_x_organic,-0.019295751024500513,0.008355249447067444,0.025462311511991433,-0.036113995864376566,-0.0024775061846244624,324,47,7,57,57
+current_and_previous_year_imports,china_lag_x_organic,0.0036681425215833174,0.01023206572930379,0.7216131369619174,-0.0169279375527866,0.024264222595953233,324,47,7,57,57

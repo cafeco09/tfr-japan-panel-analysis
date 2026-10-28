@@ -1,0 +1,4 @@
+method,coefficient,se,reference_df,p,ci_low,ci_high,min_covariance_eigenvalue,warning
+prefecture_clusters_47,0.03855164179736886,0.013923156142677307,46,0.008081493896437855,0.010525782074705697,0.06657750152003203,-3.1449643622276464e-18,Few-year sensitivity only; year clustering does not allow serial correlation across years
+year_clusters_7,0.03855164179736886,0.013016963369968514,6,0.02522905268166956,0.006700279861472827,0.0704030037332649,-7.996221394073937e-17,Few-year sensitivity only; year clustering does not allow serial correlation across years
+two_way_prefecture_and_year,0.03855164179736886,0.015567653158563849,6,0.048039516811836436,0.0004589667891644264,0.07664431680557329,-0.0006400119226739449,Few-year sensitivity only; year clustering does not allow serial correlation across years

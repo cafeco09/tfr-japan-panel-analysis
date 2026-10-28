@@ -1,0 +1,1 @@
+Verified independent partial-regression coefficient; 20 Webb and all 128 Rademacher bootstrap fits against direct statsmodels OLS/CR1; p-value aggregation; full-rank sensitivity models; 47 exclusions; equal-fit non-identification demonstration.

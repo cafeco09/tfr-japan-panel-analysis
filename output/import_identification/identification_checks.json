@@ -1,0 +1,85 @@
+{
+  "source_sample": "47 prefectures; observed-income period-file rows, 2017\u20132023",
+  "n": 324,
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "organic_snapshot_year": 2020,
+  "organic_context_definition": "z-score (ddof=0) of organic-reporting operations / all farm operations across 47 prefectures",
+  "snapshot_z_max_reconstruction_error": 2.220446049250313e-16,
+  "saturated_context_year_residual_treatment_norm_fraction": 3.581802872047629e-14,
+  "median_abs_pairwise_residual_correlation": 0.3369393351010606,
+  "correlation_caveat": "Only 6\u20137 annual observations per pair; descriptive, not a calibrated dependence test",
+  "bootstrap_seed": 20261028,
+  "geographic_blocks": {
+    "Chubu": [
+      "JP-15",
+      "JP-16",
+      "JP-17",
+      "JP-18",
+      "JP-19",
+      "JP-20",
+      "JP-21",
+      "JP-22",
+      "JP-23"
+    ],
+    "Chugoku": [
+      "JP-31",
+      "JP-32",
+      "JP-33",
+      "JP-34",
+      "JP-35"
+    ],
+    "Hokkaido": [
+      "JP-01"
+    ],
+    "Kanto": [
+      "JP-08",
+      "JP-09",
+      "JP-10",
+      "JP-11",
+      "JP-12",
+      "JP-13",
+      "JP-14"
+    ],
+    "Kinki": [
+      "JP-24",
+      "JP-25",
+      "JP-26",
+      "JP-27",
+      "JP-28",
+      "JP-29",
+      "JP-30"
+    ],
+    "Kyushu_Okinawa": [
+      "JP-40",
+      "JP-41",
+      "JP-42",
+      "JP-43",
+      "JP-44",
+      "JP-45",
+      "JP-46",
+      "JP-47"
+    ],
+    "Shikoku": [
+      "JP-36",
+      "JP-37",
+      "JP-38",
+      "JP-39"
+    ],
+    "Tohoku": [
+      "JP-02",
+      "JP-03",
+      "JP-04",
+      "JP-05",
+      "JP-06",
+      "JP-07"
+    ]
+  }
+}

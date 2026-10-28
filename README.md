@@ -17,13 +17,42 @@ The repaired pipeline runs on the included CSV files. The earlier README claimed
 
 Values in parentheses are standard errors clustered by prefecture (47 clusters). In the two-way fixed-effects model, the income p-value is approximately 0.015 and the eating-out p-value is approximately 0.932. These are conditional associations, not causal effects. See [Table 1](output/tables/table1_core.csv) and the [robustness table](output/tables/robustness_table.csv).
 
-### Exploratory results and identification limits
-
-The period-panel models use 324 eligible observations across three period codes, with prefecture and period fixed effects. They produce rank-deficiency warnings. Time-invariant organic and gardening main effects are absorbed by prefecture fixed effects. National import main effects also require an explicit identification check against the included time controls. The reported main-effect coefficients in [Table 2](output/tables/table2_imports_interactions.csv) must not be treated as uniquely identified estimates.
-
-For transparency, Table 2 retains the existing exporter’s numerical output. In specification `i3_cn_x_org`, the China-import × organic interaction is positive (+0.040, SE 0.017), contrary to the earlier README’s description of a negative interaction. This is an exploratory output from a rank-deficient specification, not a validated causal finding. Reported stars do not resolve identification problems.
-
 The `DropSynth` row removes no additional observations from the already observed-income-only core sample. It duplicates the OLS + year-FE result and is not an independent sensitivity test.
+
+## Exploratory import analysis
+
+**Status: hypothesis-generating. The current design does not establish that imports affect fertility or that organic farming protects against an import-related effect.**
+
+The analysis asks whether fertility changes differ along the organic-farming-context gradient when national China crop imports change. Its annual fixed-effects comparison uses 324 observed-income observations from 47 prefectures in 2017–2023. Imports supply seven annual national values; they do not measure what households in each prefecture consume.
+
+### Findings and sensitivity
+
+| Specification or inference check | China-import × organic-context coefficient | p-value |
+|---|---:|---:|
+| Annual and prefecture effects; prefecture-clustered inference | +0.0386 | 0.008 |
+| Add geographic-region × year effects | +0.0306 | 0.013 |
+| Add prefecture-specific linear trends | +0.0325 | 0.014 |
+| Add organic-context linear trends and differential 2020, 2021 and 2022 shocks | +0.0117 | 0.389 |
+| Baseline coefficient; year-clustered Webb wild bootstrap | +0.0386 | 0.170 |
+
+The first four p-values use prefecture-clustered standard errors with a t reference distribution. The bootstrap uses 9,999 null-imposed draws and seven year clusters. It assumes independence across year clusters and does not resolve serially correlated national shocks. These checks test different assumptions; they are not independent confirmations. The positive association survives several controls, while stronger differential-shock controls and few-year inference materially weaken the evidence. The results do not establish either a causal effect or an effect of zero.
+
+The future-import interaction is also associated with current fertility after controlling for the current-import interaction (coefficient −0.0193, prefecture-clustered p = 0.025). Correlated imports, anticipation and persistent omitted factors prevent treating this lead check as decisive, but it raises concerns about a contemporaneous causal interpretation.
+
+### What the design cannot distinguish
+
+- Annual effects absorb national shocks with equal effects across prefectures. They do not absorb national shocks whose effects differ along the organic-context gradient.
+- The organic score is the standardised **2020 share of farms reporting organic activity**, including uncertified operations. It is a snapshot taken after the panel begins, rather than a validated pre-period measure of imported-food exposure.
+- Allowing unrestricted organic-context × year shocks fully absorbs the import interaction. Positive, zero and negative imposed import coefficients then produce the same fitted values. This establishes an identification limit; it does not prove that a particular confounder exists.
+- Country-of-origin crop kilograms do not measure household consumption, chemical residues or individual dose. The interaction cannot establish a biological protection mechanism.
+
+A stronger design requires a defined mechanism, validated pre-period prefecture-by-crop exposure weights, a defensible source of external import variation, and inference appropriate to the shocks and exposure structure. Multiplying national imports by an organic score or allocating national totals by population does not supply that evidence.
+
+### Reproducibility and legacy tables
+
+See the [full identification audit](output/import_identification/IMPORT_IDENTIFICATION_AUDIT.md), [shared-shock comparisons](output/import_identification/shared_shock_sensitivity.csv) and [bootstrap results](output/import_identification/wild_year_bootstrap.csv). Run `python scripts/_08_import_identification.py` to reproduce them. The audit exports all tested models, covariance diagnostics, bootstrap draws, lead/lag checks, prefecture influence checks and the non-identification demonstration.
+
+[Table 2](output/tables/table2_imports_interactions.csv) preserves the original coarse-period models for transparency. Its China-import × organic coefficient is +0.040 (SE 0.017). Organic and gardening main effects are absorbed by prefecture effects and are not uniquely identified. National import main effects are algebraically estimable under coarse period effects because imports vary within periods, but remain exposed to annual national confounding; annual effects absorb these national main effects. Rank deficiency does not by itself invalidate every coefficient, and reported significance stars do not establish causal identification.
 
 ## Run locally
 

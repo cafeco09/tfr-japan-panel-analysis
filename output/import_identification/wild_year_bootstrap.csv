@@ -1,0 +1,3 @@
+method,year_clusters,replications,seed,observed_t,bootstrap_p,monte_carlo_se,caveat
+webb_six_point,7,9999,20261028,2.961646330380825,0.1702,0.003758272004638047,Independent-year cluster assumption; seven years; not an exact randomisation test; not causal validation
+rademacher_enumerated,7,128,20261028,2.961646330380825,0.21875,0.0,Independent-year cluster assumption; seven years; not an exact randomisation test; not causal validation
