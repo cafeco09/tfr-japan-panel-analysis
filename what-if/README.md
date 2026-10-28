@@ -1,5 +1,11 @@
-# What-if scenarios
+# What if food supply changed?
 
-Scenario outcomes depend on explicit assumptions and are separate from empirical findings. They are not causal estimates or validated forecasts.
+These exercises explore possible futures, helping us see which assumptions make the biggest difference and what would be useful to test next. Final fertility rates are calculated by the model rather than set as targets.
 
-- [Organic imports and domestic production, 2026–2050](organic-food/README.md): yearly food quantities in kg/person/year and TFR, assuming modelled imports become organic in 2026. No fixed fertility target.
+## Organic imports and food grown in Japan, 2026-2050
+
+If organic food had the bigger benefit tested, the simulation showed fertility rising from about **1.14 to 1.58 by 2050**, roughly 39% higher. A smaller benefit slowed the longer-term decline. The organic benefits are assumptions, not effects established by the historical data.
+
+[Explore the results and assumptions](organic-food/README.md) · [View every year](organic-food/results/year_by_year_constant_volume_comparison.csv)
+
+![Annual fertility and food quantities](organic-food/results/annual_organic_scenarios.png)

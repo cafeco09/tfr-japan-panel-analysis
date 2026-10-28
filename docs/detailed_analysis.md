@@ -1,0 +1,163 @@
+# Detailed analysis and diagnostics
+
+This page preserves the full technical overview that accompanied the historical analyses. For the current findings and organic-food scenarios, see the [main README](../README.md).
+
+# Japan fertility and total external food imports
+
+This analysis examines Japan's **total food imports from all origins as one external-import variable**, alongside official national total fertility rate (TFR). The current specification has no country split and no organic-farming interaction.
+
+Repository: https://github.com/cafeco09/tfr-japan-panel-analysis
+
+## Prefectural ANOVA graphs
+
+The [controlled prefectural ANOVA](../output/subregion_anova/ANOVA_AND_SUBREGION_SIGNIFICANCE.md) uses TFR as the outcome, with prefecture categories, food imports, income, an eating-out expenditure proxy and a common time trend. Complete-control coverage is **2016–2022: 47 prefectures, 329 records and seven annual clusters**. These regional level comparisons are separate from the national aggregate analysis below.
+
+Thirty of 47 prefectures differ from the equally weighted adjusted prefectural mean under year-clustered t tests with Holm correction. This is conditional significance: the seven-cluster bootstrap has insufficient p-value resolution for any of the 47 comparisons to pass Holm correction. Regional differences do not establish regional food-import effects or causation.
+
+![Adjusted prefectural TFR differences with pointwise year-clustered intervals](../output/subregion_anova/figures/prefecture_adjusted_tfr_differences.png)
+
+See the [significance sensitivity graph](../output/subregion_anova/figures/prefecture_significance_inference_sensitivity.png), [classical ANOVA graph](../output/subregion_anova/figures/controlled_anova_classical_terms.png), and [all 47 prefecture results](../output/subregion_anova/significance_each_prefecture.csv). Figures are available in PNG and SVG, with [reproduction instructions](../output/subregion_anova/figures/README.md).
+
+## Income, eating-out and organic-context results
+
+These supplementary analyses were already retained in the historical tables and audits. Their [verified summary](../output/income_organic_summary/INCOME_ORGANIC_RESULTS.md) is now explicit; the original claim that income and eating-out are robustly negative across fixed-effects models does **not** reproduce.
+
+Same observed-income sample: **371 rows, 47 prefectures, 2016–2023**, with prefecture-clustered standard errors and t(46) p-values. No synthetic income is included.
+
+| Specification | Log income coefficient (p) | Log eating-out coefficient (p) |
+|---|---:|---:|
+| OLS + year effects | −0.4443 (0.000277) | −0.0262 (0.7900) |
+| Prefecture effects only | −1.1276 (2.51e−14) | +0.2112 (7.07e−11) |
+| Prefecture + year effects | **+0.2058 (0.0190)** | −0.00195 (0.9321) |
+| Add prefecture-specific trends | +0.0603 (0.2470) | −0.0152 (0.4574) |
+
+Income changes sign with the specification, and its positive two-way estimate is not significant after adding prefecture-specific trends. Eating-out is non-significant in the two-way model and in the 2024–2025 two-way check (+0.00734, p = 0.8402; 2025 provisional). The capital-city expenditure proxy does not imply a known direction of measurement-error bias. See the [coefficient graph](../output/income_organic_summary/income_eating_out_specification_sensitivity.png) and [full core coefficients](../output/income_organic_summary/core_income_eating_out.csv).
+
+The historical **China crop imports × organic context** interaction is **positive**, +0.0386 (prefecture-clustered p = 0.0081), in the full-rank annual-FE model on 324 observed-income records, 2017–2023. Adding organic-context trends and differential pandemic-year shocks reduces it to +0.0117 (p = 0.3893); the baseline year-cluster Webb bootstrap gives p = 0.1702. The standalone organic and gardening main effects are absorbed by prefecture effects, so their legacy exported coefficients are not uniquely identified. This is not evidence that organic farming protects fertility or that a national import effect vanishes at high organic activity.
+
+Organic context comes from a 2020 census snapshot; it is not organic-food consumption or measured regional import exposure. This historical interaction uses the China/USA three-crop mass proxies, **not** the current World broad-food dollar series. [Full interaction diagnostics](../output/import_identification/IMPORT_IDENTIFICATION_AUDIT.md) and the [new summary](../output/income_organic_summary/INCOME_ORGANIC_RESULTS.md) retain the significant baseline alongside its sensitivity checks.
+
+Reproduce the audit and summary with `python scripts/_07_diagnostics.py` and `python scripts/_25_income_organic_summary.py`. The original six-stage pipeline remains available with `python run_all.py --legacy`; its rank-deficient organic main-effect exports are historical outputs, not the audited headline evidence.
+
+## Hypothesis and measure
+
+The directional hypothesis is that higher external food imports reduce fertility. Estimates remain unconstrained, and all tested specifications are reported; a hypothesis does not determine the fitted sign.
+
+The import measure is Japan-reported UN Comtrade imports from **World (partner code 0)**, using **BEC Rev.4 category 1: food and beverages**, including primary and processed forms. It directly covers all partners. China and USA totals are not added to the World total, which would double count them. The product perimeter excludes other merchandise; this is not all-goods trade or a net-import measure.
+
+Values are **current US dollars**, not physical food volumes, price-adjusted quantities, prefectural exposure or resident consumption. Aggregate weight fields are unavailable. See [FOOD_IMPORT_SCOPE.md](../FOOD_IMPORT_SCOPE.md) for definitions and source flags.
+
+## Updated results
+
+Primary national sample: **2016–2024, nine annual observations**. The provisional 2025 TFR is a separate sensitivity. Adding source countries broadens coverage but does not increase the annual observation count.
+
+| Specification | Log external-import coefficient | HC3 p-value |
+|---|---:|---:|
+| No time trend | −0.9474 | 0.1269 |
+| Linear time trend | +0.2494 | 0.2751 |
+| Quadratic time trend | +0.1261 | 0.1447 |
+| First differences | +0.1560 | 0.2168 |
+| One-year lag plus linear trend | −0.0100 | 0.9607 |
+
+The negative raw association changes sign after time-trend adjustment. These results do not establish a stable negative relationship or a causal food-import effect. Non-significance does not prove that no effect exists. First-difference and lag models change the estimand and timing.
+
+Inference is also sensitive: the negative no-trend association has lag-one HAC p = 0.017, while the positive quadratic-trend association has HAC p = 0.044. With nine years, these model-dependent p-values cannot be used selectively to confirm a hypothesis. HC3 and HAC variants, confidence intervals and provisional-rate sensitivity are included in the [full results](../output/external_food_imports/EXTERNAL_FOOD_IMPORT_RESULTS.md).
+
+## ML comparison and sensitivity
+
+Expanding-window validation holds out four outcomes in 2021–2024, with past-only tuning and preprocessing. Import values for each outcome year are supplied, so evaluation is conditional hindcasting, not advance prediction of unknown imports.
+
+| Model | Mean absolute TFR error |
+|---|---:|
+| Trend-only baseline | 0.0237 |
+| OLS: total imports + trend | 0.0260 |
+| Ridge | 0.0283 |
+| Elastic Net | 0.0317 |
+| RBF SVR | 0.1008 |
+| Shallow random forest | 0.1090 |
+
+Adding imports does not improve this small chronological comparison. Four errors cannot establish stable model rankings. [Predictive sensitivities](../output/external_food_imports/predictive_sensitivity_summary.csv) evaluate ±1%, ±5% and ±10% changes in nominal import value, with support flags and leave-year-out stability checks. These responses are not causal derivatives or significance tests.
+
+The [named-food ML rerun](../output/named_food_ml/ML_RERUN_RESULTS.md) uses the same held-out years to compare whole soyabeans plus other mapped food, and 20 food groups plus trend. Neither improves on the trend-only baseline. Food-group Elastic Net has MAE 0.0255; soyabean-plus-other-food Elastic Net has MAE 0.0835. Soyabean OLS and Ridge sensitivities change sign when individual years are omitted. The whole-soyabean series includes sowing seed; oil, flour and sauce remain in other food. Run `python scripts/_17_named_food_ml.py` after the aggregate and named-food stages. These are exploratory comparisons with nine outcomes, with no synthetic pooling or causal claim.
+
+## 2026–2030 scenario projections
+
+The [projection export](../output/external_food_imports/projections_2026_2030.csv) contains flat 2025 import values, ±5% annual changes and continuation of the 2016–2025 nominal-value CAGR. Separate fits exclude/include provisional 2025 TFR.
+
+With import values flat at 2025 levels and provisional 2025 TFR included:
+
+| Year | OLS: imports + trend | Ridge | Elastic Net | Trend-only baseline |
+|---|---:|---:|---:|---:|
+| 2026 | 1.096 | 1.099 | 1.104 | 1.100 |
+| 2027 | 1.056 | 1.059 | 1.066 | 1.063 |
+| 2028 | 1.016 | 1.020 | 1.029 | 1.026 |
+| 2029 | 0.977 | 0.981 | 0.992 | 0.989 |
+| 2030 | 0.937 | 0.942 | 0.954 | 0.952 |
+
+These are conditional extrapolations, not official forecasts or calibrated prediction intervals. Future import paths, source revisions, structural changes and model uncertainty remain unresolved. Model/scenario spread is not a confidence interval. Trees and RBF SVR extrapolate time poorly in this short dataset.
+
+## Run the current analysis
+
+Use a clean Python 3.11 environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python run_all.py
+```
+
+Alternatively use a separate Conda environment. On Windows, virtual-environment activation uses `.venv\Scripts\activate`.
+
+The default runner validates cached World import snapshots and runs the aggregate regressions, ML checks and projections. Cached sources are reused; missing snapshots require internet access. To fetch a new Comtrade source vintage explicitly, run `python scripts/_14_external_food_imports.py --refresh` and rerun the analysis. Source updates can change results.
+
+## Files and provenance
+
+The [data source catalogue](../Data_Sources.md) lists current and historical providers, exact source files, classification references, corrected publication/accounting vintages, and coverage limits. [data/source_catalogue.csv](../data/source_catalogue.csv) provides the retained URLs in machine-readable form.
+
+The optional [named-food breakdown](../output/food_names/README.md) separates the aggregate into 154 HS4 food headings for 2025 and retains HS6 product-year details for 2016–2025. Soyabeans, soyabean oil, soy flour/meal and soy sauce are explicit entries. Soyabean oilcake/residues are a separately flagged non-food reference, excluded from food totals. Scope flags identify broad-classification items such as seed for sowing and possible industrial/feed use. Run `python scripts/_16_named_food_imports.py` to reproduce the named data.
+
+The [prefectural merge](../output/tfr_merged/README.md) joins the named import series to 47 prefectures' TFR by year: 470 rows for 2016–2025, or 423 excluding provisional 2025. Imports remain national values shared within year, not measured prefectural exposure or 470 independent import observations. TFR provenance and release status are retained.
+
+[Prefecture-panel regressions](../output/prefecture_food_regressions/REGRESSION_RESULTS.md) retain prefecture effects and report year-cluster, annual-mean HC3 and lag-one HAC inference. The total-import sign reverses with trend adjustment, the joint soyabean estimate is not significant, and none of 27 product/group screens survives BH adjustment. These use the unweighted mean of prefectural rates for annual checks, not the official national TFR. Unrestricted year effects absorb all national import terms. Reproduce with `python scripts/_19_prefecture_food_regressions.py`.
+
+The separate [TFR-by-subregion models](../output/tfr_by_subregion/TFR_SUBREGION_RESULTS.md) use TFR as the dependent variable and prefectures as categorical independent variables, first alone and then with year indicators. Their primary in-sample R² values are 0.659 and 0.977, respectively. These describe regional and annual differences without food-import terms or a causal interpretation. All region coefficients and annual paired contrasts are exported. Run `python scripts/_20_tfr_by_subregion.py`.
+
+[Controlled food regressions](../output/controlled_food_regressions/CONTROLLED_REGRESSION_RESULTS.md) put TFR on the left, food imports on the right, and prefecture indicators, a time trend, observed prefectural income and capital-city eating-out expenditure in the controls. The balanced sample is 2016–2022 (329 rows, seven annual clusters), with a 371-row complete-case 2023 sensitivity. The balanced total-food coefficient is non-significant. Soyabeans are negative, but inference differs between conventional clustering and the restricted wild-cluster diagnostic, and the extended sample gives stronger results. Controls are proxies and do not identify causation. Run `python scripts/_21_controlled_food_regressions.py`.
+
+[Controlled ANOVA and prefecture significance](../output/subregion_anova/ANOVA_AND_SUBREGION_SIGNIFICANCE.md) report the classical Type II omnibus test and all 47 adjusted prefecture-versus-mean comparisons, retaining food imports and socioeconomic/time controls. Thirty comparisons pass Holm correction under the year-clustered t approximation; the seven-cluster Rademacher bootstrap has insufficient p-value resolution for any to pass a 47-test Holm correction. These are regional TFR level comparisons, not regional food-import slopes. Run `python scripts/_22_subregion_anova.py`.
+
+- [External import series](../data/external_food_imports_world_2016_2025.csv): ten annual World totals, source URLs, retrieval times and aggregation checks.
+- `data/external_food_sources/`: raw Comtrade responses.
+- [National TFR](../data/national_tfr_2016_2025.csv): source workbook, sheet and cell references.
+- [Aggregate analysis](../output/external_food_imports/EXTERNAL_FOOD_IMPORT_RESULTS.md): complete specification, inference, sensitivity and projection results.
+- `scripts/_14_external_food_imports.py`: World source collection and validation.
+- `scripts/_15_external_food_analysis.py`: aggregate analysis.
+
+The published World total differs from its primary-plus-processed components by approximately 0.004% in 2024 and 0.006% in 2025. These source discrepancies are flagged and retained, with a component-sum sensitivity; the main total is not silently overwritten. That sensitivity leaves the main conclusion unchanged.
+
+## Identification limits and history
+
+National imports vary only by year. Repeating them across prefectures does not create independent exposure shocks; annual fixed effects absorb the national main effect. Time trends impose restrictions rather than remove all confounding. Prices, exchange rates, domestic demand, reverse causality and shared demographic/economic shocks can explain associations. The current data do not identify a causal negative effect.
+
+Earlier country-specific, organic-interaction, prefectural and synthetic analyses are retained as historical analyses and method tests. The [previous README](../docs/history/README_before_world_aggregation.md) documents them. Synthetic observations are not pooled with observed data and are not relabelled as World imports. Run `python run_all.py --legacy` for the original six-stage prefectural pipeline.
+
+## Licence
+
+Code: [MIT](../LICENSE). Data retain their original source terms. Cite the source references and repository commit used for any reported result.
+
+
+## What-if scenarios
+
+[Organic food imports and domestic production, 2026–2050](../what-if/organic-food/README.md) explores annual TFR under explicit organic-food assumptions, with general crop-import volume as a control and no fixed fertility target. Graphs, annual tables, source inputs and reproducible scripts are in [`what-if/`](../what-if/README.md). Organic benefits are assumed, not estimated; the physical basket covers China/USA maize, rice and soybeans.
+
+
+## Historical analysis using physical food volumes
+
+The [physical-volume analysis](../output/historical_mass_analysis/HISTORICAL_MASS_RESULTS.md) reruns historical regressions using **kg per resident per year**, with maize, rice and soybeans separately and as a combined China/USA basket. Matched dollar-value models use the same crops and population denominator; the broader all-origin food-dollar analysis below remains separate.
+
+National models use 2016–2024 (nine years) and give no clear negative volume association. The fully controlled balanced prefectural models use 329 rows over 2016–2022, with only seven annual import exposures. Basket and maize coefficients are positive, but their wild-cluster p-values are 0.219 and 0.203. A secondary 371-row extension through 2023 gives stronger **positive** basket/maize associations (unadjusted wild p = 0.0078/0.0156); the soybean coefficient changes sign. The sample and inference sensitivity prevents a stable negative-import conclusion or a causal interpretation.
+
+Actual Comtrade net weights, estimated-weight flags and source snapshots are retained. Historical organic status is unknown. These results are separate from the organic what-if assumptions. Run `python scripts/_32_crop_mass_data.py`, then `python scripts/_33_historical_mass_regressions.py`.
+
+![Historical physical-volume coefficients](../output/historical_mass_analysis/physical_volume_coefficients.png)
