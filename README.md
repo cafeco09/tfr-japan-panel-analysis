@@ -14,6 +14,27 @@ Thirty of 47 prefectures differ from the equally weighted adjusted prefectural m
 
 See the [significance sensitivity graph](output/subregion_anova/figures/prefecture_significance_inference_sensitivity.png), [classical ANOVA graph](output/subregion_anova/figures/controlled_anova_classical_terms.png), and [all 47 prefecture results](output/subregion_anova/significance_each_prefecture.csv). Figures are available in PNG and SVG, with [reproduction instructions](output/subregion_anova/figures/README.md).
 
+## Income, eating-out and organic-context results
+
+These supplementary analyses were already retained in the historical tables and audits. Their [verified summary](output/income_organic_summary/INCOME_ORGANIC_RESULTS.md) is now explicit; the original claim that income and eating-out are robustly negative across fixed-effects models does **not** reproduce.
+
+Same observed-income sample: **371 rows, 47 prefectures, 2016–2023**, with prefecture-clustered standard errors and t(46) p-values. No synthetic income is included.
+
+| Specification | Log income coefficient (p) | Log eating-out coefficient (p) |
+|---|---:|---:|
+| OLS + year effects | −0.4443 (0.000277) | −0.0262 (0.7900) |
+| Prefecture effects only | −1.1276 (2.51e−14) | +0.2112 (7.07e−11) |
+| Prefecture + year effects | **+0.2058 (0.0190)** | −0.00195 (0.9321) |
+| Add prefecture-specific trends | +0.0603 (0.2470) | −0.0152 (0.4574) |
+
+Income changes sign with the specification, and its positive two-way estimate is not significant after adding prefecture-specific trends. Eating-out is non-significant in the two-way model and in the 2024–2025 two-way check (+0.00734, p = 0.8402; 2025 provisional). The capital-city expenditure proxy does not imply a known direction of measurement-error bias. See the [coefficient graph](output/income_organic_summary/income_eating_out_specification_sensitivity.png) and [full core coefficients](output/income_organic_summary/core_income_eating_out.csv).
+
+The historical **China crop imports × organic context** interaction is **positive**, +0.0386 (prefecture-clustered p = 0.0081), in the full-rank annual-FE model on 324 observed-income records, 2017–2023. Adding organic-context trends and differential pandemic-year shocks reduces it to +0.0117 (p = 0.3893); the baseline year-cluster Webb bootstrap gives p = 0.1702. The standalone organic and gardening main effects are absorbed by prefecture effects, so their legacy exported coefficients are not uniquely identified. This is not evidence that organic farming protects fertility or that a national import effect vanishes at high organic activity.
+
+Organic context comes from a 2020 census snapshot; it is not organic-food consumption or measured regional import exposure. This historical interaction uses the China/USA three-crop mass proxies, **not** the current World broad-food dollar series. [Full interaction diagnostics](output/import_identification/IMPORT_IDENTIFICATION_AUDIT.md) and the [new summary](output/income_organic_summary/INCOME_ORGANIC_RESULTS.md) retain the significant baseline alongside its sensitivity checks.
+
+Reproduce the audit and summary with `python scripts/_07_diagnostics.py` and `python scripts/_25_income_organic_summary.py`. The original six-stage pipeline remains available with `python run_all.py --legacy`; its rank-deficient organic main-effect exports are historical outputs, not the audited headline evidence.
+
 ## Hypothesis and measure
 
 The directional hypothesis is that higher external food imports reduce fertility. Estimates remain unconstrained, and all tested specifications are reported; a hypothesis does not determine the fitted sign.
