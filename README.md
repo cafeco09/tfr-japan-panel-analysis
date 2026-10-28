@@ -10,6 +10,21 @@ The current import scope is **food imports into Japan from China and the USA, as
 
 The previously published three-crop and organic-interaction analyses below are retained as historical exploratory results. They do not estimate this broader food-import question. The new broad series contain current-US-dollar values; they must not be substituted for the old crop-kilogram measures without an explicit model redesign. No new causal food-import effect is claimed by this data update.
 
+### Updated broad-food results
+
+The [national food-import comparison](output/food_import_results/UPDATED_FOOD_IMPORT_RESULTS.md) uses official national TFR, rather than duplicating national imports across prefectures. The primary 2016–2024 sample has nine annual observations; the provisional 2025 rate is included only as a sensitivity. Both countries enter jointly, with no organic interaction.
+
+| Time specification | China coefficient (HC3 p-value) | USA coefficient (HC3 p-value) |
+|---|---:|---:|
+| No time trend | −0.550 (0.713) | +0.301 (0.802) |
+| Linear trend | +0.022 (0.927) | +0.198 (0.128) |
+| Quadratic trend | +0.092 (0.654) | +0.068 (0.679) |
+| First differences | −0.017 (0.950) | +0.183 (0.215) |
+
+Coefficients relate TFR to log import values; differenced models relate annual changes. HC3 inference uses a t reference distribution. The data do not establish a stable causal relationship. The USA linear-trend p-value changes from 0.128 under HC3 to 0.021 under lag-one HAC, illustrating uncertainty-estimator sensitivity with nine observations, not a reason to select the smaller p-value. Import values reflect prices, currency movements and composition as well as quantities. More years, better exposure measurement and a defensible identification design are required before stronger causal claims. A non-significant result is not proof that no effect exists.
+
+Run `python scripts/_10_food_import_results.py` to regenerate all country-only, joint, trend, difference and lag models, both covariance choices, source provenance and leave-one-year-out diagnostics. The original exploratory tables below remain unchanged.
+
 ## Reproduced results
 
 The repaired pipeline runs on the included CSV files. The earlier README claimed consistently negative income and eating-out associations; **the executed core models do not support that claim**. Coefficient signs and significance depend on the fixed effects used.

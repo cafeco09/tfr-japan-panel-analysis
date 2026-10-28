@@ -27,6 +27,8 @@ These new imports still vary nationally by year. Annual fixed effects absorb the
 
 Before fitting a revised effect model, specify the estimand, price/currency basis, treatment timing, source release coverage and identification strategy. China and USA series can be examined separately and jointly, but ten annual observations limit what can be learned, particularly with correlated country series, trends and lags. Additional exogenous variation or validated regional exposure would still be needed for a stronger causal design.
 
+A separate descriptive [national comparison](output/food_import_results/UPDATED_FOOD_IMPORT_RESULTS.md) now reports both countries, time-trend sensitivity, first differences, lags and covariance sensitivity. It uses official national TFR and nine final-labelled annual rates as the primary sample. Its statistical comparisons do not resolve the identification limitations above.
+
 ## Reproduce
 
 ```bash

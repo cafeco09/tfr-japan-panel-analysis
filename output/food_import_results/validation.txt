@@ -1,0 +1,1 @@
+Verified independent least-squares coefficients, manually constructed HC3 covariance and t(5) p-values; 56 country/model/covariance rows; 18 leave-one-year-out coefficients.

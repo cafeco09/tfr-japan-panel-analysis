@@ -1,0 +1,15 @@
+{
+  "source_url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/nengai25/xls/R7toukeihyou.xlsx",
+  "source_sheet": "第2表",
+  "source_cells": "Q120:Q129",
+  "source_sha256": "fff1e38a7d1101ba769040b92094cf55d5e49fa0d90b0d9097cc8359df07a71b",
+  "tfr_source_vintage": "MHLW 2025 provisional-release workbook; 2025 rate may be revised",
+  "import_definition": "BEC Rev.4 category 1, primary plus processed food and beverages",
+  "units": "Current US dollars, not deflated quantity or resident exposure",
+  "organic_interaction": false,
+  "primary_years": "2016–2024",
+  "primary_n": 9,
+  "sensitivity_years": "2016–2025",
+  "sensitivity_n": 10,
+  "inference_caveat": "HC3 and HAC with t references are small-sample diagnostics, not exact tests or causal validation"
+}
