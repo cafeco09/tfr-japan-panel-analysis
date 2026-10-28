@@ -1,0 +1,165 @@
+From fd1001a714a8427d811949ce0268e44d5d092250 Mon Sep 17 00:00:00 2001
+From: Codex <codex@openai.com>
+Date: Wed, 28 Oct 2026 11:00:27 +0200
+Subject: [PATCH] Fix analysis pipeline setup and document reproduced results
+
+---
+ .gitignore                          |  3 +++
+ RUN_NOTES.md                        | 30 +++++++++++++++++++++++++++++
+ requirement.txt => requirements.txt |  3 ++-
+ scripts/run_all.py => run_all.py    |  2 +-
+ scripts/01_core_models.py           |  8 --------
+ scripts/{00_load.py => _00_load.py} |  6 +++++-
+ scripts/_01_core_models.py          | 25 ++++++++++++++++++++++++
+ 7 files changed, 66 insertions(+), 11 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 RUN_NOTES.md
+ rename requirement.txt => requirements.txt (70%)
+ rename scripts/run_all.py => run_all.py (95%)
+ delete mode 100644 scripts/01_core_models.py
+ rename scripts/{00_load.py => _00_load.py} (88%)
+ create mode 100644 scripts/_01_core_models.py
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..e5d24d3
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,3 @@
++.venv/
++__pycache__/
++output/
+diff --git a/RUN_NOTES.md b/RUN_NOTES.md
+new file mode 100644
+index 0000000..d595186
+--- /dev/null
++++ b/RUN_NOTES.md
+@@ -0,0 +1,30 @@
++# Running the analysis
++
++From the repository root:
++
++```bash
++python3 -m venv .venv
++source .venv/bin/activate
++python -m pip install -r requirements.txt
++python run_all.py
++```
++
++Outputs are written to `output/tables/` and `output/figures/`.
++
++## Pipeline repairs
++
++- Moved the runner to the repository root to match its path logic.
++- Renamed the loader and core-model files to match the expected imports.
++- Implemented the missing core regressions using the same three specifications as the existing table exporter.
++- Renamed the dependency file to `requirements.txt`, corrected the malformed python-docx version constraint, and added Jinja2 for LaTeX exports.
++- Joined eating-out expenditure from the included dated source panel by prefecture and year, with a one-to-one validation. The 2016–2023 input file does not contain that column.
++
++The source CSVs and existing exploratory model formulae were not changed.
++
++## Interpretation limits
++
++The executed results do not reproduce the README's headline estimates. For example, the core two-way fixed-effects specification gives log-income about +0.206 (SE 0.085) and log-eating-out about -0.002 (SE 0.023), with 371 observations. The README claims consistently negative coefficients.
++
++The exploratory period models report rank-deficient design matrices. Their reported main-effect coefficients are not uniquely identified when absorbed by the fixed effects. Successful execution is not validation of those estimates or of the data provenance.
++
++The synthetic-income exclusion in the existing robustness exporter removes no additional observations from the already observed-income-only core sample. That row should not be interpreted as an independent robustness result.
+diff --git a/requirement.txt b/requirements.txt
+similarity index 70%
+rename from requirement.txt
+rename to requirements.txt
+index 9af7716..19840d6 100644
+--- a/requirement.txt
++++ b/requirements.txt
+@@ -3,4 +3,5 @@ numpy>=1.24
+ statsmodels>=0.14
+ matplotlib>=3.7
+ scipy>=1.10
+-python-docx>=1.
++python-docx>=1.0
++Jinja2>=3.1
+diff --git a/scripts/run_all.py b/run_all.py
+similarity index 95%
+rename from scripts/run_all.py
+rename to run_all.py
+index 33ab189..a8442b6 100644
+--- a/scripts/run_all.py
++++ b/run_all.py
+@@ -7,7 +7,7 @@ SCRIPTS = ["_01_core_models.py", "_02_imports_no_yearFE.py",
+ for s in SCRIPTS:
+     print("\n" + "="*72)
+     print(f"RUNNING {s}")
+-    print("="*72)
++    print("="*72, flush=True)
+     r = subprocess.run([sys.executable, os.path.join(HERE, "scripts", s)])
+     if r.returncode != 0:
+         print(f"FAILED: {s}"); sys.exit(r.returncode)
+diff --git a/scripts/01_core_models.py b/scripts/01_core_models.py
+deleted file mode 100644
+index d399e8b..0000000
+--- a/scripts/01_core_models.py
++++ /dev/null
+@@ -1,8 +0,0 @@
+-"""Core income/eating-out regressions (Table 1)."""
+-import pandas as pd, numpy as np, statsmodels.formula.api as smf, os
+-from importlib.util import spec_from_file_location, module_from_spec
+-import sys
+-sys.path.insert(0, os.path.dirname(__file__))
+-from _00_load import load_2016_2023  # rename file to _00_load.py or adjust
+-
+-# NOTE: save 00_load.py as _00_load.py to import directly, or use exec.
+diff --git a/scripts/00_load.py b/scripts/_00_load.py
+similarity index 88%
+rename from scripts/00_load.py
+rename to scripts/_00_load.py
+index 265169b..f1e5d02 100644
+--- a/scripts/00_load.py
++++ b/scripts/_00_load.py
+@@ -7,7 +7,11 @@ os.makedirs(os.path.join(OUT, "tables"), exist_ok=True)
+ os.makedirs(os.path.join(OUT, "figures"), exist_ok=True)
+ 
+ def load_2016_2023():
+-    df = pd.read_csv(os.path.join(DATA, "input_2016_2023.csv")).rename(columns={
++    df = pd.read_csv(os.path.join(DATA, "input_2016_2023.csv"))
++    eating = pd.read_csv(os.path.join(DATA, "dated_source_panel_2016_2025.csv"))[
++        ["region_code", "year", "eating_out_jpy_per_household"]]
++    df = df.merge(eating, on=["region_code", "year"], how="left", validate="one_to_one")
++    df = df.rename(columns={
+         "tfr_children_per_woman":"tfr",
+         "observed_income_jpy_per_resident":"income",
+         "eating_out_jpy_per_household":"eating_out",
+diff --git a/scripts/_01_core_models.py b/scripts/_01_core_models.py
+new file mode 100644
+index 0000000..44cd66e
+--- /dev/null
++++ b/scripts/_01_core_models.py
+@@ -0,0 +1,25 @@
++"""Core income/eating-out regressions (Table 1)."""
++import pandas as pd, numpy as np, statsmodels.formula.api as smf, os
++import sys
++sys.path.insert(0, os.path.dirname(__file__))
++from _00_load import load_2016_2023
++
++def run():
++    df = load_2016_2023()
++    data = df[df["income_obs"] & df["income"].notna()].copy()
++    specs = {
++        "(1) OLS+yrFE": "tfr ~ log_income + log_eating_out + C(year)",
++        "(2) PrefFE": "tfr ~ log_income + log_eating_out + C(region_code)",
++        "(3) 2wayFE": "tfr ~ log_income + log_eating_out + C(region_code) + C(year)",
++    }
++    results = {}
++    for name, formula in specs.items():
++        model = smf.ols(formula, data=data).fit(
++            cov_type="cluster", cov_kwds={"groups": data["region_code"]})
++        results[name] = model
++        print(f"\n--- {name} ---")
++        print(model.summary())
++    return results
++
++if __name__ == "__main__":
++    run()
+-- 
+2.51.1
+
