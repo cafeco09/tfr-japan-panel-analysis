@@ -25,6 +25,16 @@ Coefficients relate TFR to log import values; differenced models relate annual c
 
 Run `python scripts/_10_food_import_results.py` to regenerate all country-only, joint, trend, difference and lag models, both covariance choices, source provenance and leave-one-year-out diagnostics. The original exploratory tables below remain unchanged.
 
+### ML sensitivity and 2026–2030 scenario projections
+
+The [ML comparison and projections](output/ml_food_imports/ML_SENSITIVITY_AND_PROJECTIONS.md) evaluates Ridge, Elastic Net, RBF SVR and shallow random forests against OLS and simple baselines. Expanding-window evaluation uses four held-out outcomes in 2021–2024, with past-only inner tuning and preprocessing. Imports for the outcome year are supplied, so this is conditional hindcasting rather than forecasting unknown imports. OLS with imports and trend has MAE 0.0225, versus 0.0237 for trend alone, 0.0251 for Elastic Net, 0.0261 for Ridge, 0.1073 for random forests and 0.1182 for SVR. Four errors do not establish reliable model rankings or a convincing nonlinear ML improvement.
+
+Predictive sensitivity exports perturb each country's nominal import value by ±1%, ±5% and ±10%, with support flags and leave-year-out stability checks. They are model responses, not causal effects or statistically significant coefficients. Under a separate iid Gaussian linear-design calculation, a 10% import-value change would need to correspond to approximately 0.0434 TFR units for China or 0.0252 for USA to reach 80% power at a two-sided 5% level; these plug-in thresholds depend on estimated noise and strong assumptions.
+
+The [2026–2030 projections](output/ml_food_imports/projections_2026_2030.csv) use explicit future import scenarios and two data vintages. With imports flat at 2025 nominal values and provisional 2025 TFR included, OLS projects approximately 1.093 in 2026 and 0.946 in 2030; the trend-only baseline gives 1.100 and 0.952. Nonlinear models diverge and extrapolate poorly. These are conditional scenarios, not validated official fertility forecasts; model/scenario spread is not a confidence interval. Synthetic benchmarks are exported separately and never pooled with the observed sample.
+
+Run `python scripts/_13_ml_sensitivity_projections.py` to reproduce the complete comparison, sensitivity calculations and projections.
+
 ## Reproduced results
 
 The optional [synthetic-data generator](scripts/_11_synthetic_food.py) creates labelled method-testing panels with separate China and USA imports and no organic interaction. The default [simulation dataset](synthetic/food_import_simulation/README_SYNTHETIC.md) contains four scenarios, 47 synthetic prefectures and 30 synthetic periods. Generated rows are not observed Japanese data and are never pooled with the empirical sample to claim greater certainty. Run `python scripts/_11_synthetic_food.py` to reproduce the simulation.

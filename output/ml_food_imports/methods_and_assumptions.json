@@ -1,0 +1,69 @@
+{
+  "observed_n": 9,
+  "observed_validation_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "validation": "Expanding-window outer folds; hyperparameters selected using past-only inner one-step predictions; all scalers fitted inside each fold",
+  "features": [
+    "log_china_food",
+    "log_usa_food",
+    "trend"
+  ],
+  "organic_interaction": false,
+  "seed": 20261028,
+  "forecast_years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "forecast_scenarios": {
+    "flat_2025_import_values": {
+      "China_growth": 0.0,
+      "USA_growth": 0.0
+    },
+    "China_plus_5pct_USA_flat": {
+      "China_growth": 0.05,
+      "USA_growth": 0.0
+    },
+    "China_minus_5pct_USA_flat": {
+      "China_growth": -0.05,
+      "USA_growth": 0.0
+    },
+    "USA_plus_5pct_China_flat": {
+      "China_growth": 0.0,
+      "USA_growth": 0.05
+    },
+    "USA_minus_5pct_China_flat": {
+      "China_growth": 0.0,
+      "USA_growth": -0.05
+    },
+    "both_plus_5pct": {
+      "China_growth": 0.05,
+      "USA_growth": 0.05
+    },
+    "both_minus_5pct": {
+      "China_growth": -0.05,
+      "USA_growth": -0.05
+    },
+    "historical_2016_2025_CAGR": {
+      "China_growth": 0.013568184660577742,
+      "USA_growth": -0.0014954629956650534
+    }
+  },
+  "warning": "Contemporaneous import values are supplied for held-out outcomes; evaluation is conditional hindcasting, not a forecast of unknown imports",
+  "synthetic_scope": "Four scenarios separately aggregated to 30 synthetic periods; fixed declared parameters; no pooling with real data",
+  "sensitivity_scope": "Finite input perturbations; univariate range checks do not establish joint or causal support; leave-year-out ranges are not confidence intervals",
+  "mde_assumptions": "Conditional on the observed design, estimated iid homoskedastic Gaussian noise, linear specification; 80% power, 5% two-sided alpha. Sigma is varied 0.5x\u20132x. Not an actual causal detection guarantee.",
+  "software_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.8.0"
+  }
+}

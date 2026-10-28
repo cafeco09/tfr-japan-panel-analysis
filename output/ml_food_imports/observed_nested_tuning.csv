@@ -1,0 +1,21 @@
+dataset,test_year,model,inner_validation_mse,parameters,latest_training_year,training_n
+OBSERVED_2016_2024,2021,OLS_imports_and_trend,,{},2020,5
+OBSERVED_2016_2024,2021,Ridge,0.0019517712086679147,"{""alpha"": 0.1}",2020,5
+OBSERVED_2016_2024,2021,ElasticNet,0.0014899575549090533,"{""alpha"": 0.001, ""l1_ratio"": 0.8}",2020,5
+OBSERVED_2016_2024,2021,SVR_RBF,0.004989443165616626,"{""C"": 0.1, ""epsilon"": 0.02, ""gamma"": ""scale""}",2020,5
+OBSERVED_2016_2024,2021,RandomForest_shallow,0.00596355388888902,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2020,5
+OBSERVED_2016_2024,2022,OLS_imports_and_trend,,{},2021,6
+OBSERVED_2016_2024,2022,Ridge,0.0015175112061773979,"{""alpha"": 0.1}",2021,6
+OBSERVED_2016_2024,2022,ElasticNet,0.0012094092053850025,"{""alpha"": 0.001, ""l1_ratio"": 0.8}",2021,6
+OBSERVED_2016_2024,2022,SVR_RBF,0.005837796581417035,"{""C"": 0.1, ""epsilon"": 0.02, ""gamma"": ""scale""}",2021,6
+OBSERVED_2016_2024,2022,RandomForest_shallow,0.0062677956629630695,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2021,6
+OBSERVED_2016_2024,2023,OLS_imports_and_trend,,{},2022,7
+OBSERVED_2016_2024,2023,Ridge,0.0014184049223379337,"{""alpha"": 0.1}",2022,7
+OBSERVED_2016_2024,2023,ElasticNet,0.001156553253721595,"{""alpha"": 0.001, ""l1_ratio"": 0.8}",2022,7
+OBSERVED_2016_2024,2023,SVR_RBF,0.007165265575828916,"{""C"": 0.1, ""epsilon"": 0.02, ""gamma"": ""scale""}",2022,7
+OBSERVED_2016_2024,2023,RandomForest_shallow,0.007226328014583451,"{""max_depth"": 1, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2022,7
+OBSERVED_2016_2024,2024,OLS_imports_and_trend,,{},2023,8
+OBSERVED_2016_2024,2024,Ridge,0.0013988150913174524,"{""alpha"": 0.1}",2023,8
+OBSERVED_2016_2024,2024,ElasticNet,0.00115366624731885,"{""alpha"": 0.001, ""l1_ratio"": 0.8}",2023,8
+OBSERVED_2016_2024,2024,SVR_RBF,0.009122805038906653,"{""C"": 0.1, ""epsilon"": 0.005, ""gamma"": ""scale""}",2023,8
+OBSERVED_2016_2024,2024,RandomForest_shallow,0.008726677657483091,"{""max_depth"": 2, ""min_samples_leaf"": 2, ""n_estimators"": 100}",2023,8

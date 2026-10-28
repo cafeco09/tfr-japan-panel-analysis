@@ -1,0 +1,1 @@
+Verified chronological separation, independent holdout MAE/RMSE aggregation, 560 unique scenario projections, 80% power root and Monte Carlo power (0.8009), analytic Ridge perturbation, and independent last-fold Ridge refit.
