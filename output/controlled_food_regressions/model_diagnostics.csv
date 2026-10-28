@@ -1,0 +1,9 @@
+sample,spec,formula,rows,prefectures,annual_clusters,cluster_t_df,in_sample_R2,design_condition_number
+balanced_2016_2022,total_prefecture_trend,tfr_children_per_woman ~ log_food + trend + C(region_code),329,47,7,6,0.9700941776054847,16193.581039068098
+balanced_2016_2022,total_plus_income,tfr_children_per_woman ~ log_food + trend + log_income + C(region_code),329,47,7,6,0.9714034183871929,18889.203917000665
+balanced_2016_2022,total_full_controls,tfr_children_per_woman ~ log_food + trend + log_income + log_eating_out + C(region_code),329,47,7,6,0.9714049740235597,23345.10893829656
+balanced_2016_2022,total_full_controls_quadratic,tfr_children_per_woman ~ log_food + trend + trend_squared + log_income + log_eating_out + C(region_code),329,47,7,6,0.9752375293296577,26932.900781281456
+balanced_2016_2022,soy_other_prefecture_trend,tfr_children_per_woman ~ log_soyabeans + log_other_food + trend + C(region_code),329,47,7,6,0.9727927676949966,23188.754607962794
+balanced_2016_2022,soy_other_full_controls,tfr_children_per_woman ~ log_soyabeans + log_other_food + trend + log_income + log_eating_out + C(region_code),329,47,7,6,0.9747156222851131,32691.725162582956
+unbalanced_complete_2016_2023,total_full_controls,tfr_children_per_woman ~ log_food + trend + log_income + log_eating_out + C(region_code),371,47,8,7,0.9712191229537382,21826.949146025065
+unbalanced_complete_2016_2023,soy_other_full_controls,tfr_children_per_woman ~ log_soyabeans + log_other_food + trend + log_income + log_eating_out + C(region_code),371,47,8,7,0.9753064148640171,29022.697941632934

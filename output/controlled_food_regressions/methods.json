@@ -1,0 +1,13 @@
+{
+  "dependent_variable": "Prefectural TFR",
+  "main_predictors": "log total all-origin food imports; alternative joint log whole soyabeans and log other mapped food",
+  "controls": "Prefecture indicators, common time trend, log prefectural income per resident, log capital-city eating-out expenditure; quadratic trend sensitivity",
+  "primary_sample": "47 prefectures \u00d7 2016\u20132022 = 329; matched sample for all control comparisons",
+  "extended_sample": "371 complete cases, 2016\u20132023; five prefectures missing income in 2023; no imputation",
+  "income_definition": "Observed nominal prefectural income per resident, not household disposable income; fiscal year matched to calendar-year label; source vintage retained",
+  "eating_out_definition": "Capital-city household survey expenditure proxy, nominal JPY; not a prefecture-wide food quantity or import exposure measure",
+  "inference": "Year clusters: seven primary clusters, t df 6; extended eight clusters, t df 7. Restricted Rademacher wild cluster bootstrap enumerates all 128/256 sign patterns with CR1 studentisation.",
+  "bootstrap_limit": "Approximate residual-bootstrap diagnostic using fitted null nuisance parameters; not an exact randomisation test. Assumes independent year clusters and appropriate error symmetry; temporal dependence remains unresolved.",
+  "causal_limit": "Income and eating-out are not assumed exogenous; eating-out may be a mediator or collider. Controls do not identify a causal effect. Imports are national current USD, not local exposure. Unrestricted year indicators absorb their main effects.",
+  "excluded": "Provisional 2025 and 2024 lack observed income; organic/gardening measures are single-year snapshots and are not filled across years. National population is not a local population control."
+}

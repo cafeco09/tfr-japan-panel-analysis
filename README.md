@@ -86,6 +86,8 @@ The [prefectural merge](output/tfr_merged/README.md) joins the named import seri
 
 The separate [TFR-by-subregion models](output/tfr_by_subregion/TFR_SUBREGION_RESULTS.md) use TFR as the dependent variable and prefectures as categorical independent variables, first alone and then with year indicators. Their primary in-sample R² values are 0.659 and 0.977, respectively. These describe regional and annual differences without food-import terms or a causal interpretation. All region coefficients and annual paired contrasts are exported. Run `python scripts/_20_tfr_by_subregion.py`.
 
+[Controlled food regressions](output/controlled_food_regressions/CONTROLLED_REGRESSION_RESULTS.md) put TFR on the left, food imports on the right, and prefecture indicators, a time trend, observed prefectural income and capital-city eating-out expenditure in the controls. The balanced sample is 2016–2022 (329 rows, seven annual clusters), with a 371-row complete-case 2023 sensitivity. The balanced total-food coefficient is non-significant. Soyabeans are negative, but inference differs between conventional clustering and the restricted wild-cluster diagnostic, and the extended sample gives stronger results. Controls are proxies and do not identify causation. Run `python scripts/_21_controlled_food_regressions.py`.
+
 - [External import series](data/external_food_imports_world_2016_2025.csv): ten annual World totals, source URLs, retrieval times and aggregation checks.
 - `data/external_food_sources/`: raw Comtrade responses.
 - [National TFR](data/national_tfr_2016_2025.csv): source workbook, sheet and cell references.
